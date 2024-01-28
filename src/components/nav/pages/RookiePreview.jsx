@@ -127,7 +127,7 @@ export default function RookiePreview(props) {
                     key={player.name}
                 >
                     <Card style={{margin: "0.4rem", borderRadius: "15px", borderColor: "black", backgroundColor: '#eFeFeF', marginBottom: '20px'}}  >
-                        <img src={require(player.imgUrl)} alt={"A picture of " + player.name} style={{margin: "0.35rem", borderRadius: "15px"}} />
+                        <img src={player.imgUrl} alt={"A picture of " + player.name} style={{margin: "0.35rem", borderRadius: "15px"}} />
                         <h3 style={{fontSize: "1.5rem", textAlign: "center"}} >{player.name}</h3>
                         <div>{WhichMetrics(player)}</div>
                         <div style={{margin: "0.35rem"}}> 

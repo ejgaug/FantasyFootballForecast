@@ -217,7 +217,7 @@ export default function DraftRanks(props) {
         if (selectedPlayer.pos === "QB") {
             return <>
                 <img 
-                    src={require(selectedPlayer.imgUrl)}
+                    src={selectedPlayer.imgUrl}
                     alt={selectedPlayer.name}
                     style={{ width: '100%', height: 'auto', borderRadius: '8px', marginBottom: '2px'}}
                 />
@@ -243,7 +243,7 @@ export default function DraftRanks(props) {
         } if (selectedPlayer.pos === "RB") {
             return <>
                 <img 
-                    src={require(selectedPlayer.imgUrl)}
+                    src={selectedPlayer.imgUrl}
                     alt={selectedPlayer.name}
                     style={{ width: '100%', height: 'auto', borderRadius: '8px', marginBottom: '5px'}}
                 />
@@ -269,7 +269,7 @@ export default function DraftRanks(props) {
         } else {
             return <>
                 <img 
-                    src={require(selectedPlayer.imgUrl)}
+                    src={selectedPlayer.imgUrl}
                     alt={selectedPlayer.name}
                     style={{ width: '100%', height: 'auto', borderRadius: '8px', marginBottom: '5px'}}
                 />
