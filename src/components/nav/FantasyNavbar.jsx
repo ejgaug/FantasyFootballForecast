@@ -25,7 +25,7 @@ export default function FantasyNavbar(props) {
                     <Navbar.Brand as={NavLink} activeclassname="activeLink" to="/">
                         <img
                             alt="Fantasy Forecaster Logo"
-                            src={fff2}
+                            src={require(fff2)}
                             style={{ width: '110px', height: '95px', marginRight: '25px' }}
                         />{' '}
                     </Navbar.Brand>
