@@ -7,5 +7,4 @@ const ASSET_URL = 'https://ejgaug.github.io/FantasyFootballForecaster/' || '';
 export default defineConfig({
   plugins: [react()],
   base: `${ASSET_URL}/dist/`,
-  [...]
 })
