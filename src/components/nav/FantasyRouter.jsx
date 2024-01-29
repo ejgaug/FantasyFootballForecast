@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import FantasyForecaster from "../FantasyForecaster";
 import FantasyLanding from "./pages/FantasyLanding";
@@ -16,7 +16,7 @@ export default function FantasyRouter() {
                 <Route path="/draft-rankings" element={<DraftRankings />} />
                 <Route path="/rookie-preview" element={<RookiePreview />} />
                 <Route path="/landing-spots" element={<LandingSpots />} />
-                <Route path="*" element={<FantasyNoMatch />} />
+                <Route path="*" element={<Navigate to="/" />} />
             </Route>
         </Routes>
     </BrowserRouter>
