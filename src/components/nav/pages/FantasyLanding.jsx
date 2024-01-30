@@ -55,8 +55,8 @@ export default function FantasyLanding(props) {
                 <Col xs={12} lg={4} xl={6} style={pukaText}>
                     <img
                         src="https://s.yimg.com/ny/api/res/1.2/tUBPfX5faZYJL557_NyQwQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ0OQ--/https://media.zenfs.com/en/los_angeles_rams_wire_usa_today_sports_articles_716/f99a8d638d47d78eda2a5dbac0117fe6"
-                        alt="Pic of Kyren Williams and Puka Nacua"
-                        style={{ width: '445px', height: 'auto', borderRadius: '4px', marginBottom: '5px', marginTop: '110px'}}
+                        alt="Picture of Kyren Williams and Puka Nacua"
+                        style={{ width: '420px', height: 'auto', borderRadius: '4px', marginBottom: '5px', marginTop: '110px', marginRight: '20px'}}
                     />
                     <p>
                         Our two greatest successess this past year were using our last two roster spots on Puka Nacua and Kyren Williams in 

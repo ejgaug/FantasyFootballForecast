@@ -175,7 +175,7 @@ const playerInfo = [
         analysis: "Analysis coming...", 
         imgSite: `247sports.com`, imgOrgUrl: "https://s3media.247sports.com/Uploads/Assets/448/967/11967448.jpg",
         imgUrl: jatavionSanders}, 
-    {name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina", size: `6'3" / 227 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "71 (7 TDs)", recYrds: "1,255 yds",
+    {name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina", size: `6'3" / 227 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "71 (7 TDs)", recYrds: "1,255 yds",
         lastEditTime: "1/10/24", 
         analysis: "Analysis coming... ", // ** crazy top end speed, big, strong, good hands, crazy catch radius 
         imgSite: `wistv.com`, imgOrgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/AIHJH7RCRFCTXLC4RYFOKWK4HM.jpg",
@@ -389,10 +389,10 @@ const ppr1QB = [
 
 const ppr2QB = [ 
     {id: "1", name: "Caleb Williams", pos: "QB", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "2", name: "Jayden Daniels", pos: "QB", age: "23", uni: "LSU", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "3", name: "Marvin Harrison Jr.", pos: "WR", age: "21", uni: "Ohio State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "4", name: "Malik Nabers", pos: "WR", age: "20", uni: "LSU", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "5", name: "Drake Maye", pos: "QB", age: "21", uni: "North Carolina", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "2", name: "Marvin Harrison Jr.", pos: "WR", age: "21", uni: "Ohio State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "3", name: "Drake Maye", pos: "QB", age: "21", uni: "North Carolina", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "4", name: "Jayden Daniels", pos: "QB", age: "23", uni: "LSU", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "5", name: "Malik Nabers", pos: "WR", age: "20", uni: "LSU", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "6", name: "Rome Odunze", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "7", name: "Brian Thomas Jr.", pos: "WR", age: "21", uni: "LSU", analysis: "mumbo jumbo", height: `6'4"`, weight: "205 lbs."},
     {id: "8", name: "Brock Bowers", pos: "TE", age: "21", uni: "Georgia", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
@@ -466,11 +466,11 @@ const nPpr1QB = [
 ];
 
 const nPpr2QB = [ 
-    {id: "1", name: "Caleb Williams", pos: "QB", age: "22", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "2", name: "Jayden Daniels", pos: "QB", age: "23", uni: "LSU", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "3", name: "Marvin Harrison Jr.", pos: "WR", age: "21", uni: "Ohio State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "4", name: "Malik Nabers", pos: "WR", age: "20", uni: "LSU", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "5", name: "Drake Maye", pos: "QB", age: "21", uni: "North Carolina", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "1", name: "Caleb Williams", pos: "QB", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "2", name: "Marvin Harrison Jr.", pos: "WR", age: "21", uni: "Ohio State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "3", name: "Drake Maye", pos: "QB", age: "21", uni: "North Carolina", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "4", name: "Jayden Daniels", pos: "QB", age: "23", uni: "LSU", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "5", name: "Malik Nabers", pos: "WR", age: "20", uni: "LSU", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "6", name: "Rome Odunze", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "7", name: "Brian Thomas Jr.", pos: "WR", age: "21", uni: "LSU", analysis: "mumbo jumbo", height: `6'4"`, weight: "205 lbs."},
     {id: "8", name: "Brock Bowers", pos: "TE", age: "21", uni: "Georgia", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
