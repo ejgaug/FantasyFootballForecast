@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate} from "react-router-dom";
 
 import FantasyForecaster from "../FantasyForecaster";
 import FantasyLanding from "./pages/FantasyLanding";
@@ -8,7 +8,7 @@ import FantasyNoMatch from "./pages/FantasyNoMatch";
 import LandingSpots from "./pages/LandingSpots";
 
 export default function FantasyRouter() {
-    return <BrowserRouter>
+    return <HashRouter>
         <Routes>
             <Route path="/" element={<FantasyForecaster />}>
                 <Route index element={<FantasyLanding />} />
@@ -19,5 +19,5 @@ export default function FantasyRouter() {
                 <Route path="*" element={<Navigate to="/" />} />
             </Route>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
 }
