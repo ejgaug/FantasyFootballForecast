@@ -1,12 +1,15 @@
 import { Col, Container, Row } from "react-bootstrap";
+import { useEffect, useState } from "react";
 
 import fff3 from '../../../assets/Fantasy Football Forecaster 3.svg'
 
 export default function FantasyLanding(props) {
 
+    const [width, setWidth] = useState(window.innerWidth);
+
     const columnFormat = {
         display: 'grid',
-        gridTemplateColumns: '65% 35%',
+        gridTemplateColumns: '60% 40%',
         margin: '0px',
     };
     const headerStyle = {
@@ -17,20 +20,35 @@ export default function FantasyLanding(props) {
     };
     const welcomeText = {
         width: '85%',
-        color: '#eFeFeF'
+        color: '#eFeFeF',
+        paddingBottom: '20px'
     };
     const pukaText = {
         width: '95%',
         color: '#eFeFeF',
         fontSize: '15px'
     };
+    const playerImage = {
+        width: '100%',
+        height: 'auto', 
+        marginBottom: '5px',
+        
+    }
+
+    useEffect(() => {
+        const handleResizeWindow = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleResizeWindow);
+        return () => {
+            window.removeEventListener("resize", handleResizeWindow);
+        };
+    }, []);
 
     return <div>
         <br/>
         <Container fluid={true}>
-            <Row style={columnFormat}>
-                <Col xs={12} lg={4} xl={6} style={welcomeText}>
-                    <h1 className="headerFont" style={headerStyle}>Welcome to the Fantasy Football Forecast!</h1>
+            <Row style={{ ...columnFormat, gridTemplateColumns: width > 768.14 ? '60% 40%' : '1fr'}}>
+                <Col style={{ ...welcomeText, width: width > 768.14 ? '85%' : '100%'}}> {/* xs={12} sm={12} med={12} lg={6} xl={6} */}
+                    <h1 className="headerFont" style={headerStyle}>Welcome to The Fantasy Football Forecast!</h1>
                     <p style={{fontSize: '15px'}}> Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. </p>
                     <p style={{fontSize: '15px'}}> 
                         Checkout the Draft Rankings page to see how we'd draft a 3-round rookie class for dynasty fantasy football leagues 
@@ -54,13 +72,13 @@ export default function FantasyLanding(props) {
                         style={{ width: '400px', height: 'auto', marginLeft: '50%', marginRight: '50%'}}
                     /> */}
                 </Col>
-                <Col xs={12} lg={4} xl={6} style={pukaText}>
+                <Col> {/* xs={12} sm={12} med={12} lg={6} xl={6} */}
                     <img
                         src="https://s.yimg.com/ny/api/res/1.2/tUBPfX5faZYJL557_NyQwQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ0OQ--/https://media.zenfs.com/en/los_angeles_rams_wire_usa_today_sports_articles_716/f99a8d638d47d78eda2a5dbac0117fe6"
                         alt="Picture of Kyren Williams and Puka Nacua"
-                        style={{ width: '420px', height: 'auto', borderRadius: '4px', marginBottom: '5px', marginTop: '100px', marginRight: '20px'}}
+                        style={{ ...playerImage, paddingTop: width > 768.14 ? '100px' : '40px', borderTop: width > 768.14 ? '' : '0.01rem solid lightgray'}}
                     />
-                    <p>
+                    <p style={pukaText}>
                         Our two greatest successess this past year were using our last two roster spots on Puka Nacua and Kyren Williams in 
                         an eight-team dynasty league. They helped make our extremely young team into a contender.
                     </p>

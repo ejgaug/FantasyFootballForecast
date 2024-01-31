@@ -6,14 +6,14 @@ import { useEffect, useState } from "react";
 
 export default function FantasyNavbar(props) {
 
-    const [width, setWidth] = useState(window.innerWidth)
+    const [width, setWidth] = useState(window.innerWidth);
 
     useEffect(() => {
         const handleResizeWindow = () => setWidth(window.innerWidth);
-         window.addEventListener("resize", handleResizeWindow);
-         return () => {
+        window.addEventListener("resize", handleResizeWindow);
+        return () => {
            window.removeEventListener("resize", handleResizeWindow);
-         };
+        };
     }, []);
 
     return (
