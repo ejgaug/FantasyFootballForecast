@@ -11,7 +11,7 @@ export default function FantasyLanding(props) {
     };
     const headerStyle = {
         paddingTop: '0px',
-        fontSize: '38px',
+        fontSize: '40px',
         color: '#eFeFeF',
         marginTop: '0px'
     };
@@ -21,7 +21,8 @@ export default function FantasyLanding(props) {
     };
     const pukaText = {
         width: '95%',
-        color: '#eFeFeF'
+        color: '#eFeFeF',
+        fontSize: '15px'
     };
 
     return <div>
@@ -30,19 +31,19 @@ export default function FantasyLanding(props) {
             <Row style={columnFormat}>
                 <Col xs={12} lg={4} xl={6} style={welcomeText}>
                     <h1 className="headerFont" style={headerStyle}>Welcome to the Fantasy Football Forecast!</h1>
-                    <p style={{fontSize: '14px'}}> Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. </p>
-                    <p style={{fontSize: '14px'}}> 
+                    <p style={{fontSize: '15px'}}> Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. </p>
+                    <p style={{fontSize: '15px'}}> 
                         Checkout the Draft Rankings page to see how we'd draft a 3-round rookie class for dynasty fantasy football leagues 
                         if it were to happen today. This includes rankings for 4 major league formats (1-QB PPR, 2-QB PPR, 1-QB Non-PPR, and 2-QB Non-PPR).
                         Clicking on a position or university will give you filtered rankings that can be canceled using the "reset" button. Also, try 
                         clicking on a player's name to get some more information.     
                     </p>
-                    <p style={{fontSize: '14px'}}>
+                    <p style={{fontSize: '15px'}}>
                         For more in-depth analysis on each of these players, take a look at the Rookie Preview tab. Here you'll find a player analysis 
                         as well relevant statistics from the 2023 season and the most predictive combine measurements of NFL success for that position.
                         This also includes a few deep sleepers that won't be in the Draft Rankings for those deeper leauges and empty roster spots. 
                     </p>
-                    <p style={{fontSize: '14px'}}> 
+                    <p style={{fontSize: '15px'}}> 
                         The Landing Spots page gives rankings format to how I'd feel if a player of a given position landed on any NFL roster.
                         This is based on team need for that position and the overall production that could be seen in that offense. Similar to the Draft 
                         Rankings page, a brief analysis of the grade and ranking of each landing spot can be found by clicking on the team name.
@@ -57,7 +58,7 @@ export default function FantasyLanding(props) {
                     <img
                         src="https://s.yimg.com/ny/api/res/1.2/tUBPfX5faZYJL557_NyQwQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ0OQ--/https://media.zenfs.com/en/los_angeles_rams_wire_usa_today_sports_articles_716/f99a8d638d47d78eda2a5dbac0117fe6"
                         alt="Picture of Kyren Williams and Puka Nacua"
-                        style={{ width: '420px', height: 'auto', borderRadius: '4px', marginBottom: '5px', marginTop: '100px', marginRight: '50px'}}
+                        style={{ width: '420px', height: 'auto', borderRadius: '4px', marginBottom: '5px', marginTop: '100px', marginRight: '20px'}}
                     />
                     <p>
                         Our two greatest successess this past year were using our last two roster spots on Puka Nacua and Kyren Williams in 
