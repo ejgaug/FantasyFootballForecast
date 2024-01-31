@@ -13,7 +13,7 @@ export default function FantasyLanding(props) {
         paddingTop: '0px',
         fontSize: '40px',
         color: '#eFeFeF',
-        paddingTop: '0px'
+        marginTop: '0px'
     };
     const welcomeText = {
         width: '85%',
