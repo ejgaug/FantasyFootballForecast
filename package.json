@@ -2,7 +2,7 @@
   "name": "ff-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ejgaug.github.io/FantasyFootballForecaster",
+  "homepage": "https://ejgaug.github.io/FantasyFootballForecast",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
