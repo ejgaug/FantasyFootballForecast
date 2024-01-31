@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-const ASSET_URL = 'https://ejgaug.github.io/FantasyFootballForecast' || '';
+const ASSET_URL = 'https://www.thefantasyfootballforecast.com' || '';
 
 // https://vitejs.dev/config/
 export default defineConfig({
