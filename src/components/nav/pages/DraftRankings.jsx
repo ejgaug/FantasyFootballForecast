@@ -37,7 +37,7 @@ export default function DraftRanks(props) {
         padding: '2px',
         display: 'grid',
         gridTemplateColumns: '8% 42% 10% 40%',
-        fontSize: '13px'
+        fontSize: '12px'
     };
     const description = {
         textAlign: 'center',

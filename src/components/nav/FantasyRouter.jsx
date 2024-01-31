@@ -1,6 +1,6 @@
 import { Route, Routes, Navigate} from "react-router-dom";
 
-import FantasyForecaster from "../FantasyForecaster";
+import FantasyForecast from "../FantasyForecast";
 import FantasyLanding from "./pages/FantasyLanding";
 import DraftRankings from "./pages/DraftRankings";
 import RookiePreview from "./pages/RookiePreview";
@@ -11,7 +11,7 @@ export default function FantasyRouter() {
     return (
     // <HashRouter>
         <Routes>
-            <Route path="/" element={<FantasyForecaster />}>
+            <Route path="/" element={<FantasyForecast />}>
                 <Route index element={<FantasyLanding />} />
                 {/* TODO: Add your routes here! */}
                 <Route path="/draft-rankings" element={<DraftRankings />} />

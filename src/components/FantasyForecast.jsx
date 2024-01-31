@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 import FantasyNavbar from "./nav/FantasyNavbar";
 import FantasyDataContext from "../contexts/FantasyDataContext";
 
-export default function FantasyForecaster() {
+export default function FantasyForecast() {
 
     const [filters, setFilters] = useState([]);
 

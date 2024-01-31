@@ -1,4 +1,3 @@
-
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 
@@ -24,7 +23,7 @@ export default function FantasyNavbar(props) {
                 {(width > 575) ? (
                     <Navbar.Brand as={NavLink} activeclassname="activeLink" to="/">
                         <img
-                            alt="Fantasy Forecaster Logo"
+                            alt="Fantasy Forecast Logo"
                             src={fff2}
                             style={{ width: '110px', height: '95px', marginRight: '25px' }}
                         />{' '}
