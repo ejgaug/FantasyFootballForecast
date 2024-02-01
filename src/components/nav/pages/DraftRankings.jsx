@@ -151,7 +151,8 @@ export default function DraftRanks(props) {
 
         return (
             <Col
-                xs={6}
+                xs={12}
+                sm={12}
                 md={6}
                 lg={3}
                 xxl={3}
