@@ -33,7 +33,7 @@ export default function LandingSpots(props) {
         marginBottom: '0px',
         padding: '2px',
         display: 'grid',
-        gridTemplateColumns: '8% 42% 10% 40%',
+        gridTemplateColumns: '8% 40% 12% 40%',
         fontSize: '13px'
     };
     const rankNum = {
@@ -144,7 +144,8 @@ export default function LandingSpots(props) {
     function generateCard(pos) {
         return (
             <Col
-                xs={6}
+                xs={12}
+                sm={12}
                 md={6}
                 lg={3}
                 xxl={3}
