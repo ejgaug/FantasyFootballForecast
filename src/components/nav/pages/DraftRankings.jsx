@@ -52,8 +52,8 @@ export default function DraftRanks(props) {
     };
     const playerName = {
         borderLeft: '1.5px dotted #000',
-        paddingRight: '4px',
-        paddingLeft: '0px',
+        paddingRight: '0px',
+        paddingLeft: '4px',
         cursor: 'pointer',
     };
     const playerPos = {
@@ -65,8 +65,8 @@ export default function DraftRanks(props) {
     };
     const playerUni = {
         borderLeft: '1.5px dotted #000',
-        paddingRight: '4px',
-        paddingLeft: '0px',
+        paddingRight: '0px',
+        paddingLeft: '4px',
         cursor: 'pointer',
     };
     const modalBelowText = {
