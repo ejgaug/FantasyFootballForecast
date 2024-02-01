@@ -38,49 +38,59 @@ export default function FantasyNavbar(props) {
     };
     
     return (
-        <Navbar style={{width: '100%', height: '70px', backgroundColor: 'green' }} variant="dark" sticky="top" expand="md" collapseOnSelect>
-            <Container>
-                
-                {(width > 767) ? (
-                    <Navbar.Brand as={NavLink} activeclassname="activeLink" to="/">
-                        <img
-                            alt="Fantasy Forecast Logo"
-                            src={fff2}
-                            style={{ width: '110px', height: '95px', marginRight: '25px' }}
-                        />{' '}
-                    </Navbar.Brand>
-                ) : (
-                    <Col style={{ marginTop: '0px', paddingTop: '0px'}}>
-                        <div className="d-flex justify-content-between align-items-start" style={{ width: '100%' }}>
-                            <Navbar.Toggle onClick={() => setOpen(!open)} aria-controls="responsive-navbar-nav" style={{ marginTop: '6px' }}/>
-                            <Navbar.Brand as={NavLink} activeclassname="activeLink" to="/" style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '0px' }}>
-                                <img
-                                    alt="Fantasy Forecast Logo"
-                                    src={fff4}
-                                    style={{ width: '90px', height: 'auto' }}
-                                />
-                            </Navbar.Brand>
-                        </div>
-                    </Col>
-                )}
-                
-                <div className={`slide-menu ${open ? 'open' : ''}`} style={{paddingLeft: '12px'}}>
-                    <Nav>
-                        <Nav.Link className="headerFont" style={{fontSize: '25px', marginRight: '16px'}} as={NavLink} to="/" activeclassname="activeLink" onClick={handleMenuItemClick}>
-                            Home
-                        </Nav.Link>
-                        <Nav.Link className="headerFont" style={{fontSize: '25px', marginRight: '16px'}} as={NavLink} to="/draft-rankings" activeclassname="activeLink" onClick={handleMenuItemClick}>
-                            Draft Rankings
-                        </Nav.Link>
-                        <Nav.Link className="headerFont" style={{fontSize: '25px', marginRight: '16px'}} as={NavLink} to="/rookie-preview" activeclassname="activeLink" onClick={handleMenuItemClick}>
-                            Rookie Preview
-                        </Nav.Link>
-                        <Nav.Link className="headerFont" style={{fontSize: '25px', marginRight: '16px'}} as={NavLink} to="/landing-spots" activeclassname="activeLink" onClick={handleMenuItemClick}>
-                            Landing Spots
-                        </Nav.Link>
-                    </Nav>
-                </div>
-            </Container>
-        </Navbar>
+        <div>
+            <Navbar style={{width: '100%', height: '70px', backgroundColor: 'green' }} variant="dark" sticky="top" expand="md" collapseOnSelect>
+                <Container>
+                    
+                    {(width > 767) ? (
+                        <Navbar.Brand as={NavLink} activeclassname="activeLink" to="/">
+                            <img
+                                alt="Fantasy Forecast Logo"
+                                src={fff2}
+                                style={{ width: '110px', height: '95px', marginRight: '25px' }}
+                            />{' '}
+                        </Navbar.Brand>
+                    ) : (
+                        <Col style={{ marginTop: '0px', paddingTop: '0px'}}>
+                            <div className="d-flex justify-content-between align-items-start" style={{ width: '100%' }}>
+                                <Navbar.Toggle onClick={() => setOpen(!open)} aria-controls="responsive-navbar-nav" style={{ marginTop: '6px' }}/>
+                                <Navbar.Brand as={NavLink} activeclassname="activeLink" to="/" style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '0px' }}>
+                                    <img
+                                        alt="Fantasy Forecast Logo"
+                                        src={fff4}
+                                        style={{ width: '90px', height: 'auto' }}
+                                    />
+                                </Navbar.Brand>
+                            </div>
+                        </Col>
+                    )}
+                    
+                    <Navbar.Collapse id="responsive-navbar-nav" className="me-auto">
+                            <Nav>
+                                <Nav.Link className="headerFont" style={{ fontSize: '25px', marginRight: '16px' }} as={NavLink} to="/" activeclassname="activeLink" onClick={handleMenuItemClick}>
+                                    Home
+                                </Nav.Link>
+                                <Nav.Link className="headerFont" style={{ fontSize: '25px', marginRight: '16px' }} as={NavLink} to="/draft-rankings" activeclassname="activeLink" onClick={handleMenuItemClick}>
+                                    Draft Rankings
+                                </Nav.Link>
+                                <Nav.Link className="headerFont" style={{ fontSize: '25px', marginRight: '16px' }} as={NavLink} to="/rookie-preview" activeclassname="activeLink" onClick={handleMenuItemClick}>
+                                    Rookie Preview
+                                </Nav.Link>
+                                <Nav.Link className="headerFont" style={{ fontSize: '25px', marginRight: '16px' }} as={NavLink} to="/landing-spots" activeclassname="activeLink" onClick={handleMenuItemClick}>
+                                    Landing Spots
+                                </Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+            <div className={`slide-menu ${open ? 'open' : ''}`} style={{paddingLeft: '12px'}}>
+                <nav>
+                    <Link to="/" onClick={handleMenuItemClick}>Home</Link>
+                    <Link to="/draft-rankings" onClick={handleMenuItemClick}>Draft Rankings</Link>
+                    <Link to="/rookie-preview" onClick={handleMenuItemClick}>Rookie Preview</Link>
+                    <Link to="/landing-spots" onClick={handleMenuItemClick}>Landing Spots</Link>
+                </nav>
+            </div>
+        </div>
     );
 }
