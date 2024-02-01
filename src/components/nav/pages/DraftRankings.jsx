@@ -52,21 +52,21 @@ export default function DraftRanks(props) {
     };
     const playerName = {
         borderLeft: '1.5px dotted #000',
-        paddingRight: '2px',
-        paddingLeft: '2px',
+        paddingRight: '4px',
+        paddingLeft: '0px',
         cursor: 'pointer',
     };
     const playerPos = {
         borderLeft: '1.5px dotted #000',
-        paddingRight: '2px',
-        paddingLeft: '2px',
+        paddingRight: '1px',
+        paddingLeft: '1px',
         textAlign: 'center',
         cursor: 'pointer',
     };
     const playerUni = {
         borderLeft: '1.5px dotted #000',
-        paddingRight: '2px',
-        paddingLeft: '2px',
+        paddingRight: '4px',
+        paddingLeft: '0px',
         cursor: 'pointer',
     };
     const modalBelowText = {
