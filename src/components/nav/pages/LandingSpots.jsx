@@ -28,13 +28,13 @@ export default function LandingSpots(props) {
     };
     const rankedItems = {
         justifyContent: 'center',  // Center horizontally
-        borderBottom: '1.5px dotted #000',
+        borderBottom: '1.5px dashed #000',
         marginTop: '0px',
         marginBottom: '0px',
         padding: '2px',
         display: 'grid',
         gridTemplateColumns: '8% 40% 12% 40%',
-        fontSize: '13px'
+        fontSize: '12px'
     };
     const rankNum = {
         paddingRight: '2px',
@@ -42,22 +42,22 @@ export default function LandingSpots(props) {
         textAlign: 'center'
     };
     const teamName = {
-        borderLeft: '1.5px dotted #000',
-        paddingRight: '2px',
-        paddingLeft: '2px',
+        borderLeft: '1.5px solid #000',
+        paddingRight: '0px',
+        paddingLeft: '4px',
         cursor: 'pointer',
     };
     const teamGrade = {
-        borderLeft: '1.5px dotted #000',
-        paddingRight: '2px',
-        paddingLeft: '2px',
+        borderLeft: '1.5px solid #000',
+        paddingRight: '0px',
+        paddingLeft: '4px',
         textAlign: 'center',
         // cursor: 'pointer',
     };
     const teamDivision = {
-        borderLeft: '1.5px dotted #000',
-        paddingRight: '2px',
-        paddingLeft: '2px',
+        borderLeft: '1.5px solid #000',
+        paddingRight: '0px',
+        paddingLeft: '4px',
         // cursor: 'pointer',
     };
     const modalAnalysis = {
