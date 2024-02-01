@@ -11,7 +11,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </HashRouter>
   </React.StrictMode>,
 );
-
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <App />
-// );

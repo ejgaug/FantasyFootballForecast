@@ -43,11 +43,13 @@ export default function FantasyLanding(props) {
         };
     }, []);
 
+    const screenCutOff = 767;
+
     return <div>
         <br/>
         <Container fluid={true}>
-            <Row style={{ ...columnFormat, gridTemplateColumns: width > 768.14 ? '60% 40%' : '1fr'}}>
-                <Col style={{ ...welcomeText, width: width > 768.14 ? '85%' : '100%'}}> {/* xs={12} sm={12} med={12} lg={6} xl={6} */}
+            <Row style={{ ...columnFormat, gridTemplateColumns: width > screenCutOff ? '60% 40%' : '1fr'}}>
+                <Col style={{ ...welcomeText, width: width > screenCutOff ? '85%' : '100%'}}> 
                     <h1 className="headerFont" style={headerStyle}>Welcome to The Fantasy Football Forecast!</h1>
                     <p style={{fontSize: '15px'}}> Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. </p>
                     <p style={{fontSize: '15px'}}> 
@@ -72,11 +74,11 @@ export default function FantasyLanding(props) {
                         style={{ width: '400px', height: 'auto', marginLeft: '50%', marginRight: '50%'}}
                     /> */}
                 </Col>
-                <Col> {/* xs={12} sm={12} med={12} lg={6} xl={6} */}
+                <Col> 
                     <img
                         src="https://s.yimg.com/ny/api/res/1.2/tUBPfX5faZYJL557_NyQwQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ0OQ--/https://media.zenfs.com/en/los_angeles_rams_wire_usa_today_sports_articles_716/f99a8d638d47d78eda2a5dbac0117fe6"
                         alt="Picture of Kyren Williams and Puka Nacua"
-                        style={{ ...playerImage, paddingTop: width > 768.14 ? '100px' : '40px', borderTop: width > 768.14 ? '' : '0.01rem solid lightgray'}}
+                        style={{ ...playerImage, paddingTop: width > screenCutOff ? '100px' : '40px', borderTop: width > screenCutOff ? '' : '0.01rem solid lightgray'}}
                     />
                     <p style={pukaText}>
                         Our two greatest successess this past year were using our last two roster spots on Puka Nacua and Kyren Williams in 
