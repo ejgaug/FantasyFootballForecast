@@ -18,9 +18,6 @@ export default function LandingSpots(props) {
         textAlign: 'center',
         marginBottom: '15px',
         color: '#eFeFeF',
-        paddingLeft: '45px',
-        paddingRight: '45px',
-        fontSize: '15px'
     };
     const rankedItems = {
         justifyContent: 'center',  // Center horizontally
@@ -220,7 +217,11 @@ export default function LandingSpots(props) {
                     style={{ width: '60px', height: 'auto', marginLeft: '5px', marginBottom: '7px' }}  
                 />
             </h1> 
-            <p style={{ ...description, paddingLeft: width > screenCutOff ? '100px' : '10px', paddingRight: width > screenCutOff ? '60px' : '10px' }}>
+            <p style={{ ...description, 
+                    paddingLeft: width > screenCutOff ? '100px' : '10px', 
+                    paddingRight: width > screenCutOff ? '60px' : '10px',
+                    fontSize: width > screenCutOff ? '15px' : '12px'
+            }}>
                 The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on any NFL roster.
                 This is based on team need for that position and the overall production that could be seen in that offense. Select a team name
                 to get a brief analysis of why we gave the grade and ranking of each landing spot.

@@ -44,9 +44,6 @@ export default function DraftRanks(props) {
         textAlign: 'center',
         marginBottom: '15px',
         color: '#eFeFeF',
-        paddingLeft: '45px',
-        paddingRight: '45px',
-        fontSize: '15px'
     };
     const rankNum = {
         paddingRight: '2px',
@@ -322,7 +319,11 @@ export default function DraftRanks(props) {
                     style={{ width: '60px', height: 'auto', marginLeft: '5px', marginBottom: '7px' }}  
                 />
             </h1> 
-            <p style={{ ...description, paddingLeft: width > screenCutOff ? '100px' : '10px', paddingRight: width > screenCutOff ? '60px' : '10px'}}>
+            <p style={{ ...description, 
+                    paddingLeft: width > screenCutOff ? '100px' : '10px', 
+                    paddingRight: width > screenCutOff ? '60px' : '10px',
+                    fontSize: width > screenCutOff ? '15px' : '12px'
+                }}>
                 To filter the rankings, try clicking on a position or university. This can be canceled by using the "reset" button. 
                 Also, selecting a player's name will give you an in-depth analysis and important statistics for the player.  
             </p>

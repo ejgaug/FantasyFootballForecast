@@ -19,11 +19,8 @@ export default function RookiePreview(props) {
 
     const description = {
         textAlign: 'center',
-        marginBottom: '10px',
+        marginBottom: '11px',
         color: '#eFeFeF',
-        paddingLeft: '45px',
-        paddingRight: '45px',
-        fontSize: '15px'
     };
     const modalBelowText = {
         margin: '5px',
@@ -137,7 +134,11 @@ export default function RookiePreview(props) {
                     style={{ width: '60px', height: 'auto', marginLeft: '5px', marginBottom: '7px' }}  
                 />
             </h1> 
-            <p style={{ ...description, paddingLeft: width > screenCutOff ? '100px' : '10px', paddingRight: width > screenCutOff ? '60px' : '10px' }}>
+            <p style={{ ...description, 
+                    paddingLeft: width > screenCutOff ? '100px' : '10px', 
+                    paddingRight: width > screenCutOff ? '60px' : '10px',
+                    fontSize: width > screenCutOff ? '15px' : '12px'
+            }}>
                 This is our full analysis on every player we see relevant in this years draft. Under each player's picture are their 2023 stats 
                 and metrics most predictive of success for their position. Because this is every player we see relevant, there are a few deep 
                 sleepers that won't be in the Draft Rankings. 
