@@ -31,7 +31,7 @@ export default function DraftRanks(props) {
 
     const rankedItems = {
         justifyContent: 'center',  // Center horizontally
-        borderBottom: '1.5px dotted #000',
+        borderBottom: '1.5px dashed #000',
         marginTop: '0px',
         marginBottom: '0px',
         padding: '2px',
@@ -51,20 +51,20 @@ export default function DraftRanks(props) {
         textAlign: 'center'
     };
     const playerName = {
-        borderLeft: '1.5px dashed #000',
+        borderLeft: '1.5px solid #000',
         paddingRight: '0px',
         paddingLeft: '4px',
         cursor: 'pointer',
     };
     const playerPos = {
-        borderLeft: '1.5px dashed #000',
+        borderLeft: '1.5px solid #000',
         paddingRight: '1px',
         paddingLeft: '1px',
         textAlign: 'center',
         cursor: 'pointer',
     };
     const playerUni = {
-        borderLeft: '1.5px dashed #000',
+        borderLeft: '1.5px solid #000',
         paddingRight: '0px',
         paddingLeft: '4px',
         cursor: 'pointer',
