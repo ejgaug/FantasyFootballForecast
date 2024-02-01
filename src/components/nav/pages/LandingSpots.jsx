@@ -1,5 +1,5 @@
 import { Button, Card, CardFooter, Col, Row, Modal } from "react-bootstrap";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { playerInfo, nflTeams } from "../../../rankings";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
@@ -12,13 +12,7 @@ export default function LandingSpots(props) {
     const [selectedTeam, setSelectedTeam] = useState(null);
     const [showTeamModal, setShowTeamModal] = useState(false);
     const [selectedPos, setSelectedPos] = useState(null);
-
-    // const toggleAnalysis = (teamMascot) => {
-    //     setTeamStates((prevState) => ({
-    //         ...prevState,
-    //         [teamMascot]: !prevState[teamMascot],
-    //     }));
-    // };
+    const [width, setWidth] = useState(window.innerWidth);
 
     const description = {
         textAlign: 'center',
@@ -96,6 +90,16 @@ export default function LandingSpots(props) {
         fontSize: '12px',
         color: '#C79A25'
     };
+
+    useEffect(() => {
+        const handleResizeWindow = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleResizeWindow);
+        return () => {
+            window.removeEventListener("resize", handleResizeWindow);
+        };
+    }, []);
+
+    const screenCutOff = 767;
 
     const handleCloseModal = () => {
         setShowTeamModal(false);
@@ -216,7 +220,7 @@ export default function LandingSpots(props) {
                     style={{ width: '60px', height: 'auto', marginLeft: '5px', marginBottom: '7px' }}  
                 />
             </h1> 
-            <p style={description}>
+            <p style={{ ...description, paddingLeft: width > screenCutOff ? '100px' : '10px', paddingRight: width > screenCutOff ? '60px' : '10px' }}>
                 The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on any NFL roster.
                 This is based on team need for that position and the overall production that could be seen in that offense. Select a team name
                 to get a brief analysis of why we gave the grade and ranking of each landing spot.

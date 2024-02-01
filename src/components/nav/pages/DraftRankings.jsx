@@ -12,6 +12,7 @@ export default function DraftRanks(props) {
     const [showPlayerModal, setShowPlayerModal] = useState(false);
     // const [selectedUni, setSelectedUni] = useState(null);
     const [showUniModal, setShowUniModal] = useState(false);
+    const [width, setWidth] = useState(window.innerWidth);
     // const [uniPlayers, setUniPlayers] = useState({});
     const [selectedPositions, setSelectedPositions] = useState({
         'ppr1QB': null,
@@ -143,6 +144,16 @@ export default function DraftRanks(props) {
         }));
         // console.log(selectedPositions);
     }
+
+    useEffect(() => {
+        const handleResizeWindow = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleResizeWindow);
+        return () => {
+            window.removeEventListener("resize", handleResizeWindow);
+        };
+    }, []);
+
+    const screenCutOff = 767;
     
     function generateCard(rankings, title, specifier) {
         const filteredRankings = selectedPositions[specifier]
@@ -298,7 +309,7 @@ export default function DraftRanks(props) {
     
     return <div>
         <Row>
-            <h1 style={{textAlign: 'center', marginBottom: '6px', color: '#eFeFeF'}} className="headerFont">
+            <h1 style={{textAlign: 'center', marginBottom: '0px', color: '#eFeFeF'}} className="headerFont">
                 <img
                     src={footballL} 
                     alt="football" 
@@ -311,12 +322,9 @@ export default function DraftRanks(props) {
                     style={{ width: '60px', height: 'auto', marginLeft: '5px', marginBottom: '7px' }}  
                 />
             </h1> 
-            <p style={description}>
-                Here's how we'd draft a 3-round rookie class for dynasty fantasy football leagues in the current context. This includes
-                rankings for 4 major league formats (1-QB PPR, 2-QB PPR, 1-QB Non-PPR, and 2-QB Non-PPR). If you play Half-PPR, pay more
-                attention to our PPR rankings than the Non-PPR alternative. Clicking on a position or university will give you filtered
-                rankings that can be canceled using the "reset" button. Also, selecting a player's name will give you an in-depth analysis
-                and important statistics for the player.  
+            <p style={{ ...description, paddingLeft: width > screenCutOff ? '100px' : '10px', paddingRight: width > screenCutOff ? '60px' : '10px'}}>
+                To filter the rankings, try clicking on a position or university. This can be canceled by using the "reset" button. 
+                Also, selecting a player's name will give you an in-depth analysis and important statistics for the player.  
             </p>
             {generateCard(ranks('ppr1QB'), 'PPR 1-QB Rankings', 'ppr1QB')}
             {generateCard(ranks('ppr2QB'), 'PPR 2-QB Rankings', 'ppr2QB')}

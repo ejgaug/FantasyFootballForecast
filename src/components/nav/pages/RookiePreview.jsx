@@ -1,5 +1,5 @@
 import { Button, Card, CardFooter, Col, Row } from "react-bootstrap";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB } from "../../../rankings";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
@@ -8,6 +8,7 @@ import footballR from '../../../assets/Fantasy Football Forecaster Football Righ
 export default function RookiePreview(props) {
 
     const [playerStates, setPlayerStates] = useState({});
+    const [width, setWidth] = useState(window.innerWidth);
 
     const toggleAnalysis = (playerName) => {
         setPlayerStates((prevState) => ({
@@ -18,7 +19,7 @@ export default function RookiePreview(props) {
 
     const description = {
         textAlign: 'center',
-        marginBottom: '15px',
+        marginBottom: '10px',
         color: '#eFeFeF',
         paddingLeft: '45px',
         paddingRight: '45px',
@@ -53,6 +54,16 @@ export default function RookiePreview(props) {
         marginTop: '10px',
         marginBottom: '0px'
     }
+
+    useEffect(() => {
+        const handleResizeWindow = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleResizeWindow);
+        return () => {
+            window.removeEventListener("resize", handleResizeWindow);
+        };
+    }, []);
+
+    const screenCutOff = 767;
 
     function WhichMetrics(selectedPlayer) {
         if (selectedPlayer.pos === "QB") {
@@ -126,11 +137,10 @@ export default function RookiePreview(props) {
                     style={{ width: '60px', height: 'auto', marginLeft: '5px', marginBottom: '7px' }}  
                 />
             </h1> 
-            <p style={description}>
-                Here's our analysis on every player we see relevant in this years draft. Each player's combine metrics will be updated as they 
-                finish their combine testing. The metrics we've selected are the most predictive of success for the position of the player.
-                The statistics included are from the 2023 season. Because this is every player we see relevant, there are a few deep sleepers 
-                that won't be in the Draft Rankings for those deeper leauges and empty roster spots. 
+            <p style={{ ...description, paddingLeft: width > screenCutOff ? '100px' : '10px', paddingRight: width > screenCutOff ? '60px' : '10px' }}>
+                This is our full analysis on every player we see relevant in this years draft. Under each player's picture are their 2023 stats 
+                and metrics most predictive of success for their position. Because this is every player we see relevant, there are a few deep 
+                sleepers that won't be in the Draft Rankings. 
             </p>
             {playerInfo.map((player) => (
                 <Col
