@@ -64,7 +64,7 @@ export default function FantasyLanding(props) {
                         This also includes a few deep sleepers that won't be in the Draft Rankings for those deeper leauges and empty roster spots. 
                     </p>
                     <p style={{fontSize: '15px'}}> 
-                        The Landing Spots page gives rankings format to how I'd feel if a player of a given position landed on any NFL roster.
+                        The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on any NFL roster.
                         This is based on team need for that position and the overall production that could be seen in that offense. Similar to the Draft 
                         Rankings page, a brief analysis of the grade and ranking of each landing spot can be found by clicking on the team name.
                     </p>

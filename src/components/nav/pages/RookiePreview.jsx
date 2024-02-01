@@ -16,6 +16,14 @@ export default function RookiePreview(props) {
         }));
     };
 
+    const description = {
+        textAlign: 'center',
+        marginBottom: '15px',
+        color: '#eFeFeF',
+        paddingLeft: '45px',
+        paddingRight: '45px',
+        fontSize: '15px'
+    };
     const modalBelowText = {
         margin: '5px',
     };
@@ -118,6 +126,12 @@ export default function RookiePreview(props) {
                     style={{ width: '60px', height: 'auto', marginLeft: '5px', marginBottom: '7px' }}  
                 />
             </h1> 
+            <p style={description}>
+                Here's our analysis on every player we see relevant in this years draft. Each player's combine metrics will be updated as they 
+                finish their combine testing. The metrics we've selected are the most predictive of success for the position of the player.
+                The statistics included are from the 2023 season. Because this is every player we see relevant, there are a few deep sleepers 
+                that won't be in the Draft Rankings for those deeper leauges and empty roster spots. 
+            </p>
             {playerInfo.map((player) => (
                 <Col
                     xs={12}
