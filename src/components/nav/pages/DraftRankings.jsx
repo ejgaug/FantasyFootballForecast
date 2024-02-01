@@ -1,4 +1,4 @@
-import { Button, Card, Col, Row, Modal } from "react-bootstrap";
+import { Button, Card, Col, Row, Modal, CloseButton } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 
 import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB } from "../../../rankings";
@@ -111,7 +111,7 @@ export default function DraftRanks(props) {
     const openPlayerModal = (selectedPlayer) => {
         playerInfo.forEach((player) => {
             if (player.name === selectedPlayer.name) {
-                console.log(player);
+                // console.log(player);
                 setSelectedPlayer(player);
             }
         });
@@ -316,8 +316,9 @@ export default function DraftRanks(props) {
         </Row>
 s
         <Modal show={showPlayerModal} onHide={handleCloseModal}>
-            <Modal.Header closeButton style={{backgroundColor: '#1F1F1F', color: '#DDAA2f'}}>
+            <Modal.Header style={{backgroundColor: '#1F1F1F', color: '#DDAA2f'}}>
                 <Modal.Title style={{backgroundColor: '#1F1F1F'}}>{selectedPlayer && selectedPlayer.name + " (" + selectedPlayer.uni + ")"}</Modal.Title>
+                <CloseButton  variant="white" onClick={handleCloseModal}/>
             </Modal.Header>
             <Modal.Body style={{backgroundColor: '#1F1F1F'}}>
                 {selectedPlayer && (WhichMetrics(selectedPlayer))}
