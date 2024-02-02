@@ -252,7 +252,7 @@ const playerInfo = [
         analysis: "Analysis coming...", 
         imgSite: `gohuskies.com`, imgOrgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/washington.sidearmsports.com/images/2023/8/22/Michael_Penix_Jr_.png",
         imgUrl: michaelPenixJr}, 
-    {name: "Jaylen Wright", pos: "RB", age: "24", uni: "Tennessee", size: `5'11" / 210 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,010 yds (4 TDs)", ydsPerRush: "7.4 yds", recTdRec: "22 (0 TDs)", recYrds: "141 yds",
+    {name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", size: `5'11" / 210 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,010 yds (4 TDs)", ydsPerRush: "7.4 yds", recTdRec: "22 (0 TDs)", recYrds: "141 yds",
         lastEditTime: "1/11/24", 
         analysis: "Analysis coming...", 
         imgSite: `utdailybeacon.com`, imgOrgUrl: "https://bloximages.chicago2.vip.townnews.com/utdailybeacon.com/content/tncms/assets/v3/editorial/7/26/72697912-6c4b-11ee-a812-e3f8f5adc2c6/652d762347ef1.image.jpg?resize=1200%2C800",
@@ -379,12 +379,12 @@ const ppr1QB = [
     {id: "28", name: "Jacob Cowing", pos: "WR", age: "22", uni: "Arizona", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "29", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "30", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "31", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "32", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "33", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "34", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "35", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "36", name: "Jaylen Wright", pos: "RB", age: "24", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "31", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "32", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "33", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "34", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "35", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "36", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
 ];
 
 const ppr2QB = [ 
@@ -421,9 +421,10 @@ const ppr2QB = [
     {id: "31", name: "Jacob Cowing", pos: "WR", age: "22", uni: "Arizona", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "32", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "33", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "34", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "35", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "36", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "34", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "35", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "36", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    //{id: "36", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
 ];
 
 const nPpr1QB = [ 
@@ -456,13 +457,13 @@ const nPpr1QB = [
     {id: "27", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "28", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "29", name: "Jacob Cowing", pos: "WR", age: "22", uni: "Arizona", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "30", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "31", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "32", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "33", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "34", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "35", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "36", name: "Jaylen Wright", pos: "RB", age: "24", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "30", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "31", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "32", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "33", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "34", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "35", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "36", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
 ];
 
 const nPpr2QB = [ 
@@ -495,13 +496,14 @@ const nPpr2QB = [
     {id: "27", name: "Ja'Tavion Sanders", pos: "TE", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "28", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "29", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "32", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "30", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "31", name: "Jacob Cowing", pos: "WR", age: "22", uni: "Arizona", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "33", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "30", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "31", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "32", name: "Jacob Cowing", pos: "WR", age: "22", uni: "Arizona", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "33", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "34", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "35", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "36", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "34", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    // {id: "36", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
 ];
 
 const nflTeams = [
