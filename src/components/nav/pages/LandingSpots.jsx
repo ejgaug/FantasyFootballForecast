@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { playerInfo, nflTeams } from "../../../rankings";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
+import ReactGA from 'react-ga';
 
 export default function LandingSpots(props) {
 
@@ -13,6 +14,15 @@ export default function LandingSpots(props) {
     const [showTeamModal, setShowTeamModal] = useState(false);
     const [selectedPos, setSelectedPos] = useState(null);
     const [width, setWidth] = useState(window.innerWidth);
+
+    const trackTeamClick = (teamName, position) => {
+        // console.log(teamName + " - " + position);
+        ReactGA.event({
+            category: 'Button Click',
+            action: 'Team Name Clicked (Landing Spots)', // Event action
+            label: teamName + " - " + position, // Event label
+        });
+    };
 
     const description = {
         textAlign: 'center',
@@ -165,7 +175,12 @@ export default function LandingSpots(props) {
                                         ...teamName,
                                         fontWeight: isHovering === team.mascot ? 'bold' : 'normal',
                                     }}
-                                    onClick={() => {setSelectedTeam(team); setSelectedPos(pos); openTeamModal(team, pos)}}
+                                    onClick={() => {
+                                        trackTeamClick(team.mascot, pos);
+                                        setSelectedTeam(team); 
+                                        setSelectedPos(pos); 
+                                        openTeamModal(team, pos)
+                                    }}
                                     onMouseOver={() => setIsHovering(team.mascot)}
                                     onMouseOut={() => setIsHovering(null)}>
                                         {team.mascot}

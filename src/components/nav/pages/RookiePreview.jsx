@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB } from "../../../rankings";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
+import ReactGA from 'react-ga'; // Import ReactGA
 
 export default function RookiePreview(props) {
 
@@ -15,6 +16,15 @@ export default function RookiePreview(props) {
             ...prevState,
             [playerName]: !prevState[playerName],
         }));
+    };
+    
+    const trackButtonClick = (playerName) => {
+        // console.log(playerName);
+        ReactGA.event({
+            category: 'Button Click',
+            action: 'Show Analysis Button Clicked', // Event action
+            label: playerName, // Event label
+        });
     };
 
     const description = {
@@ -157,14 +167,17 @@ export default function RookiePreview(props) {
                         <div>{WhichMetrics(player)}</div>
                         <div style={{margin: "0.35rem"}}> 
                             {playerStates[player.name] && (
-                                    <p>
+                                    <>
                                         <p style={analysisStyle}>{player.analysis}</p>
                                         <p style={lastEdited}>Last Edited: {player.lastEditTime}</p>
-                                    </p>
+                                    </>
                             )}
                         </div>
                         <CardFooter>
-                            <Button variant="success" onClick={() => toggleAnalysis(player.name)}>
+                            <Button variant="success" onClick={() => {
+                                    toggleAnalysis(player.name); 
+                                    trackButtonClick(player.name);
+                                }}>
                                     {playerStates[player.name] ? "Hide Analysis" : "Show Analysis"}
                             </Button>
                         </CardFooter>

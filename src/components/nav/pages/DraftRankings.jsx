@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB } from "../../../rankings";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
+import ReactGA from 'react-ga';
 
 export default function DraftRanks(props) {
 
@@ -29,6 +30,25 @@ export default function DraftRanks(props) {
 
     useEffect(() => {
     }, [selectedPositions, selectedUni]);
+
+    // Google Analytics trackers
+    const trackNameClick = (playerName) => {
+        // console.log(playerName);
+        ReactGA.event({
+            category: 'Button Click',
+            action: 'Player Name Clicked (Rankings)', // Event action
+            label: playerName, // Event label
+        });
+    };
+
+    const trackFilterClick = (filter) => {
+        // console.log(filter);
+        ReactGA.event({
+            category: 'Button Click',
+            action: 'Position/Univeristy Button Clicked', // Event action
+            label: filter, // Event label
+        });
+    };
 
     const rankedItems = {
         justifyContent: 'center',  // Center horizontally
@@ -134,7 +154,7 @@ export default function DraftRanks(props) {
     }
 
     function uniRanks(specifier, uni) {
-        console.log(specifier + " - " + uni);
+        // console.log(specifier + " - " + uni);
         setSelectedUni(prevState => ({
             ...prevState,
             [specifier]: uni,
@@ -154,10 +174,10 @@ export default function DraftRanks(props) {
     
     function generateCard(rankings, title, specifier) {
         const filteredRankings = selectedPositions[specifier]
-        ? rankings.filter(player => player.pos === selectedPositions[specifier])
-        : selectedUni[specifier]
-        ? rankings.filter(player => player.uni === selectedUni[specifier])
-        : rankings;
+            ? rankings.filter(player => player.pos === selectedPositions[specifier])
+            : selectedUni[specifier]
+            ? rankings.filter(player => player.uni === selectedUni[specifier])
+            : rankings;
 
         return (
             <Col
@@ -179,7 +199,10 @@ export default function DraftRanks(props) {
                                         ...playerName,
                                         fontWeight: isHovering === player.name ? 'bold' : 'normal',
                                     }}
-                                    onClick={() => openPlayerModal(player)}
+                                    onClick={() => {
+                                        trackNameClick(player.name);
+                                        openPlayerModal(player);
+                                    }}
                                     onMouseOver={() => setIsHovering(player.name)}
                                     onMouseOut={() => setIsHovering(null)}>
                                         {player.name}
@@ -189,7 +212,10 @@ export default function DraftRanks(props) {
                                         ...playerPos,
                                         fontWeight: isHovering === title + player.pos ? 'bold' : 'normal', // should it be +player.id too?
                                     }}
-                                    onClick={() => positionalRanks(specifier, player.pos)}
+                                    onClick={() => {
+                                        trackFilterClick(player.pos);
+                                        positionalRanks(specifier, player.pos);
+                                    }}
                                     onMouseOver={() => setIsHovering(title + player.pos)} // ^^
                                     onMouseOut={() => setIsHovering(null)}>
                                         {player.pos}
@@ -198,7 +224,10 @@ export default function DraftRanks(props) {
                                         ...playerUni,
                                         fontWeight: isHovering === title + player.uni ? 'bold' : 'normal', // ^^
                                     }}
-                                    onClick={() => uniRanks(specifier, player.uni)} //openUniModal(player.uni)
+                                    onClick={() => {
+                                        trackFilterClick(player.uni);
+                                        uniRanks(specifier, player.uni);
+                                    }} //openUniModal(player.uni)
                                     onMouseOver={() => setIsHovering(title + player.uni)} // ^^
                                     onMouseOut={() => setIsHovering(null)}>
                                         {player.uni}

@@ -14,6 +14,7 @@ ReactGA.initialize('G-KQQ47607HS');
 export default function FantasyRouter() {
     const location = useLocation();
     useEffect(() => {
+        // console.log(location.pathname + location.search);
       ReactGA.pageview(location.pathname + location.search);
     }, [location]);
 
