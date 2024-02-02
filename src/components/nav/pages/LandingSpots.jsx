@@ -26,7 +26,7 @@ export default function LandingSpots(props) {
         marginBottom: '0px',
         padding: '2px',
         display: 'grid',
-        gridTemplateColumns: '8% 40% 12% 40%',
+        gridTemplateColumns: '8% 42% 10% 40%',
         fontSize: '12px'
     };
     const rankNum = {
