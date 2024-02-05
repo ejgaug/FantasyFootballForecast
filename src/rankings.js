@@ -168,7 +168,7 @@ const playerInfo = [
         imgSite: `247sports.com`, imgOrgUrl: "https://s3media.247sports.com/Uploads/Assets/404/613/10613404.jpg",
         imgUrl: jalenMcmillan}, 
     {name: "Trey Benson", pos: "RB", age: "21", uni: "Florida State", size: `6'1" / 221 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "905 yds (14 TDs)", ydsPerRush: "5.8 yds", recTdRec: "20 (1 TDs)", recYrds: "227 yds",
-        lastEditTime: "1/11/24", 
+        lastEditTime: "2/4/24", 
         analysis: "Benson is one of the more complete backs in this class. He has the elite acceleration and top end speed to take any touch " +
             "to the house. Combine this with his good ability in the passing game, he could be a nice fantasy contributor. He doesn't make many guys " +
             "miss due to a slight inability and a preference for running people over. Despite his tough playstyle and bigger body, he isn't very good " +
@@ -207,17 +207,23 @@ const playerInfo = [
         imgSite: `larrybrownsports.com`, imgOrgUrl: "https://larrybrownsports.com/wp-content/uploads/2023/01/ladd-mcconkey.jpg",
         imgUrl: laddMcconkey}, 
     {name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon", size: `5'10" / 195 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,180 yds (11 TDs)", ydsPerRush: "6.3 yds", recTdRec: "56 (2 TDs)", recYrds: "413 yds",
-        lastEditTime: "1/11/24", // *Explosive pass catcher*
+        lastEditTime: "2/4/24", // *Explosive pass catcher*
         analysis: "Bucky Irving is one of the more explosive backs in this class. He has elite top end speed and acceleration and makes guys " +
             "miss habitually. His good hands make him a threat in the receiving game, but he didn't see many targets more than a few yards " +
             "down field at Oregon. In spite of his smaller size, he doesn't shy away from contact and has had good durabilty though high usage " +
-            "over the past couple years. It would be hard to project this in the pros, but Bucky Irving isn't someone to doubt. He has the skills " +
-            "to contribute in PPR leagues.", 
+            "over the past couple years. Given his size, Bucky doesn't break tackles at the rate that you'd hope. Durability running out could " +
+            "be a concern in the pros. Still, he has the skills to contribute on an NFL roster and in PPR leagues.", 
         imgSite: `247sports.com`, imgOrgUrl: "https://s3media.247sports.com/Uploads/Assets/845/455/11455845.jpg",
         imgUrl: buckyIrving}, 
     {name: "Braelon Allen", pos: "RB", age: "20", uni: "Wisconsin", size: `6'2" / 245 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "984 yds (12 TDs)", ydsPerRush: "5.4 yds", recTdRec: "28 (0 TDs)", recYrds: "131 yds",
-        lastEditTime: "1/11/24", // * just turned 20
-        analysis: "Analysis coming... ", 
+        lastEditTime: "2/4/24", // * just turned 20
+        analysis: "Braelon Allen has been dominating Big 10 football since he was 17 as a freshman. Now, newly 20, he enters the draft as by " +
+            "far the biggest RB in the class. As one would assume, Braelon excels at shedding arm tackles and is a load to bring down. He has " +
+            "also shown good vision and has a decent jump-cut for a man of his size. While it wasn't shown off until 2023, Allen has capable " +
+            "hands. He showed very little route variation, but can be a dependable checkdown target. Unsurprisingly, the Wisconsin product " +
+            "doesn't have breakaway speed or impressive acceleration and deceleration. Similar to one of the few NFL backs with his size, Derrick " +
+            "Henry, if the O-line lets Braelon get hit in the backfield, the play is likely done. Again, just like Henry, once he gets a " +
+            "little head of steam, goodluck bringing him down alone. ", 
         imgSite: `uwbadgers.com`, imgOrgUrl: "https://d1qwqe1acr1rnz.cloudfront.net/images/2021/11/15/211113FB_1624_0.jpg",
         imgUrl: braelonAllen},
     {name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon", size: `6'2" / 217 lbs`, fortyYrd: "?.??", threeCone: "?.??", compPerc: "77.4%", td2Int: "45/3", passYrds: "4,508 yds", yrdsPerAtt: "9.6 yds", rush: "234 yds (6 TDs)", 
@@ -226,8 +232,13 @@ const playerInfo = [
         imgSite: `sportingnews.com`, imgOrgUrl: "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-10/Bo%20Nix%20102522.jpg?itok=zznwLgh6",
         imgUrl: boNix},
     {name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", size: `5' 11" / 227 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,341 yds (18 TDs)", ydsPerRush: "6.4 yds", recTdRec: "17 (0 TDs)", recYrds: "142 yds",
-        lastEditTime: "1/11/24", 
-        analysis: "Analysis coming...", 
+        lastEditTime: "2/4/24", 
+        analysis: "Audric is a big, stong, vicious runner with a lot of value in the blocking game. He has great patience waiting for a hole to " +
+            "open up, and then attacks it like its 4th and 1 every time. Estimé bounces off bodies and breaks tackles as well as anyone in this " +
+            "class. He has pretty solid burst for a guy of his size and good enough top speed to seperate from some defenders. His elite pass-pro " +
+            "game will make him a favorite of coaching staffs and his QB. He didn't show much in the receiving game at Notre Dame, but maybe he could " +
+            "shock in the pros. While the burst and speed are there, they are not elite. He likely won't have many homerun plays. He should provide " +
+            "enough NFL value to make him a decent fantasy option.", 
         imgSite: `espn.com`, imgOrgUrl: "https://a.espncdn.com/media/motion/2022/1112/ss_20221112_133448878_2101148852/ss_20221112_133448878_2101148852.jpg",
         imgUrl: audricEstime},    
     {name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky", size: `5'11" / 215 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "79 (11 TDs)", recYrds: "984 yds",
