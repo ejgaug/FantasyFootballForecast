@@ -275,8 +275,12 @@ const playerInfo = [
         imgSite: `sports.mynorthwest.com`, imgOrgUrl: "https://sports.mynorthwest.com/wp-content/uploads/2023/09/uw-huskies-jalynn-polk-point-getty-900.jpg",
         imgUrl: jalynnPolk}, 
     {name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", size: `5'9" / 209 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "820 yds (9 TDs)", ydsPerRush: "7.1 yds", recTdRec: "13 (0 TDs)", recYrds: "232 yds",
-        lastEditTime: "1/11/24", 
-        analysis: "Analysis coming...", 
+        lastEditTime: "2/4/24", 
+        analysis: "Lloyd is an extremely explosive runner with elite speed and burst. He has the agility to make guys miss in the open field and enough " +
+            "size to break a few tackles along the way. He is a threat to take it all the way every time he touches the ball. While he saw " +
+            "very limited receiving work at USC, this may have been a product of Caleb Williams prefering down field throws as Lloyd look pretty " +
+            "fluid on the targets he did get. Lloyd also wasn't very effective in pass-pro. Combine this with his advanced age for a rookie, " +
+            "he'd need a solid landing spot to make the investment worth it.", 
         imgSite: `latimes.com`, imgOrgUrl: "https://ca-times.brightspotcdn.com/dims4/default/6f1bd99/2147483647/strip/true/crop/5262x2763+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F64%2F59%2F077e94f549809f6a1db77120ef89%2Fusc-nevada-football-04073.jpg",
         imgUrl: marshawnLloyd},       
     {name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", size: `5'8" / 213 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,245 yds (27 TDs)", ydsPerRush: "4.8 yds", recTdRec: "16 (1 TDs)", recYrds: "117 yds",
@@ -517,8 +521,8 @@ const nPpr1QB = [
     {id: "28", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "29", name: "Jacob Cowing", pos: "WR", age: "22", uni: "Arizona", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "30", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "32", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "33", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "31", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "32", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "33", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "34", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "35", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
