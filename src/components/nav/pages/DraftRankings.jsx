@@ -257,11 +257,11 @@ export default function DraftRanks(props) {
         if (selectedPlayer.pos === "QB") {
             return <>
                 <img 
-                    src={selectedPlayer.imgUrl}
+                    src={selectedPlayer.img}
                     alt={selectedPlayer.name}
                     style={{ width: '100%', height: 'auto', borderRadius: '8px', marginBottom: '2px'}}
                 />
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgOrgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
 
                 <Row>
                     <Col style={metricsStyle}>
@@ -283,11 +283,11 @@ export default function DraftRanks(props) {
         } if (selectedPlayer.pos === "RB") {
             return <>
                 <img 
-                    src={selectedPlayer.imgUrl}
+                    src={selectedPlayer.img}
                     alt={selectedPlayer.name}
                     style={{ width: '100%', height: 'auto', borderRadius: '8px', marginBottom: '5px'}}
                 />
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgOrgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
 
                 <Row>
                     <Col style={metricsStyle}>
@@ -309,11 +309,11 @@ export default function DraftRanks(props) {
         } else {
             return <>
                 <img 
-                    src={selectedPlayer.imgUrl}
+                    src={selectedPlayer.img}
                     alt={selectedPlayer.name}
                     style={{ width: '100%', height: 'auto', borderRadius: '8px', marginBottom: '5px'}}
                 />
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgOrgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
 
                 <Row>
                     <Col style={metricsStyle}>

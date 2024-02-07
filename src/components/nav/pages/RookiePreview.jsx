@@ -89,7 +89,7 @@ export default function RookiePreview(props) {
                         <p style={modalBelowText}>Rushing: {selectedPlayer.rush}</p>
                     </Col>
                 </Row>
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgOrgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
             </>
         } if (selectedPlayer.pos === "RB") {
             return <>
@@ -107,7 +107,7 @@ export default function RookiePreview(props) {
                         <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
                     </Col>
                 </Row>
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgOrgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
             </>
         } else {
             return <>
@@ -123,7 +123,7 @@ export default function RookiePreview(props) {
                         <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
                     </Col>
                 </Row>
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgOrgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
             </>
         }
     }
@@ -162,7 +162,7 @@ export default function RookiePreview(props) {
                     key={player.name}
                 >
                     <Card style={{margin: "0.4rem", borderRadius: "15px", borderColor: "black", backgroundColor: '#eFeFeF', marginBottom: '20px'}}  >
-                        <img src={player.imgUrl} alt={"A picture of " + player.name} style={{margin: "0.35rem", borderRadius: "15px"}} />
+                        <img src={player.img} alt={"A picture of " + player.name} style={{margin: "0.35rem", borderRadius: "15px"}} />
                         <h3 style={{fontSize: "1.5rem", textAlign: "center"}} >{player.name}</h3>
                         <div>{WhichMetrics(player)}</div>
                         <div style={{margin: "0.35rem"}}> 

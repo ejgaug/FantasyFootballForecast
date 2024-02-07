@@ -17,9 +17,10 @@ export default function FantasyRouter() {
     useEffect(() => {
         // Google Analytics setup
         const sendPageView = (location) => {
+            console.log(location.pathname);
             window.gtag('config', 'G-KQQ47607HS', { page_path: location.pathname });
         };
-        
+
         sendPageView(location);
 
     }, [location]);
