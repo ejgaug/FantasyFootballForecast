@@ -1,5 +1,4 @@
 import { Route, Routes, Navigate, useLocation } from "react-router-dom";
-// import ReactGA from 'react-ga';
 import React, {useEffect } from 'react';
 
 import FantasyForecast from "../FantasyForecast";
@@ -9,8 +8,6 @@ import RookiePreview from "./pages/RookiePreview";
 import FantasyNoMatch from "./pages/FantasyNoMatch";
 import LandingSpots from "./pages/LandingSpots";
 
-// ReactGA.initialize('G-KQQ47607HS');
-
 export default function FantasyRouter() {
     const location = useLocation();
 
@@ -18,7 +15,7 @@ export default function FantasyRouter() {
         // Google Analytics setup
         const sendPageView = (location) => {
             // console.log(location.pathname);
-            window.gtag('config', 'G-KQQ47607HS', { page_path: location.pathname });
+            window.gtag('config', 'G-CE4KYHDZN3', { page_path: location.pathname });
         };
 
         sendPageView(location);

@@ -1,6 +1,6 @@
 .slide-menu {
     position: fixed;
-    top: 20px;
+    top: 69px;
     left: -41%;
     width: 41%;
     height: 100%;
@@ -15,7 +15,7 @@
 }
 
 .slide-menu nav {
-    padding-top: 50px; /* Adjust as needed */
+    padding-top: 5px; /* Adjust as needed */
 }
 
 .slide-menu nav a {
