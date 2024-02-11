@@ -10,7 +10,7 @@ export default function FantasyForecast() {
 
     return <div>
         <FantasyNavbar />
-        <div style={{ margin: "1rem" }}>
+        <div style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "1rem" }}>
             <FantasyDataContext.Provider value={filters}>
                 <Outlet />
             </FantasyDataContext.Provider>

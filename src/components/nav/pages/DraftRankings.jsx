@@ -188,7 +188,7 @@ export default function DraftRanks(props) {
                 xxl={3}
                 key={title + rankings}
             >
-                <Card style={{ borderRadius: '8px', borderWidth: '5px', borderColor: 'black', backgroundColor: '#eFeFeF', marginBottom: '40px' }}>
+                <Card style={{ borderRadius: '8px', borderWidth: '5px', borderColor: 'black', backgroundColor: '#eFeFeF', marginBottom: '20px' }}>
                     <h6 style={{ marginTop: '3px', borderBottom: '5px solid #000', paddingBottom: '3px', marginBottom: '0px', textAlign: 'center' }}>{title}</h6>
                     {filteredRankings.map(player => (
                         <Col key={title + player.id}>
@@ -270,7 +270,7 @@ export default function DraftRanks(props) {
                         <p style={modalBelowText}>Age: {selectedPlayer.age}</p>
                         <p style={modalBelowText}>TD/INT: {selectedPlayer.td2Int}</p>
                         <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
-                        <p style={modalBelowText}>Completion Perctage: {selectedPlayer.compPerc}</p>
+                        <p style={modalBelowText}>Completion Percentage: {selectedPlayer.compPerc}</p>
                         <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
                         <p style={modalBelowText}>Yards/Att: {selectedPlayer.yrdsPerAtt}</p>
                         <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
