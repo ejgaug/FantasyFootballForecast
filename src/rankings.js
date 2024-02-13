@@ -113,13 +113,14 @@ const playerInfo = [
         imgSite: `thedraftnetwork.com`, imgUrl: "https://www.thedraftnetwork.com/img/random/USATSI_22177129-1600x900.jpg",
         img: brockBowers}, 
     {name: "Drake Maye", pos: "QB", age: "21", uni: "North Carolina", size: `6'4" | 229 lbs`, fortyYrd: "?.??", threeCone: "?.??", compPerc: "63.3%", td2Int: "24/9", passYrds: "3,608 yds", yrdsPerAtt: "8.5 yds", rush: "449 yds (9 TDs)", 
-        lastEditTime: "2/7/24", 
-        analysis: "Drake Maye is an excellent QB prospect with the prototypical size and excellent arm talent. Maye is a very good athlete with surprising quickness and " +
-            "speed for a guy of his size. This gives him a solid rushing upside for fantasy and allows him to escape the pocket to extend plays. While Maye has the " +
-            "ability to make any throw on the field, his accuracy lacked the consistency we're looking for. He also threw some very bad interceptions as a result of " +
-            "trying to do too much and lacking elite processing skills. Maye is an elite. raw prospect at the QB position that needs work to become an NFL star. " +
-            "With the tools he has, he is worth a pick. His low end comparison would be a more talented version of another UNC QB, Sam Howell, but even Howell gave " +
-            "solid fantasy production for the first half of 2023. ", 
+        lastEditTime: "2/13/24", 
+        analysis: "Drake Maye is an excellent QB prospect with the prototypical size and excellent arm talent. He is a very good athlete with surprising quickness and " +
+            "speed for a guy of his size. This gives him a solid rushing upside for fantasy and allows him to escape the pocket to extend plays. Given his large frame " +
+            "and rushing ability, he should provide solid rushing TD numbers in the NFL. Maye's arm talent allows him to make any throw on the field, but his consistency " +
+            "in doing so waivers at times. Over the course of 2023, he threw a few ill-advised interception as a result of trying to do too much and lapses in processing. " +
+            "With an OC change and many drops from his receivers(some resulting in INTs), don't worry too much about Maye's regression from 2022 to 2023. He is an incredible, " +
+            "young QB prospect with every tool imaginable. If he can polish his game early in his NFL career, he could become one of the best in the game. Provided he " +
+            "receives the great draft capital and landing spot that he is currently projected, expect big things from Drake Maye in fantasy football.", 
         imgSite: `spectrumlocalnews.com`, imgUrl: "https://s7d2.scene7.com/is/image/TWCNews/drake_maye_nc_ap-1",
         img: drakeMaye}, 
     {name: "Troy Franklin", pos: "WR", age: "20", uni: "Oregon", size: `6'2" | 187 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "81 (14 TDs)", recYrds: "1,383 yds",
