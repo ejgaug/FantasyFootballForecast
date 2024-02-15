@@ -237,9 +237,9 @@ export default function LandingSpots(props) {
                     paddingRight: width > screenCutOff ? '60px' : '10px',
                     fontSize: width > screenCutOff ? '15px' : '12px'
             }}>
-                The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on any NFL roster.
+                The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on each NFL team.
                 This is based on team need for that position and the overall production that could be seen in that offense. Select a team name
-                to get a brief analysis of why we gave the grade and ranking of each landing spot.
+                to get a brief analysis of why they got that grade and ranking.
             </p>
             {generateCard('QB')}
             {generateCard('RB')}
