@@ -50,7 +50,7 @@ export default function FantasyLanding(props) {
         <Container fluid={true}>
             <Row style={{ ...columnFormat, gridTemplateColumns: width > screenCutOff ? '60% 40%' : '1fr'}}>
                 <Col style={{ ...welcomeText, width: width > screenCutOff ? '85%' : '100%'}}> 
-                    <h1 className="headerFont" style={headerStyle}>Welcome to The Fantasy Football Forecast!</h1>
+                    <h1 className="headerFont" style={headerStyle}>Welcome to The Fantasy Football Forecast 2024!</h1>
                     <p style={{fontSize: '15px'}}> Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. </p>
                     <p style={{fontSize: '15px'}}> 
                         Checkout the Draft Rankings page to see how we'd draft a 3-round rookie class for dynasty fantasy football leagues 
@@ -74,10 +74,10 @@ export default function FantasyLanding(props) {
                     <img
                         src="https://s.yimg.com/ny/api/res/1.2/tUBPfX5faZYJL557_NyQwQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ0OQ--/https://media.zenfs.com/en/los_angeles_rams_wire_usa_today_sports_articles_716/f99a8d638d47d78eda2a5dbac0117fe6"
                         alt="Picture of Kyren Williams and Puka Nacua"
-                        style={{ ...playerImage, paddingTop: width > screenCutOff ? '100px' : '40px', borderTop: width > screenCutOff ? '' : '0.01rem solid lightgray'}}
+                        style={{ ...playerImage, paddingTop: width > screenCutOff ? '69px' : '40px', borderTop: width > screenCutOff ? '' : '0.01rem solid lightgray'}}
                     />
                     <p style={pukaText}>
-                        Our two greatest successess this past year were using our last two roster spots on Puka Nacua and Kyren Williams in 
+                        Our two greatest successes this past year were using our last two roster spots on Puka Nacua and Kyren Williams in 
                         an eight-team dynasty league. They helped make our extremely young team into a contender.
                     </p>
                 </Col>
