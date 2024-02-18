@@ -86,12 +86,12 @@ const playerInfo = [
             "State, he made enormous strides from 2022 to 2023 at LSU. While the incredible talent around him can't be overlooked, there was a noticeable improvement in " +
             "his footwork, accuracy, and processing skills during the 2023 season. Still, at times he misses the target on short out and flat-routes, and he doesn't have " +
             "the natural arm strength to consistently laser in tight window passes down field. However, he makes up for his less-than-elite arm talent with beautiful " +
-            "throwing mechanics, that make him an incredibly accurate and effortless deep-ball thrower. Adding to his deep-ball prowess, Jayden is extremely accurate over " +
+            "throwing mechanics that make him an incredibly accurate and effortless deep-ball thrower. Adding to his deep-ball prowess, Jayden is extremely accurate over " +
             "the middle of the field, usually leading his receivers into YAC opportunities. Daniels also developed elite processing skills during his extra years in college. " +
             "His ability to read a defense and run his offense makes him maybe the most pro-ready QB in this class. Now, for the fun stuff... Jayden Daniels is the most " +
-            "electric running QB we've seen since Lamar Jackson won the Heisman at Louisville in 2016. He has elite burst, elusiveness, and speed allowing him to extend plays " +
+            "electric rushing QB we've seen since Lamar Jackson won the Heisman at Louisville in 2016. He has elite burst, elusiveness, and speed allowing him to extend plays " +
             "and break off long runs. Even with the advanced competition in the NFL, he will have no problem producing on the ground. While he evades pressure in the pocket " +
-            "he is great at keeping his eyes down field, and doesn't tuck and run too quickly. However, his extremely wiry frame is cause for concern over injury in the NFL. " +
+            "he is great at keeping his eyes down field, and doesn't tuck and run too quickly. However, his extremely wiry frame is cause for injury concern in the NFL. " +
             "Overall, Jayden Daniels is an incredible talent that looks ready to make waves in the NFL and in fantasy football. ", 
         imgSite: `si.com`, imgUrl: "https://www.si.com/.image/t_share/MjAyNjMzMDI0NDE0Njg4MzI0/daniels.jpg",
         img: jaydenDaniels}, 
@@ -167,10 +167,10 @@ const playerInfo = [
         img: jonothanBrooks}, 
     {name: "Xavier Worthy", pos: "WR", age: "20", uni: "Texas", size: `6'1" | 172 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "75 (5 TDs)", recYrds: "1,014 yds",
         lastEditTime: "1/27/24", 
-        analysis: "Worthy is a very young with incredible route-running prowess. This, combined with his above-average speed and great quickness " +
+        analysis: "Worthy is a very young player with incredible route-running prowess. This, combined with his above-average speed and great quickness " +
             "allow him to create separation, primarily down the field. His rail-thin frame limits him when dealing with press coverage, jump " + 
-            "balls, and in YAC situations. Despite his strength issues, he was extremely productive at Texas as a true freshman and continued to produce every " + 
-            "year. It would be hard to repeat this dominance in the NFL, but maybe he'll be an outlier as a receiver under 175lbs. His frame gives him " +
+            "balls, and in YAC situations. Despite his strength issues, he was extremely productive at Texas as a true freshman and continued to produce over the " + 
+            "next two seasons. It would be hard to repeat this dominance in the NFL, but maybe he'll be an outlier as a receiver under 175lbs. His frame gives him " +
             "a low floor, but his speed and talent give him elite upside. His landing spot will likely determine if he hits that upside.", 
         imgSite: `texassports.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/texassports_com/images/2023/9/18/X_TD_Filtered_2023_09_16_DK-2.jpg",  
         img: xavierWorthy},
@@ -192,16 +192,33 @@ const playerInfo = [
         imgSite: `larrybrownsports.com`, imgUrl: "https://larrybrownsports.com/wp-content/uploads/2023/01/ladd-mcconkey.jpg",
         img: laddMcconkey}, 
     {name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", size: `6'3" | 202 lbs`, fortyYrd: "?.??", threeCone: "?.??", compPerc: "72.3%", td2Int: "22/4", passYrds: "2,991 yds", yrdsPerAtt: "9.0 yds", rush: "202 yds (3 TDs)", 
-        lastEditTime: "1/10/24", 
-        analysis: "2023's National Championship winning QB, while solid, profited greatly from an incredible defense, elite O-line, and great " +
-            "RB play. However, he has some coveted characteristics. McCarthy is a near-elite athlete at the QB position. He is very agile and " +
-            "quick. He has great top-end speed for the position. He has good arm talent, showing impressive velocity and very good accuracy at " +
-            "all levels of the field. While he has shown flashes of elite processing skills, there is some left to be desired in that department. " +
-            "There are also some concerns about his ability to survive hits given his leaner frame. There is a chance that McCarthy is an immediate " +
-            "stud who wasn't able to show his true talent in Michigan's offense. Still, it seems his best case scenario for fantasy would be " +
-            "sit behind an experienced veteran for a year or two while he develops his game. He's definitely worth a pick in 2-QB leagues.", 
+        lastEditTime: "2/18/24", 
+        analysis: "2023's National Championship winning QB profited greatly from an incredible defense, elite O-line, and great RB play at Michigan. However, there's " +
+            "a chance that this only hurt the narrative around a very talented QB. McCarthy is a near-elite athlete at the QB position with great agility, " +
+            "quickness, and top-end speed for the position. He has a great arm, showing impressive velocity and very good accuracy at all levels " +
+            "of the field when called upon. While he has shown flashes of elite processing skills, there is some left to be desired in this department. " +
+            "There are also some concerns about his ability to survive hits given his leaner frame. Still, there is a chance that McCarthy is an immediate " +
+            "stud in the NFL who wasn't able to show his true talent in Michigan's run-heavy offense. Still, it seems his best case scenario for fantasy would be " +
+            "sit behind an experienced veteran for a year or two while he develops his game. He's definitely worth a high pick in 2-QB leagues.", 
         imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0627%2Fr1191339_1296x729_16%2D9.jpg",
         img: jjMccarthy}, 
+    {name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", size: `6'4" | 216 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "50 (11 TDs)", recYrds: "658 yds",
+        lastEditTime: "2/2/24", 
+        analysis: "Keon Coleman looks like he was built in a lab in to be an NFL WR. His elite combination of size, speed, strength, athleticism, and hands make him " +
+            "the perfect jump ball receiver. Once he has the ball in his hands, he is a task to bring down, usually getting more yards than seemingly possibly. However, " + 
+            "he is a below average route-runner with a limited release package who relied heavily on his raw talent and size to make plays in college. If he doesn't " +
+            "develop these parts of his game, he'll likely struggle to find separation in the NFL. That being said, he has the raw ability to be the next Mike Evans. " + 
+            "If Coleman refines his flaws, and learns to have some snappiness in his routes, he has WR1 upside, and that's something to take a shot on.", 
+        imgSite: `espn.com`, imgUrl: "https://a.espncdn.com/media/motion/2023/1014/evc__20231014_syr__fsu_d3484956_252f_41fe_a3bd_20b806/evc__20231014_syr__fsu_d3484956_252f_41fe_a3bd_20b806.jpg",
+        img: keonColeman},
+    {name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", size: `6'2" | 204 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "69 (9 TDs)", recYrds: "1,159 yds",
+        lastEditTime: "2/2/24", 
+        analysis: "Polk has all the makings of a solid WR2 in the NFL. He is a very explosive and fluid route-runner, allowing him to separate from DBs, especially " +
+            "down the field. Polk shows off impressive contested catch skills due to has great hands and body control. His good size, vision, and acceleration make " +
+            "him a dangerous YAC threat once the ball is in his hands. Overall, he is a pretty complete WR, but doesn't seem to have the elite ceiling that some of the " +
+            "other receivers in this class do. If he finds good opportunity on an NFL roster, he could be an immediate producer in the NFL and a solid fantasy asset.", 
+        imgSite: `sports.mynorthwest.com`, imgUrl: "https://sports.mynorthwest.com/wp-content/uploads/2023/09/uw-huskies-jalynn-polk-point-getty-900.jpg",
+        img: jalynnPolk}, 
     {name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", size: `6'1" | 192 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "45 (5 TDs)", recYrds: "559 yds",
         lastEditTime: "2/2/24", // **Excellent route-runner at every level -> Gets open
         analysis: "Jalen McMillan is one of the most complete route-runners in this draft class. This, combined with his exceptional top end speed " +
@@ -211,23 +228,6 @@ const playerInfo = [
             "would be talking about McMillan a lot more.", 
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/404/613/10613404.jpg",
         img: jalenMcmillan}, 
-    {name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", size: `6'2" | 204 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "69 (9 TDs)", recYrds: "1,159 yds",
-        lastEditTime: "2/2/24", 
-        analysis: "Polk has all the makings of a solid WR2 in the NFL. He is a very explosive and fluid route-runner, allowing him to separate from DBs, especially " +
-            "down the field. Polk shows off impressive contested catch skills due to has great hands and body control. His good size, vision, and acceleration make " +
-            "him a dangerous YAC threat once the ball is in his hands. Overall, he is a pretty complete WR, but doesn't seem to have the elite ceiling that some of the " +
-            "other receivers in this class do. If he finds good opportunity on an NFL roster, he could be an immediate producer in the NFL and a solid fantasy asset.", 
-        imgSite: `sports.mynorthwest.com`, imgUrl: "https://sports.mynorthwest.com/wp-content/uploads/2023/09/uw-huskies-jalynn-polk-point-getty-900.jpg",
-        img: jalynnPolk}, 
-    {name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", size: `6'4" | 216 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "50 (11 TDs)", recYrds: "658 yds",
-        lastEditTime: "2/2/24", 
-        analysis: "Keon Coleman looks like he was built in a lab in to a WR. His impressive combination of size, strength, athleticism, and great hands make him the perfect " + 
-            "jump ball receiver. Once he has the ball in his hands, he is a task to bring down, usually getting more yards than seemingly possibly. However, he is a " +
-            "project route-runner with a below average release package. This is going to make it extremely hard for him to find enough separation in the NFL " + 
-            "where he won't be able to win with size and strength every time. That being said, he has the raw ability to be the next Mike Evans. That's something to " +
-            "take a shot on.", 
-        imgSite: `espn.com`, imgUrl: "https://a.espncdn.com/media/motion/2023/1014/evc__20231014_syr__fsu_d3484956_252f_41fe_a3bd_20b806/evc__20231014_syr__fsu_d3484956_252f_41fe_a3bd_20b806.jpg",
-        img: keonColeman},
     {name: "Braelon Allen", pos: "RB", age: "20", uni: "Wisconsin", size: `6'2" | 245 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "984 yds (12 TDs)", ydsPerRush: "5.4 yds", recTdRec: "28 (0 TDs)", recYrds: "131 yds",
         lastEditTime: "2/4/24", // * just turned 20
         analysis: "Braelon Allen has been dominating Big 10 football since he was 17 as a freshman. Now, newly 20, he enters the draft as by " +
@@ -317,10 +317,11 @@ const playerInfo = [
         img: jatavionSanders}, 
     {name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", size: `6'1" 3⁄8 | 208 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "52 (7 TDs)", recYrds: "1,139 yds",
         lastEditTime: "2/12/24", 
-        analysis: "Jerome Baker was a 5-star recruit coming out of High School and committed to Alabama where he lasted 2 years before transferring " +
-            "to UCF. He has great hands and elite body control giving him highlight reel potential. His top end speed is good and he is a solid " +
-            "route-runner. His route-tree needs expanding, but he has the talent to be a valuable sleeper. His performance at the Senior Bowl only " +
-            "rose his stock, making us more confident in his ability to be a late round steal in drafts.", 
+        analysis: "Javon Baker was a 5-star recruit coming out of High School and committed to Alabama where he was underwhelming for 2 years before transferring " +
+            "to UCF. He has great hands and elite body control giving him highlight reel potential. Baker is incredible at the catch point. His top end speed is good " +
+            "and he is a solid route-runner. While his route-tree could use some work, he has the talent to be a great player going later in drafts. His performance " +
+            "at the Senior Bowl only rose his draft stock and his likelihood of being a late round steal in drafts. Keep an eye out for Javon Baker in the later rounds " +
+            "of rookie drafts." , 
         imgSite: `collegefootballnetwork.com`, imgUrl: "https://collegefootballnetwork.com/wp-content/uploads/2023/08/USATSI_19326665-1024x683.jpg",
         img: javonBaker}, 
     {name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina", size: `6'1" 1⁄2 | 197 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "41 (7 TDs)", recYrds: "699 yds",
@@ -478,9 +479,9 @@ const ppr1QB = [
     {id: "12", name: "Ladd McConkey", pos: "WR", age: "22", uni: "Georgia", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."}, 
     {id: "13", name: "Xavier Worthy", pos: "WR", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "14", name: "Trey Benson", pos: "RB", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "15", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "16", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."}, 
-    {id: "17", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "15", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "16", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "17", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."}, 
     {id: "18", name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "19", name: "Braelon Allen", pos: "RB", age: "20", uni: "Wisconsin", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "20", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
@@ -512,17 +513,17 @@ const ppr2QB = [
     {id: "7", name: "Brock Bowers", pos: "TE", age: "21", uni: "Georgia", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "8", name: "Brian Thomas Jr.", pos: "WR", age: "21", uni: "LSU", analysis: "mumbo jumbo", height: `6'4"`, weight: "205 lbs."},
     {id: "9", name: "Troy Franklin", pos: "WR", age: "20", uni: "Oregon", analysis: "mumbo jumbo", height: `6'2"`, weight: "187 lbs."},
-    {id: "10", name: "Adonai Mitchell", pos: "WR", age: "21", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "11", name: "Jonathon Brooks", pos: "RB", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "12", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "10", name: "Jonathon Brooks", pos: "RB", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "11", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "12", name: "Adonai Mitchell", pos: "WR", age: "21", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "13", name: "Ladd McConkey", pos: "WR", age: "22", uni: "Georgia", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "14", name: "Xavier Worthy", pos: "WR", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "15", name: "Trey Benson", pos: "RB", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "16", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "17", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "18", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "19", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "20", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "17", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "18", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "19", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "20", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "21", name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "22", name: "Braelon Allen", pos: "RB", age: "19", uni: "Wisconsin", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "23", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
@@ -557,9 +558,9 @@ const nPpr1QB = [
     {id: "12", name: "Ladd McConkey", pos: "WR", age: "22", uni: "Georgia", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "13", name: "Xavier Worthy", pos: "WR", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "14", name: "Trey Benson", pos: "RB", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "15", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "16", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "17", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "15", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "16", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "17", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "18", name: "Braelon Allen", pos: "RB", age: "19", uni: "Wisconsin", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "19", name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "20", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
@@ -576,7 +577,7 @@ const nPpr1QB = [
     {id: "31", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "32", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "33", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "34", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."}, // move off
+    {id: "34", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."}, 
     {id: "35", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "36", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
 ];
@@ -591,17 +592,17 @@ const nPpr2QB = [
     {id: "7", name: "Brock Bowers", pos: "TE", age: "21", uni: "Georgia", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "8", name: "Brian Thomas Jr.", pos: "WR", age: "21", uni: "LSU", analysis: "mumbo jumbo", height: `6'4"`, weight: "205 lbs."},
     {id: "9", name: "Troy Franklin", pos: "WR", age: "20", uni: "Oregon", analysis: "mumbo jumbo", height: `6'2"`, weight: "187 lbs."},
-    {id: "10", name: "Adonai Mitchell", pos: "WR", age: "21", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "11", name: "Jonathon Brooks", pos: "RB", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "12", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "10", name: "Jonathon Brooks", pos: "RB", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "11", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "12", name: "Adonai Mitchell", pos: "WR", age: "21", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "13", name: "Ladd McConkey", pos: "WR", age: "22", uni: "Georgia", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "14", name: "Xavier Worthy", pos: "WR", age: "20", uni: "Texas", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "15", name: "Trey Benson", pos: "RB", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "16", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "17", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "18", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "19", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "20", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "17", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "18", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "19", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
+    {id: "20", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "21", name: "Braelon Allen", pos: "RB", age: "19", uni: "Wisconsin", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "22", name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "23", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
@@ -617,7 +618,7 @@ const nPpr2QB = [
     {id: "33", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "34", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
     {id: "35", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
-    {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."}, // move off
+    {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."}, 
     // {id: "36", name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", analysis: "mumbo jumbo", height: `0'0"`, weight: "0 lbs."},
 ];
 
