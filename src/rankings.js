@@ -221,17 +221,8 @@ const playerInfo = [
             "other receivers in this class do. If he finds good opportunity on an NFL roster, he could be an immediate producer in the NFL and a solid fantasy asset.", 
         imgSite: `sports.mynorthwest.com`, imgUrl: "https://sports.mynorthwest.com/wp-content/uploads/2023/09/uw-huskies-jalynn-polk-point-getty-900.jpg",
         img: jalynnPolk}, 
-    {name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", size: `6'1" | 192 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "45 (5 TDs)", recYrds: "559 yds",
-        lastEditTime: "2/2/24", // **Excellent route-runner at every level -> Gets open
-        analysis: "Jalen McMillan is one of the most complete route-runners in this draft class. This, combined with his exceptional top end speed " +
-            "and solid acceleration allow him to create separation at every level of the field. He has good hands and has shown flashes of an ability " + 
-            "to rack up yards after the catch. While he has a slighter frame that leads to less effectiveness in high contact scenarios, he has shown " +
-            "the toughness to battle through and come out on top. If he wasn't dealing with injuries for much of the 2023 season, people " + 
-            "would be talking about McMillan a lot more.", 
-        imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/404/613/10613404.jpg",
-        img: jalenMcmillan}, 
     {name: "Braelon Allen", pos: "RB", age: "20", uni: "Wisconsin", size: `6'2" | 245 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "984 yds (12 TDs)", ydsPerRush: "5.4 yds", recTdRec: "28 (0 TDs)", recYrds: "131 yds",
-        lastEditTime: "2/4/24", // * just turned 20
+        lastEditTime: "2/4/24", 
         analysis: "Braelon Allen has been dominating Big 10 football since he was 17 as a freshman. Now, newly 20, he enters the draft as by " +
             "far the biggest RB in the class. As one would assume, Braelon excels at shedding arm tackles and is a load to bring down. He has " +
             "also shown good vision and has a decent jump-cut for a man of his size. While it wasn't shown off until 2023, Allen has capable " +
@@ -250,7 +241,7 @@ const playerInfo = [
         imgSite: `withthefirstpick.com`, imgUrl: "https://images2.minutemediacdn.com/image/upload/c_crop,w_1645,h_925,x_0,y_259/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/182/01heqpt0c1zpn4mgnbn3.jpg",
         img: malachiCorley},
     {name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon", size: `5'10" | 195 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,180 yds (11 TDs)", ydsPerRush: "6.3 yds", recTdRec: "56 (2 TDs)", recYrds: "413 yds",
-        lastEditTime: "2/4/24", // *Explosive pass catcher*
+        lastEditTime: "2/4/24", 
         analysis: "Bucky Irving is one of the more explosive backs in this class. He has elite top end speed and acceleration and makes guys " +
             "miss habitually. His good hands make him a threat in the receiving game, but he didn't see many targets more than a few yards " +
             "down field at Oregon. In spite of his smaller size, he doesn't shy away from contact and has had good durability though high usage " +
@@ -267,6 +258,14 @@ const playerInfo = [
             "don't expect him to have his own fantasy value.", 
         imgSite: `sportingnews.com`, imgUrl: "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-10/Bo%20Nix%20102522.jpg?itok=zznwLgh6",
         img: boNix},
+    {name: "Roman Wilson", pos: "WR", age: "22", uni: "Michigan", size: `5'10" 1⁄2 | 186 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "48 (12 TDs)", recYrds: "789 yds",
+        lastEditTime: "2/12/24", 
+        analysis: "Wilson's performance at the Senior Bowl shot up his draft stock. It seems the concerns in his game were mostly to do with the low volume passing " +
+            "offense at Michigan. We shouldn't have been surprised by his sure hands at the Senior Bowl as he had only a 2% drop rate in 2023. What was shocking was his" +
+            "ability to consistently create separation through precise route-running and elite athleticism. The biggest concern for Roman is his slight frame and inability " +
+            "to play through contact. He could end up being a valuable slot WR in the NFL.", 
+        imgSite: `thedraftnetwork.com`, imgUrl: "https://www.thedraftnetwork.com/img/random/USATSI_22207545-1600x900.jpg",  
+        img: romanWilson},  
     {name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama", size: `6'0" | 194 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "39 (8 TDs)", recYrds: "798 yds",
         lastEditTime: "2/2/24", 
         analysis: "Jermaine Burton is a great route-runner with excellent acceleration and speed allowing him to consistently create separation at every level of the " +
@@ -274,6 +273,16 @@ const playerInfo = [
             "At times, he can get bullied and doesn't project to do much after the catch. He has the makings of a consistent WR2 in the NFL.", 
         imgSite: `rolltide.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2022/10/12/100822_MFB_BurtonJe_TAMU_TN5320_mQx2V.jpg",
         img: jermaineBurton}, 
+    {name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", size: `5'11" | 210 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,010 yds (4 TDs)", ydsPerRush: "7.4 yds", recTdRec: "22 (0 TDs)", recYrds: "141 yds",
+        lastEditTime: "2/6/24", 
+        analysis: "Seen by his 7.4 yards per carry in 2023, Wright is a highly efficient RB with great speed and explosiveness. Wright has elite " +
+            "vision in between the tackles, regularly finding a hole to sneak through. He runs extremely hard and has a shake in the " +
+            "open field that consistently loses defenders. Wright has also shown an ability to bounce off of solo tackles. He is above " +
+            "average in the passing game with a more complete route-tree than most of the RBs in this class. In spite " +
+            "of his home-run play ability, he rarely bounces outside and instead tries to force the issue between the tackles. He also " +
+            "had fumbling troubles in 2023. Jaylen could provide valuable NFL and fantasy value if he lands in a good spot.", 
+        imgSite: `utdailybeacon.com`, imgUrl: "https://bloximages.chicago2.vip.townnews.com/utdailybeacon.com/content/tncms/assets/v3/editorial/7/26/72697912-6c4b-11ee-a812-e3f8f5adc2c6/652d762347ef1.image.jpg?resize=1200%2C800",
+        img: jaylenWright},    
     {name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", size: `6'2" 1⁄2 | 212 lbs`, fortyYrd: "?.??", threeCone: "?.??", compPerc: "65.4%", td2Int: "36/11", passYrds: "4,903 yds", yrdsPerAtt: "8.8 yds", rush: "8 yds (3 TDs)", 
         lastEditTime: "2/7/24", 
         analysis: "Penix is an incredible deep ball thrower with a rocket of an arm. He is able to put it exactly where his receiver wants it down the field. He is " +
@@ -284,30 +293,6 @@ const playerInfo = [
             "to field stretching WRs.", 
         imgSite: `gohuskies.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/washington.sidearmsports.com/images/2023/8/22/Michael_Penix_Jr_.png",
         img: michaelPenixJr}, 
-    {name: "Roman Wilson", pos: "WR", age: "22", uni: "Michigan", size: `5'10" 1⁄2 | 186 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "48 (12 TDs)", recYrds: "789 yds",
-        lastEditTime: "2/12/24", 
-        analysis: "Wilson's performance at the Senior Bowl shot up his draft stock. It seems the concerns in his game were mostly to do with the low volume passing " +
-            "offense at Michigan. We shouldn't have been surprised by his sure hands at the Senior Bowl as he had only a 2% drop rate in 2023. What was shocking was his" +
-            "ability to consistently create separation through precise route-running and elite athleticism. The biggest concern for Roman is his slight frame and inability " +
-            "to play through contact. He could end up being a valuable slot WR in the NFL.", 
-        imgSite: `thedraftnetwork.com`, imgUrl: "https://www.thedraftnetwork.com/img/random/USATSI_22207545-1600x900.jpg",  
-        img: romanWilson},  
-    {name: "Ricky Pearsall", pos: "WR", age: "22", uni: "Florida", size: `6'0" 7⁄8 | 193 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "65 (4 TDs)", recYrds: "965 yds",
-        lastEditTime: "2/12/24", 
-        analysis: "Ricky Pearsall is an incredible route-runner with a great ability to create separation and find space in the defense. He " +
-            "has a league-ready release package and enough explosiveness to consistently get open and make plays. Ricky has great hands and good ball " +
-            "tracking skills down field. He doesn't have truly elite athleticism, but he makes up for it with his pristine route-running and high IQ. " +
-            "He may end up being one of the bigger steals in this years draft.", 
-        imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2023%2F0923%2Fss_20230923_193431430_23466101197%2Fss_20230923_193431430_23466101197.jpg",
-        img: rickyPearsall}, 
-    {name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina", size: `6'1" | 223 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "71 (7 TDs)", recYrds: "1,255 yds",
-        lastEditTime: "2/12/24",  
-        analysis: "Prior to being measured 2in shorter and nearly 10lbs lighter at the Senior Bowl Legette was one of the most physically imposing " + 
-            "WRs in this class. While smaller than originally thought, he still has the size and strength to bully many NFL DBs. He has excellent speed " +
-            "and clear YAC upside. However, he doesn't have the burst, route-running, or game IQ to get open at a consistent level. Combine these flaws " +
-            "with the fact that it took till his 5th season in college to break out, it's unlikely he'll become a valuable fantasy asset.", 
-        imgSite: `wistv.com`, imgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/AIHJH7RCRFCTXLC4RYFOKWK4HM.jpg",
-        img: xavierLegette}, 
     {name: "Ja'Tavion Sanders", pos: "TE", age: "20", uni: "Texas", size: `6'3" | 252 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "45 (2 TDs)", recYrds: "682 yds",
         lastEditTime: "2/6/24", 
         analysis: "If it wasn't for Brock Bowers, Sanders would be the talk of the town. There isn't much else you could ask for out of a TE " +
@@ -317,6 +302,14 @@ const playerInfo = [
             "be an immediate valuable TE in fantasy.", 
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/448/967/11967448.jpg",
         img: jatavionSanders}, 
+    {name: "Ricky Pearsall", pos: "WR", age: "22", uni: "Florida", size: `6'0" 7⁄8 | 193 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "65 (4 TDs)", recYrds: "965 yds",
+        lastEditTime: "2/12/24", 
+        analysis: "Ricky Pearsall is an incredible route-runner with a great ability to create separation and find space in the defense. He " +
+            "has a league-ready release package and enough explosiveness to consistently get open and make plays. Ricky has great hands and good ball " +
+            "tracking skills down field. He doesn't have truly elite athleticism, but he makes up for it with his pristine route-running and high IQ. " +
+            "He may end up being one of the bigger steals in this years draft.", 
+        imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2023%2F0923%2Fss_20230923_193431430_23466101197%2Fss_20230923_193431430_23466101197.jpg",
+        img: rickyPearsall}, 
     {name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", size: `6'1" 3⁄8 | 208 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "52 (7 TDs)", recYrds: "1,139 yds",
         lastEditTime: "2/12/24", 
         analysis: "Javon Baker was a 5-star recruit coming out of High School and committed to Alabama where he was underwhelming for 2 years before transferring " +
@@ -326,6 +319,23 @@ const playerInfo = [
             "of rookie drafts." , 
         imgSite: `collegefootballnetwork.com`, imgUrl: "https://collegefootballnetwork.com/wp-content/uploads/2023/08/USATSI_19326665-1024x683.jpg",
         img: javonBaker}, 
+    {name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", size: `6'1" | 192 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "45 (5 TDs)", recYrds: "559 yds",
+        lastEditTime: "2/2/24", 
+        analysis: "Jalen McMillan is one of the most complete route-runners in this draft class. This, combined with his exceptional top end speed " +
+            "and solid acceleration allow him to create separation at every level of the field. He has good hands and has shown flashes of an ability " + 
+            "to rack up yards after the catch. While he has a slighter frame that leads to less effectiveness in high contact scenarios, he has shown " +
+            "the toughness to battle through and come out on top. If he wasn't dealing with injuries for much of the 2023 season, people " + 
+            "would be talking about McMillan a lot more.", 
+        imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/404/613/10613404.jpg",
+        img: jalenMcmillan}, 
+    {name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina", size: `6'1" | 223 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "71 (7 TDs)", recYrds: "1,255 yds",
+        lastEditTime: "2/12/24",  
+        analysis: "Prior to being measured 2in shorter and nearly 10lbs lighter at the Senior Bowl Legette was one of the most physically imposing " + 
+            "WRs in this class. While smaller than originally thought, he still has the size and strength to bully many NFL DBs. He has excellent speed " +
+            "and clear YAC upside. However, he doesn't have the burst, route-running, or game IQ to get open at a consistent level. Combine these flaws " +
+            "with the fact that it took till his 5th season in college to break out, it's unlikely he'll become a valuable fantasy asset.", 
+        imgSite: `wistv.com`, imgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/AIHJH7RCRFCTXLC4RYFOKWK4HM.jpg",
+        img: xavierLegette}, 
     {name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina", size: `6'1" 1⁄2 | 197 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "41 (7 TDs)", recYrds: "699 yds",
         lastEditTime: "2/12/24", 
         analysis: "Tez Walker was a dominant outside WR in his 8 games at UNC this year. Despite NCAA transfer rules limiting his games played, Tez was " +
@@ -335,6 +345,16 @@ const playerInfo = [
             "create separation and had far too many drops. The Senior Bowl plummeted his stock.", 
         imgSite: `vox.com`, imgUrl: "https://cdn.vox-cdn.com/thumbor/wXN-rFXgLAz-9mNL_nVU6EXr30A=/0x0:7223x4818/1200x800/filters:focal(2383x870:3537x2024)/cdn.vox-cdn.com/uploads/chorus_image/image/72781951/usa_today_21704886.0.jpg",
         img: tezWalker}, 
+    {name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", size: `5' 11" | 227 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,341 yds (18 TDs)", ydsPerRush: "6.4 yds", recTdRec: "17 (0 TDs)", recYrds: "142 yds",
+        lastEditTime: "2/4/24", 
+        analysis: "Audric is a big, strong, vicious runner with a lot of value in the blocking game. He has great patience waiting for a hole to " +
+            "open up, and then attacks it like its 4th and 1 every time. Estimé bounces off bodies and breaks tackles as well as anyone in this " +
+            "class. He has pretty solid burst for a guy of his size and good enough top speed to separate from some defenders. His elite pass-pro " +
+            "game will make him a favorite of coaching staffs and his QB. He didn't show much in the receiving game at Notre Dame, but maybe he could " +
+            "shock in the pros. While the burst and speed are there, they are not elite. He likely won't have many home-run plays. He should provide " +
+            "enough NFL value to make him a decent fantasy option.", 
+        imgSite: `espn.com`, imgUrl: "https://a.espncdn.com/media/motion/2022/1112/ss_20221112_133448878_2101148852/ss_20221112_133448878_2101148852.jpg",
+        img: audricEstime}, 
     {name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", size: `5'9" 1⁄8 | 217 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "820 yds (9 TDs)", ydsPerRush: "7.1 yds", recTdRec: "13 (0 TDs)", recYrds: "232 yds",
         lastEditTime: "2/4/24", 
         analysis: "Lloyd is an extremely explosive runner with elite speed and burst. He has the agility to make guys miss in the open field and enough " +
@@ -354,16 +374,6 @@ const playerInfo = [
             "side of his game and reclaim his stardom", 
         imgSite: 'youtube.com', imgUrl: "https://i.ytimg.com/vi/uzrqeOxa8BQ/maxresdefault.jpg",
         img: spencerRattler},    
-    {name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee", size: `5'11" | 210 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,010 yds (4 TDs)", ydsPerRush: "7.4 yds", recTdRec: "22 (0 TDs)", recYrds: "141 yds",
-        lastEditTime: "2/6/24", 
-        analysis: "Seen by his 7.4 yards per carry in 2023, Wright is a highly efficient RB with great speed and explosiveness. Wright has elite " +
-            "vision in between the tackles, regularly finding a hole to sneak through. He runs extremely hard and has a shake in the " +
-            "open field that consistently loses defenders. Wright has also shown an ability to bounce off of solo tackles. He is above " +
-            "average in the passing game with a more complete route-tree than most of the RBs in this class. In spite " +
-            "of his home-run play ability, he rarely bounces outside and instead tries to force the issue between the tackles. He also " +
-            "had fumbling troubles in 2023. Jaylen could provide valuable NFL and fantasy value if he lands in a good spot.", 
-        imgSite: `utdailybeacon.com`, imgUrl: "https://bloximages.chicago2.vip.townnews.com/utdailybeacon.com/content/tncms/assets/v3/editorial/7/26/72697912-6c4b-11ee-a812-e3f8f5adc2c6/652d762347ef1.image.jpg?resize=1200%2C800",
-        img: jaylenWright},    
     {name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", size: `5'8" | 213 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,245 yds (27 TDs)", ydsPerRush: "4.8 yds", recTdRec: "16 (1 TDs)", recYrds: "117 yds",
         lastEditTime: "2/6/24", 
         analysis: "Corum is a mature, all-around RB with that could bring immediate value to an NFL roster. His excellent vision allows him to " +
@@ -381,6 +391,13 @@ const playerInfo = [
             "time to develop as the backup. If he lands in the right spot, maybe he'll develop well, but don't count on it.", 
         imgSite: `tulanegreenwave.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/tulanegreenwave.com/images/2023/10/28/Michael_Pratt_3757_c.jpg",
         img: michaelPratt}, 
+    {name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State", size: `6'6" 1⁄8 | 237 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "41 (2 TDs)", recYrds: "617 yds",
+        lastEditTime: "2/29/24", 
+        analysis: `Wilson has impressive speed, route-running, and change of direction given his 6'6" frame. However, it would be shocking if his ends up get ` +
+            `open with any consistency against NFL DBs. Given his size and talent, his NFL coaches will likely want him on the field, and, seeing his strong ` + 
+            `blocking ability, move him to TE. He could find success at this position if he accepts the role change. However, he has shown no desire to move from WR.`, 
+        imgSite: `profootballnetwork.com`, imgUrl: "https://static.profootballnetwork.com/wp-content/uploads/2023/09/21181132/how-tall-is-johnny-wilson-florida-state-wr-draft.jpg",
+        img: johnnyWilson},  
     {name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State", size: `6'4" | 255 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "41 (5 TDs)", recYrds: "576 yds",
         lastEditTime: "2/6/24", 
         analysis: "In a shallow TE class, Stover is on the higher end. In spite of his great size for the position, he has near-elite explosive " +
@@ -389,23 +406,6 @@ const playerInfo = [
             "to an NFL roster, but elite fantasy production doesn't seem to be in the cards at the moment.", 
         imgSite: `cleveland19.com`, imgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/5ZAWXIMXLBC5DJ7NYX7OWJP37Y.jpg",
         img: cadeStover}, 
-    {name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", size: `5' 11" | 227 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", rushing: "1,341 yds (18 TDs)", ydsPerRush: "6.4 yds", recTdRec: "17 (0 TDs)", recYrds: "142 yds",
-        lastEditTime: "2/4/24", 
-        analysis: "Audric is a big, strong, vicious runner with a lot of value in the blocking game. He has great patience waiting for a hole to " +
-            "open up, and then attacks it like its 4th and 1 every time. Estimé bounces off bodies and breaks tackles as well as anyone in this " +
-            "class. He has pretty solid burst for a guy of his size and good enough top speed to separate from some defenders. His elite pass-pro " +
-            "game will make him a favorite of coaching staffs and his QB. He didn't show much in the receiving game at Notre Dame, but maybe he could " +
-            "shock in the pros. While the burst and speed are there, they are not elite. He likely won't have many home-run plays. He should provide " +
-            "enough NFL value to make him a decent fantasy option.", 
-        imgSite: `espn.com`, imgUrl: "https://a.espncdn.com/media/motion/2022/1112/ss_20221112_133448878_2101148852/ss_20221112_133448878_2101148852.jpg",
-        img: audricEstime}, 
-    {name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State", size: `6'6" 1⁄8 | 237 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "41 (2 TDs)", recYrds: "617 yds",
-        lastEditTime: "2/12/24", 
-        analysis: `Wilson has impressive speed, route-running, and change of direction given his 6'6" frame. However, it would be shocking if his ends up get ` +
-            `open with any consistency against NFL DBs. Given his size and talent, his NFL coaches will likely want him on the field, and, seeing his strong ` + 
-            `blocking ability, move him to TE. He could find success at this position if he accepts the role change. This gives him some valuable (but unlikely) upside.`, 
-        imgSite: `profootballnetwork.com`, imgUrl: "https://static.profootballnetwork.com/wp-content/uploads/2023/09/21181132/how-tall-is-johnny-wilson-florida-state-wr-draft.jpg",
-        img: johnnyWilson},  
     {name: "Brenden Rice", pos: "WR", age: "21", uni: "USC", size: `6'2" 1⁄8 | 212 lbs`, fortyYrd: "?.??", threeCone: "?.??", vert: "??.??", recTdRec: "45 (12 TDs)", recYrds: "791 yds",
         lastEditTime: "2/12/24",  
         analysis: "Son of Hall of Famer, Jerry Rice, Brenden was a touchdown monster in the 2023 season, bringing in 40% of Caleb Williams passing TDs. He has great " +
@@ -495,14 +495,14 @@ const ppr1QB = [
     {id: "26", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington"}, 
     {id: "27", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan"},
     {id: "28", name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina"},
-    {id: "29", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"}, 
-    {id: "30", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
-    {id: "31", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
-    {id: "32", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
-    {id: "33", name: "Johnny Wilson", pos: "WR", age: "22", uni: "USC"},
-    {id: "34", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
-    {id: "35", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, // move off
-    {id: "36", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
+    {id: "29", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
+    {id: "30", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
+    {id: "31", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"}, 
+    {id: "32", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
+    {id: "33", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
+    {id: "34", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
+    {id: "35", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, // move off
 ];
 
 const ppr2QB = [ 
@@ -535,14 +535,14 @@ const ppr2QB = [
     {id: "27", name: "Ricky Pearsall", pos: "WR", age: "22", uni: "Florida"},
     {id: "28", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF"},
     {id: "29", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington"},
-    {id: "30", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
-    {id: "31", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
-    {id: "32", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
-    {id: "33", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
-    {id: "34", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
-    {id: "35", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
-    {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, // move off
-    //{id: "36", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
+    {id: "30", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
+    {id: "31", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
+    {id: "32", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
+    {id: "33", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
+    {id: "34", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
+    {id: "35", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
+    // {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, // move off
 ];
 
 const nPpr1QB = [ 
@@ -574,14 +574,14 @@ const nPpr1QB = [
     {id: "26", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington"},
     {id: "27", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan"},
     {id: "28", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
-    {id: "29", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
-    {id: "30", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
-    {id: "31", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
-    {id: "32", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
-    {id: "33", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
-    {id: "34", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, 
-    {id: "35", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
-    {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
+    {id: "29", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
+    {id: "30", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
+    {id: "31", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    {id: "32", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
+    {id: "33", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
+    {id: "34", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "35", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
+    {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, 
 ];
 
 const nPpr2QB = [ 
@@ -614,13 +614,13 @@ const nPpr2QB = [
     {id: "27", name: "Ricky Pearsall", pos: "WR", age: "22", uni: "Florida"},
     {id: "28", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF"},
     {id: "29", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington"},
-    {id: "30", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
-    {id: "31", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
-    {id: "32", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
+    {id: "30", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
+    {id: "31", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
+    {id: "32", name: "Audric Estimé", pos: "RB", age: "20", uni: "Ohio State"}, 
     {id: "33", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
-    {id: "34", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
-    {id: "35", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
-    {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, 
+    {id: "34", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
+    {id: "35", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    {id: "36", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
     // {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State" },
 ];
 
