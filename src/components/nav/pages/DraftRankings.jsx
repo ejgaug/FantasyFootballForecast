@@ -91,7 +91,7 @@ export default function DraftRanks(props) {
     };
     const modalBelowText = {
         marginBottom: '3px',
-        fontSize: '15.5px',
+        fontSize: '14px',
         color: '#DEAB2A'
     };
     const modalAnalysis = {
@@ -335,7 +335,7 @@ export default function DraftRanks(props) {
     
     return <div>
         <Row>
-            <h1 style={{textAlign: 'center', marginBottom: '0px', color: '#eFeFeF'}} className="headerFont">
+            <h1 style={{textAlign: 'center', marginBottom: '0px', marginTop: '70px', color: '#eFeFeF'}} className="headerFont">
                 <img
                     src={footballL} 
                     alt="football" 

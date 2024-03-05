@@ -39,7 +39,7 @@ export default function FantasyNavbar(props) {
     
     return (
         <div>
-            <Navbar style={{width: '100%', height: '70px', backgroundColor: 'green'}} variant="dark" sticky="top" expand="md" collapseOnSelect>    
+            <Navbar style={{width: '100%', height: '70px', backgroundColor: 'green', position: 'fixed'}} variant="dark" sticky="top" expand="md" collapseOnSelect>    
                 {(width > 767) ? (
                     <Container>
                         <Navbar.Brand as={NavLink} activeclassname="activeLink" to="/">

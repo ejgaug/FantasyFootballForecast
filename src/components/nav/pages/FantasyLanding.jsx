@@ -16,7 +16,7 @@ export default function FantasyLanding(props) {
         paddingTop: '0px',
         fontSize: '40px',
         color: '#eFeFeF',
-        marginTop: '0px'
+        marginTop: '60px'
     };
     const welcomeText = {
         width: '85%',
@@ -51,14 +51,21 @@ export default function FantasyLanding(props) {
             <Row style={{ ...columnFormat, gridTemplateColumns: width > screenCutOff ? '60% 40%' : '1fr'}}>
                 <Col style={{ ...welcomeText, width: width > screenCutOff ? '85%' : '100%'}}> 
                     <h1 className="headerFont" style={headerStyle}>Welcome to The Fantasy Football Forecast 2024!</h1>
-                    <p style={{fontSize: '15px'}}> Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. </p>
                     <p style={{fontSize: '15px'}}> 
-                        Checkout the Draft Rankings page to see how we'd draft a 3-round rookie class for dynasty fantasy football leagues 
-                        if it were to happen today. This includes rankings for 4 major league formats (1-QB PPR, 2-QB PPR, 1-QB Non-PPR, and 2-QB Non-PPR).     
+                        Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. The site is now updated with our 
+                        post-combine player analysis and rankings. As the NFL and prospect landscape changes, so will The Forecast.
+                    </p>
+                    <p style={{fontSize: '15px'}}> 
+                        Checkout the Draft Rankings page to see how we'd draft a 3-round rookie class for dynasty fantasy football leagues if it were 
+                        to happen today. This includes rankings for 4 major league formats (1-QB PPR, 2-QB PPR, 1-QB Non-PPR, and 2-QB Non-PPR). Keep 
+                        in mind that for leagues with less than 12 teams, upside is more valuable than a solid floor. Feel free to make your own adjustments 
+                        based on your league settings. 
                     </p>
                     <p style={{fontSize: '15px'}}>
                         For more in-depth analysis on each of these players, take a look at the Rookie Preview tab. Here you'll find a player analysis 
                         as well relevant statistics from the 2023 season and the most predictive combine measurements of NFL success for that position.
+                        If there is a "N/A" on a player's profile, this means that there wasn't a official measurement for that statistic at the time of 
+                        the last update.
                     </p>
                     <p style={{fontSize: '15px'}}> 
                         The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on any NFL roster.

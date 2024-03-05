@@ -219,7 +219,7 @@ export default function LandingSpots(props) {
 
     return <div style={{alignContent: 'center'}}>
         <Row>
-            <h1 style={{textAlign: 'center', marginBottom: '0px', color: '#eFeFeF'}} className="headerFont">
+            <h1 style={{textAlign: 'center', marginBottom: '0px', marginTop: '70px', color: '#eFeFeF'}} className="headerFont">
                 <img
                     src={footballL} 
                     alt="football" 

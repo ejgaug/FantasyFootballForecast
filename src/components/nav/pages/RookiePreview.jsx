@@ -34,6 +34,7 @@ export default function RookiePreview(props) {
     };
     const modalBelowText = {
         margin: '5px',
+        fontSize: '14px'
     };
     const lastEdited = {
         textAlign: 'right',
@@ -131,7 +132,7 @@ export default function RookiePreview(props) {
     
     return <div>
         <Row>
-            <h1 style={{textAlign: 'center', marginBottom: '0px', color: '#eFeFeF'}} className="headerFont">
+            <h1 style={{textAlign: 'center', marginBottom: '0px', marginTop: '70px', color: '#eFeFeF'}} className="headerFont">
                 <img
                     src={footballL} 
                     alt="football" 
