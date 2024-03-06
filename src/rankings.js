@@ -257,27 +257,6 @@ const playerInfo = [
             "had fumbling troubles in 2023. Wright could provide valuable NFL and fantasy value if he lands in a good spot.", 
         imgSite: `utdailybeacon.com`, imgUrl: "https://bloximages.chicago2.vip.townnews.com/utdailybeacon.com/content/tncms/assets/v3/editorial/7/26/72697912-6c4b-11ee-a812-e3f8f5adc2c6/652d762347ef1.image.jpg?resize=1200%2C800",
         img: jaylenWright}, 
-    {name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", size: `6'2 1⁄4" | 216 lbs`, fortyYrd: "N/A", threeCone: "N/A", compPerc: "65.4%", td2Int: "36/11", passYrds: "4,903 yds", yrdsPerAtt: "8.8 yds", rush: "8 yds (3 TDs)", 
-        lastEditTime: "3/5/24", 
-        analysis: "Penix is an incredible deep ball thrower with a rocket of an arm. He is able to put it exactly where his receiver wants it down the field. He is " +
-            "solid in intermediate areas of the field, but struggles with finesse throws. He showed all of this at the combine where he shredded the passing drills. " +
-            "Penix has shown the IQ to process defensive schemes and make the right play. While it isn't a strength, he has enough athleticism to create at times. " +
-            "Penix showed poor composure in the pressure and often favored the big play over the easy gain. Those negatives are not what you want to see in an old, " +
-            "experienced QB. There are also injury concerns as he has suffered multiple ACL tears and has a history of shoulder joint issues. However, he passed all " +
-            "his medical tests at the combine, so maybe this is a thing of the past. Overall, there isn't a ton to be excited about from a fantasy perspective, other " +
-            "than the added value he could provide to field stretching WRs.", 
-        imgSite: `gohuskies.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/washington.sidearmsports.com/images/2023/8/22/Michael_Penix_Jr_.png",
-        img: michaelPenixJr}, 
-    {name: "Bo Nix", pos: "QB", age: "24", uni: "Oregon", size: `6'2 1⁄8" | 214 lbs`, fortyYrd: "N/A", threeCone: "N/A", compPerc: "77.4%", td2Int: "45/3", passYrds: "4,508 yds", yrdsPerAtt: "9.6 yds", rush: "234 yds (6 TDs)", 
-        lastEditTime: "3/5/24", 
-        analysis: "Bo Nix was one of the most efficient QBs in all of college football in 2023. He showed an ability to hit his guys consistently at every level of the " +
-            "field. However, Oregon did have a very schemed up offense with great weapons which gave a crutch for Nix to lean on. While he didn't show it very " +
-            "often, Nix does have the ability to create with his legs as a good athlete with solid explosiveness and speed at the QB position. The combine was pretty " +
-            "neutral for Nix's stock. He did pretty much exactly what everyone expected, showing a good arm and solid accuracy, but nothing crazy. It'll be interesting " +
-            "to see how Bo Nix does if he doesn't have a great O-line, schemed offense, and good weapons in the NFL. He could provide value to a receiving corps, but " +
-            "don't expect him to have his own fantasy value.", 
-        imgSite: `sportingnews.com`, imgUrl: "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-10/Bo%20Nix%20102522.jpg?itok=zznwLgh6",
-        img: boNix},
     {name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky", size: `5'10 5⁄8" | 215 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: `N/A`, recTdRec: "79 (11 TDs)", recYrds: "984 yds",
         lastEditTime: "3/2/24", 
         analysis: `At a tad under 5'11" and 215 lbs, Corley is a WR in an RB's body. In college he thrived on low air yard throws and massive YAC production.` + 
@@ -295,6 +274,17 @@ const playerInfo = [
             "he may end up as one of the bigger steals in this years draft regardless of how high his combine performance pushes him up boards.", 
         imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2023%2F0923%2Fss_20230923_193431430_23466101197%2Fss_20230923_193431430_23466101197.jpg",
         img: rickyPearsall}, 
+    {name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", size: `6'2 1⁄4" | 216 lbs`, fortyYrd: "N/A", threeCone: "N/A", compPerc: "65.4%", td2Int: "36/11", passYrds: "4,903 yds", yrdsPerAtt: "8.8 yds", rush: "8 yds (3 TDs)", 
+        lastEditTime: "3/5/24", 
+        analysis: "Penix is an incredible deep ball thrower with a rocket of an arm. He is able to put it exactly where his receiver wants it down the field. He is " +
+            "solid in intermediate areas of the field, but struggles with finesse throws. He showed all of this at the combine where he shredded the passing drills. " +
+            "Penix has shown the IQ to process defensive schemes and make the right play. While it isn't a strength, he has enough athleticism to create at times. " +
+            "Penix showed poor composure in the pressure and often favored the big play over the easy gain. Those negatives are not what you want to see in an old, " +
+            "experienced QB. There are also injury concerns as he has suffered multiple ACL tears and has a history of shoulder joint issues. However, he passed all " +
+            "his medical tests at the combine, so maybe this is a thing of the past. Overall, there isn't a ton to be excited about from a fantasy perspective, other " +
+            "than the added value he could provide to field stretching WRs.", 
+        imgSite: `gohuskies.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/washington.sidearmsports.com/images/2023/8/22/Michael_Penix_Jr_.png",
+        img: michaelPenixJr}, 
     {name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama", size: `6'0 1⁄4" | 196 lbs`, fortyYrd: "4.45", threeCone: "N/A", vert: `38.5"`, recTdRec: "39 (8 TDs)", recYrds: "798 yds",
         lastEditTime: "3/5/24", 
         analysis: "Jermaine Burton is a great route-runner with excellent acceleration and speed allowing him to consistently create separation at every level of the " +
@@ -342,6 +332,16 @@ const playerInfo = [
             "pan out. He could use his elite explosiveness to excel in a complimentary roll.", 
         imgSite: `latimes.com`, imgUrl: "https://ca-times.brightspotcdn.com/dims4/default/6f1bd99/2147483647/strip/true/crop/5262x2763+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F64%2F59%2F077e94f549809f6a1db77120ef89%2Fusc-nevada-football-04073.jpg",
         img: marshawnLloyd},  
+    {name: "Bo Nix", pos: "QB", age: "24", uni: "Oregon", size: `6'2 1⁄8" | 214 lbs`, fortyYrd: "N/A", threeCone: "N/A", compPerc: "77.4%", td2Int: "45/3", passYrds: "4,508 yds", yrdsPerAtt: "9.6 yds", rush: "234 yds (6 TDs)", 
+        lastEditTime: "3/5/24", 
+        analysis: "Bo Nix was one of the most efficient QBs in all of college football in 2023. He showed an ability to hit his guys consistently at every level of the " +
+            "field. However, Oregon did have a very schemed up offense with great weapons which gave a crutch for Nix to lean on. While he didn't show it very " +
+            "often, Nix does have the ability to create with his legs as a good athlete with solid explosiveness and speed at the QB position. The combine was pretty " +
+            "neutral for Nix's stock. He did pretty much exactly what everyone expected, showing a good arm and solid accuracy, but nothing crazy. It'll be interesting " +
+            "to see how Bo Nix does if he doesn't have a great O-line, schemed offense, and good weapons in the NFL. He could provide value to a receiving corps, but " +
+            "don't expect him to have his own fantasy value.", 
+        imgSite: `sportingnews.com`, imgUrl: "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-10/Bo%20Nix%20102522.jpg?itok=zznwLgh6",
+        img: boNix},
     {name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington", size: `6'1 3⁄8" | 203 lbs`, fortyYrd: "4.52", threeCone: "N/A", vert: `37.5"`, recTdRec: "69 (9 TDs)", recYrds: "1,159 yds",
         lastEditTime: "3/4/24", 
         analysis: "Polk has all the makings of a WR2 or 3 in the NFL. He is a very explosive and a fluid route-runner, allowing him to separate from DBs, especially " +
@@ -588,24 +588,24 @@ const ppr2QB = [
     {id: "16", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State"},
     {id: "17", name: "Braelon Allen", pos: "RB", age: "20", uni: "Wisconsin"},
     {id: "18", name: "Roman Wilson", pos: "WR", age: "22", uni: "Michigan"},
-    {id: "19", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
-    {id: "20", name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky"},
-    {id: "21", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee"},
-    {id: "22", name: "Ricky Pearsall", pos: "WR", age: "22", uni: "Florida"},
-    {id: "23", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
-    {id: "24", name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama"},
-    {id: "25", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF"},
-    {id: "26", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
-    {id: "27", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington"},
-    {id: "28", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
+    {id: "19", name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky"},
+    {id: "20", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee"},
+    {id: "21", name: "Ricky Pearsall", pos: "WR", age: "22", uni: "Florida"},
+    {id: "22", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
+    {id: "23", name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama"},
+    {id: "24", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF"},
+    {id: "25", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
+    {id: "26", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington"},
+    {id: "27", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
+    {id: "28", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
     {id: "29", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington"},
     {id: "30", name: "Ja'Tavion Sanders", pos: "TE", age: "20", uni: "Texas"},
     {id: "31", name: "Isaac Guerendo", pos: "RB", age: "23", uni: "Louisville"},
     {id: "32", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
     {id: "33", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
     {id: "34", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
-    {id: "35", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
-    {id: "36", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    {id: "35", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    {id: "36", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
     // {id: "36", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
     // {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
     // {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, // move off
@@ -671,23 +671,23 @@ const nPpr2QB = [
     {id: "17", name: "Keon Coleman", pos: "WR", age: "21", uni: "Florida State"},
     {id: "18", name: "Jaylen Wright", pos: "RB", age: "20", uni: "Tennessee"},
     {id: "19", name: "Roman Wilson", pos: "WR", age: "22", uni: "Michigan"},
-    {id: "20", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
-    {id: "21", name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky"},
-    {id: "22", name: "Ricky Pearsall", pos: "WR", age: "22", uni: "Florida"},
-    {id: "23", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
-    {id: "24", name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama"},
-    {id: "25", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF"},
-    {id: "26", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
-    {id: "27", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington"},
-    {id: "28", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
+    {id: "20", name: "Malachi Corley", pos: "WR", age: "21", uni: "Western Kentucky"},
+    {id: "21", name: "Ricky Pearsall", pos: "WR", age: "22", uni: "Florida"},
+    {id: "22", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
+    {id: "23", name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama"},
+    {id: "24", name: "Javon Baker", pos: "WR", age: "22", uni: "UCF"},
+    {id: "25", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
+    {id: "26", name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington"},
+    {id: "27", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
+    {id: "28", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
     {id: "29", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington"},
     {id: "30", name: "Ja'Tavion Sanders", pos: "TE", age: "20", uni: "Texas"},
     {id: "31", name: "Isaac Guerendo", pos: "RB", age: "23", uni: "Louisville"},
     {id: "32", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
     {id: "33", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
     {id: "34", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
-    {id: "35", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
-    {id: "36", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    {id: "35", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    {id: "36", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
     // {id: "36", name: "Audric Estimé", pos: "RB", age: "20", uni: "Ohio State"}, 
     // {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State" },
 ];
