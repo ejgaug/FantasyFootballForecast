@@ -65,7 +65,7 @@ export default function FantasyLanding(props) {
                         For more in-depth analysis on each of these players, take a look at the Rookie Preview tab. Here you'll find a player analysis 
                         as well relevant statistics from the 2023 season and the most predictive combine measurements of NFL success for that position.
                         If there is a "N/A" on a player's profile, this means that there wasn't a official measurement for that statistic at the time of 
-                        the last update.
+                        the last update. 
                     </p>
                     <p style={{fontSize: '15px'}}> 
                         The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on any NFL roster.

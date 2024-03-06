@@ -26,7 +26,7 @@ import jalynnPolk from './assets/jalynn-polk.jpg'; import jamariThrash from './a
 import javonBaker from './assets/javon-baker.jpg'; import jaydenDaniels from './assets/jayden-daniels.jpg';
 import jaylenWright from './assets/jaylen-wright.jpg'; import jermaineBurton from './assets/jermaine-burton.jpg';
 import jjMccarthy from './assets/jj-mccarthy.jpg'; import johnnyWilson from './assets/johnny-wilson.jpg';
-import jonothanBrooks from './assets/jonothan-brooks.jpg'; import kendallMilton from './assets/kendall-milton.jpg';
+import jonothanBrooks from './assets/jonothan-brooks.jpg'; import isaacGuerendo from './assets/isaac-guerendo.jpg';
 import keonColeman from './assets/keon-coleman.jpg'; import laddMcconkey from './assets/ladd-mcconkey.jpg';
 import malachiCorley from './assets/malachi-corley.jpg'; import malikNabers from './assets/malik-nabers.jpg';
 import marshawnLloyd from './assets/marshawn-lloyd.jpg'; import marvinWilliams from './assets/marvin-williams.jpg';
@@ -37,6 +37,7 @@ import spencerRattler from './assets/spencer-rattler.jpg'; import tezWalker from
 import treyBenson from './assets/trey-benson.jpg'; import troyFranklin from './assets/troy-franklin.jpg';
 import willShipley from './assets/will-shipley.jpg'; import xavierLegette from './assets/xavier-legette.jpg'; 
 import xavierWorthy from './assets/xavier-worthy.jpg'; import dylanLaube from './assets/dylan-laube.png'
+import theoJohnson from './assets/theo-johnson.png'; import malikWashington from './assets/malik-washington.jpg';
 
 const playerInfo = [
     {name: "Marvin Harrison Jr.", pos: "WR", age: "21", uni: "Ohio State", size: `6'3 1⁄4" | 209 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: "N/A", recTdRec: "67 (14 TDs)", recYrds: "1,211 yds",
@@ -297,8 +298,8 @@ const playerInfo = [
     {name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama", size: `6'0 1⁄4" | 196 lbs`, fortyYrd: "4.45", threeCone: "N/A", vert: `38.5"`, recTdRec: "39 (8 TDs)", recYrds: "798 yds",
         lastEditTime: "3/5/24", 
         analysis: "Jermaine Burton is a great route-runner with excellent acceleration and speed allowing him to consistently create separation at every level of the " +
-            "field. Don't let this incredibly athletic WR class discount the 4.45 that Burton ran. This is still well above-average for the 40, and add in him being " +
-            "tracked at 23 mph during the 2023 regular season, don't be concerned about Burton's speed. He has plenty ability to beat defenders down the field " +
+            "field. Don't let this incredibly athletic WR class discount the 4.45 that Burton ran. This is still well above-average for the 40, don't be concerned about " +
+            "Burton's speed. He has plenty ability to beat defenders down the field " +
             "When the ball comes his ways, he's just about guaranteed to reel it in with his great hands. Where Burton struggles is in his play strength. " +
             "At times, he can get bullied and doesn't project to do much after the catch when contact is involved. He has the makings of a consistent WR2 in the NFL.", 
         imgSite: `rolltide.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2022/10/12/100822_MFB_BurtonJe_TAMU_TN5320_mQx2V.jpg",
@@ -349,25 +350,46 @@ const playerInfo = [
             "if he improves this, his coaches won't be able to keep him off the field. Dependent on his landing spot, he could be a very valuable TE in fantasy.", 
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/448/967/11967448.jpg",
         img: jatavionSanders}, 
-    {name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon", size: `5'9" | 192 lbs`, fortyYrd: "4.55", threeCone: "N/A", vert: `29.5"`, rushing: "1,180 yds (11 TDs)", ydsPerRush: "6.3 yds", recTdRec: "56 (2 TDs)", recYrds: "413 yds",
-        lastEditTime: "3/2/24", 
-        analysis: "Bucky Irving is one of the best pass catching RBs in this class and showed elite acceleration and top end speed on film. However, the combine brought " +
-            "up major concerns as he only weighed in at 192 lbs and did not post the 40 time that many expected. Still, over his collegiate career, he made guys miss " +
-            "habitually through his swift feet and great acceleration. While he showed very soft hands, he didn't see many targets more than a few yards down field at " +
-            "Oregon. Hopefully this was a result of the offense and not a route-running deficiency. In spite of his smaller size, Bucky doesn't shy away from contact, " +
-            "but isn't very successful at breaking tackles. He showed good durability though high usage over the past couple years, but given his size, this is " +
-            "still a concern for the NFL. Still, he has the skills to contribute on an NFL roster and could provide some PPR value in the right setting..", 
-        imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/845/455/11455845.jpg",
-        img: buckyIrving}, 
+    {name: "Isaac Guerendo", pos: "RB", age: "23", uni: "Louisville", size: `6'0" | 221 lbs`, fortyYrd: "4.33", threeCone: "6.94", vert: `41.5"`, rushing: "810 yds (11 TDs)", ydsPerRush: "6.1 yds", recTdRec: "22 (0 TDs)", recYrds: "234 yds",
+        lastEditTime: "3/5/24", 
+        analysis: "Guerendo made a huge splash at the combine with his 9.99/10 relative athletic score. This was bolstered by his combine best 40-yard dash and vertical " +
+            "for the RB positions. He was also in the top 5 for the broad jump, 3-cone, and shuttle drills. Not to mention that he weighed in at an 221. No one expected " +
+            "this time of performance from the Louisville senior. However, it does make some sense as he regularly had speed competitions with Jonathan Taylor back when " +
+            "Guerendo was at Wisconsin. While his production doesn't jump off the page, he was in a crowded backfield throughout his collegiate career, and he did make " +
+            "the most out of the carries he did get, averaging 6.0 or more yards per carry each of the last 3 years. Plus, as a result of him being stuck in crowded " +
+            "RB rooms, he has very little wear and tear on his body, especially for a 5th year senior. Guerendo clearly has the top end speed to being a big play guy. " +
+            "He also showed very good vision in college and was capable in the passing game as a receiver and a block. If he gets decent draft capital to a good " +
+            "situation, there is plenty to be excited about with Isaac Guerendo. ", 
+        imgSite: `milehighreport.com`, imgUrl: "https://cdn.vox-cdn.com/thumbor/w36_zIkCCiE1YXnDngrQOKFkNQo=/0x0:6000x3141/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25314888/1915751297.jpg",
+        img: isaacGuerendo},
+    {name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", size: `5'7 3⁄4" | 205 lbs`, fortyYrd: "4.53", threeCone: "6.82", vert: `35.5`, rushing: "1,245 yds (27 TDs)", ydsPerRush: "4.8 yds", recTdRec: "16 (1 TDs)", recYrds: "117 yds",
+        lastEditTime: "3/5/24", 
+        analysis: "Corum is a mature, all-around RB with that could bring immediate value to an NFL roster. His excellent vision allows him to find the holes in the defense, " +
+            "and he uses great strength in a compact body that is able to squeeze between the tackles. Corum has enough speed and burst to make big plays, but lacks truly " +
+            "elite break-away speed to be a home-run hitter in the NFL. He showed little ability in the passing game at Michigan, but that could've been a result of the " +
+            "offensive scheme. Corum looked good at the combine, but overall he's a solid, older, worn back that just doesn't have a ton of upside. Fantasy relevancy for " +
+            "him would likely come through extreme outlier TD numbers making him very landing spot dependent.", 
+        imgSite: `sportingnews.com`, imgUrl: "https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2023-11/Blake%20Corum%20112223%20FTR.jpg?h=920929c4&itok=FvGVLONF",
+        img: blakeCorum}, 
     {name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina", size: `6'1" | 221 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `40"`, recTdRec: "71 (7 TDs)", recYrds: "1,255 yds",
         lastEditTime: "3/4/24",  
         analysis: `Prior to being measured 2" shorter and nearly 10 lbs lighter at the Senior Bowl Legette was one of the most physically imposing WRs in this class. ` + 
             "While smaller than originally thought, he still has the size and strength to bully many NFL DBs. Legette showed off his excellent speed at the combine " +
             "by posting a 4.39. Combine this speed with his hulking strength and weight give him clear YAC upside. However, he doesn't have the burst or route-running " +
             "to get open at a consistent level. Combine these flaws with the fact that it took till his 5th season in college to break out, it's unlikely he'll become " +
-            "a valuable fantasy asset. However, his physical attributes give him solid upside. ", 
+            "a valuable fantasy asset. However, his physical attributes give him solid upside.", 
         imgSite: `wistv.com`, imgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/AIHJH7RCRFCTXLC4RYFOKWK4HM.jpg",
         img: xavierLegette}, 
+    {name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon", size: `5'9" | 192 lbs`, fortyYrd: "4.55", threeCone: "N/A", vert: `29.5"`, rushing: "1,180 yds (11 TDs)", ydsPerRush: "6.3 yds", recTdRec: "56 (2 TDs)", recYrds: "413 yds",
+        lastEditTime: "3/5/24", 
+        analysis: "Bucky Irving is one of the better pass catching RBs in this class and showed great acceleration and top end speed on film. However, the combine brought " +
+            "up major concerns as he only weighed in at 192 lbs and did not post the 40 time that many expected. Still, over his collegiate career, he made guys miss " +
+            "habitually through his swift feet and great acceleration. While he showed very soft hands, he didn't see many targets more than a few yards down field at " +
+            "Oregon. Hopefully this was a result of the offense and not a route-running deficiency. In spite of his smaller size, Bucky doesn't shy away from contact, " +
+            "but, unsurprisingly, he isn't great at breaking tackles. He showed good durability though high usage over the past couple years, but given his size, this is " +
+            "a concern for the NFL. Still, he has the skills to contribute on an NFL roster and could provide some PPR value in the right setting.", 
+        imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/845/455/11455845.jpg",
+        img: buckyIrving}, 
     {name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", size: `5' 11 3⁄8" | 221 lbs`, fortyYrd: "4.71", threeCone: "N/A", vert: `38"`, rushing: "1,341 yds (18 TDs)", ydsPerRush: "6.4 yds", recTdRec: "17 (0 TDs)", recYrds: "142 yds",
         lastEditTime: "3/3/24", 
         analysis: "Audric is a big, strong, vicious runner with a lot of value in the blocking game. He has great patience waiting for a hole to open up, and then " +
@@ -381,15 +403,6 @@ const playerInfo = [
             "Estimé to be the next Kyren Williams. With his power and projected game speed, he should provide enough NFL value to make him a decent fantasy option.", 
         imgSite: `espn.com`, imgUrl: "https://a.espncdn.com/media/motion/2022/1112/ss_20221112_133448878_2101148852/ss_20221112_133448878_2101148852.jpg",
         img: audricEstime}, 
-    {name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan", size: `5'7 3⁄4" | 205 lbs`, fortyYrd: "4.53", threeCone: "6.82", vert: `35.5`, rushing: "1,245 yds (27 TDs)", ydsPerRush: "4.8 yds", recTdRec: "16 (1 TDs)", recYrds: "117 yds",
-        lastEditTime: "3/4/24", 
-        analysis: "Corum is a mature, all-around RB with that could bring immediate value to an NFL roster. His good vision allows him to find the holes in the defense. " +
-            "He then uses great strength in a compact body that is able to squeeze between the tackles. Corum has enough speed and burst to make big plays, but lacks truly " +
-            "elite break-away speed to be a home-run hitter in the NFL. He showed little ability in the passing game at Michigan, but that could've been a result of the " +
-            "offensive scheme. Corum looked good at the combine, but overall he's a solid, older, worn back that just isn't very exciting. Fantasy relevancy for him would " + 
-            "likely come through extreme outlier TD numbers.", 
-        imgSite: `sportingnews.com`, imgUrl: "https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2023-11/Blake%20Corum%20112223%20FTR.jpg?h=920929c4&itok=FvGVLONF",
-        img: blakeCorum}, 
     {name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina", size: `6'1 1⁄2" | 197 lbs`, fortyYrd: "4.36", threeCone: "N/A", vert: `40.5"`, recTdRec: "41 (7 TDs)", recYrds: "699 yds",
         lastEditTime: "3/5/24", 
         analysis: "Tez Walker was a dominant outside WR in his 8 games at UNC this year. Despite NCAA transfer rules limiting his games played, Tez was remarkable on " +
@@ -427,7 +440,7 @@ const playerInfo = [
             `blocking ability, move him to TE. He should find success at this position if he accepts the role change. However, he has shown no desire to move from " +
             "WR. Johnny should is worth a late round flier in rookie drafts.`, 
         imgSite: `profootballnetwork.com`, imgUrl: "https://static.profootballnetwork.com/wp-content/uploads/2023/09/21181132/how-tall-is-johnny-wilson-florida-state-wr-draft.jpg",
-        img: johnnyWilson},   
+        img: johnnyWilson},  
     {name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State", size: `6'3 7⁄8" | 247 lbs`, fortyYrd: "4.65", threeCone: "N/A", vert: `34.5`, recTdRec: "41 (5 TDs)", recYrds: "576 yds",
         lastEditTime: "3/5/24", 
         analysis: "Stover's combine performance didn't do him any favors. He measured in with decent size for the position, but didn't show quite the athleticism " +
@@ -444,7 +457,17 @@ const playerInfo = [
             "and doesn't have elite top speed. He also had issues with consistently and would seemingly disappear at time. If he can clean up his route-running and learns " +
             "to play more physical, he could become a very solid NFL receiver with fantasy value.", 
         imgSite: `sportingnews.com`, imgUrl: "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2023-08/GettyImages-1453839583.png?itok=JsdliGaT", 
-        img: brendenRice},   
+        img: brendenRice},
+    {name: "Malik Washington", pos: "WR", age: "23", uni: "Virginia", size: `5'8" | 191 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: "N/A", recTdRec: "110 (9 TDs)", recYrds: "1,426 yds",
+        lastEditTime: "3/5/24", 
+        analysis: "After 4 years at Northwestern, Washington had an extremely productive 2023 season with the Volunteers. He is an explosive athlete with great " +
+            "route-running and a high understanding of the game. This allows him to create separation and find holes in the defense. He is strong for his size and " +
+            "possesses a determination that leads him to produce in YAC situations. However, he does not have the true breakaway speed that is preferred for a player " +
+            "of his size. As you'd expect given his smaller stature, Washington struggles at time in high contact situations and in any area of the game that favors " +
+            "length. Being a 5th year ceiling with these flaws, his ceiling seems limited, but he should have a decent floor given his talent and football IQ. He could " +
+            "provide some value in deeper leagues.", 
+        imgSite: 'streakingthelawn.com', imgUrl: "https://cdn.vox-cdn.com/thumbor/53PXZSwpflF1P-JieCdUlMLUj0k=/0x0:7152x4737/1200x800/filters:focal(4448x443:5592x1587)/cdn.vox-cdn.com/uploads/chorus_image/image/72668448/1690047321.0.jpg",
+        img: malikWashington},     
     {name: "Jacob Cowing", pos: "WR", age: "22", uni: "Arizona", size: `5'8 3⁄8" | 168 lbs`, fortyYrd: "4.38", threeCone: "7.02", vert: `36"`, recTdRec: "90 (13 TDs)", recYrds: "848 yds",
         lastEditTime: "3/2/24", 
         analysis: "Jacob Cowing has the skills to be a game breaking player in the NFL, but his size will limit him greatly. His acceleration, twitchiness, top speed, " + 
@@ -452,7 +475,7 @@ const playerInfo = [
             "almost effortless for him at times. However, at 165 lbs, it would be hard to imagine him becoming an elite WR in the NFL. Hopefully, he can land in the " +
             "right fit where he can thrive primarily out of the slot.", 
         imgSite: `arizonawildcats.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/arizona.sidearmsports.com/images/2022/10/3/221001_FB_vs._Colorado_Mike_Christy3449_I17Zy.jpg",
-        img: jacobCowing}, 
+        img: jacobCowing},   
     {name: "Ray Davis", pos: "RB", age: "24", uni: "Kentucky", size: `5'8 3⁄8" | 211 lbs`, fortyYrd: "4.52", threeCone: "N/A", vert: `35"`, rushing: "1,129 yds (14 TDs)", ydsPerRush: "5.7 yds", recTdRec: "33 (7 TDs)", recYrds: "323 yds",
         lastEditTime: "3/2/24", 
         analysis: "Ray Davis had a tragic childhood, growing up in homelessness and going hungry. Football was his saving grace. He worked his way to Temple, then " +
@@ -462,6 +485,14 @@ const playerInfo = [
             "Baltimore very well.", 
         imgSite: 'spectrumnews1.com', imgUrl: "https://s7d2.scene7.com/is/image/TWCNews/ray_davis_uk_ap_23260028893178_ky_0917",
         img: rayDavis},  
+    {name: "Theo Johnson", pos: "TE", age: "23", uni: "Penn State", size: `6'6 1⁄8" | 259 lbs`, fortyYrd: "4.57", threeCone: "7.15", vert: `39.5`, recTdRec: "34 (7 TDs)", recYrds: "341 yds",
+        lastEditTime: "3/5/24", 
+        analysis: "Johnson's draft stock shot up at the NFL combine where he posted a 9.99/10 relative athletic score (RAS). Johnson is clearly an athletic freak at " +
+            "the TE position. However, he remains a pretty raw talent. He is good at the catch point and can pick up YAC, but struggles to separate on his routes. " +
+            "He also doesn't seem to have a great understanding for when to sit in a zone, a skill that many TEs make their money on. Johnson has the upside to keep " +
+            "an eye on if he goes to a favorable position.", 
+        imgSite: `gopsusports.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/gopsusports.com/images/2022/11/26/Johnsonstory_XyTZ8.png",
+        img: theoJohnson},  
     {name: "Jamari Thrash", pos: "WR", age: "23", uni: "Louisville", size: `5'11 3⁄4" | 188 lbs`, fortyYrd: "4.46", threeCone: "7.16", vert: `34"`, recTdRec: "63 (6 TDs)", recYrds: "858 yds",
         lastEditTime: "3/2/24", 
         analysis: "Thrash is a very smooth, fluid route-runner with great understanding for how to get open. However, his skinny frame and soft play-style lead him to struggle " + 
@@ -525,15 +556,16 @@ const ppr1QB = [
     {id: "25", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington"},
     {id: "26", name: "Ja'Tavion Sanders", pos: "TE", age: "20", uni: "Texas"},
     {id: "27", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan"},
-    {id: "28", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
-    {id: "29", name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina"},
-    {id: "30", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
-    {id: "31", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "28", name: "Isaac Guerendo", pos: "RB", age: "23", uni: "Louisville"},
+    {id: "29", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "30", name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina"},
+    {id: "31", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
     {id: "32", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"}, 
     {id: "33", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
-    {id: "34", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
-    {id: "35", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
-    {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, // move off
+    {id: "34", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
+    {id: "35", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
+    {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
+    // {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, // move off
 ];
 
 const ppr2QB = [ 
@@ -566,13 +598,14 @@ const ppr2QB = [
     {id: "27", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
     {id: "28", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington"},
     {id: "29", name: "Ja'Tavion Sanders", pos: "TE", age: "20", uni: "Texas"},
-    {id: "30", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
-    {id: "31", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
-    {id: "32", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
-    {id: "33", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
-    {id: "34", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "30", name: "Isaac Guerendo", pos: "RB", age: "23", uni: "Louisville"},
+    {id: "31", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "32", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
+    {id: "33", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
+    {id: "34", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
     {id: "35", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
     {id: "36", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    // {id: "36", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
     // {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
     // {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, // move off
 ];
@@ -605,15 +638,16 @@ const nPpr1QB = [
     {id: "25", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington"},
     {id: "26", name: "Ja'Tavion Sanders", pos: "TE", age: "20", uni: "Texas"},
     {id: "27", name: "J.J. McCarthy", pos: "QB", age: "20", uni: "Michigan"},
-    {id: "28", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
-    {id: "29", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
-    {id: "30", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
-    {id: "31", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "28", name: "Isaac Guerendo", pos: "RB", age: "23", uni: "Louisville"},
+    {id: "29", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "30", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
+    {id: "31", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
     {id: "32", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
     {id: "33", name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington"},
-    {id: "34", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
-    {id: "35", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
-    {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, 
+    {id: "34", name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame"},
+    {id: "35", name: "Bo Nix", pos: "QB", age: "23", uni: "Oregon"},
+    {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State"},
+    // {id: "36", name: "Cade Stover", pos: "TE", age: "23", uni: "Ohio State"}, 
 ];
 
 const nPpr2QB = [ 
@@ -646,20 +680,21 @@ const nPpr2QB = [
     {id: "27", name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC"},
     {id: "28", name: "Ja'Lynn Polk", pos: "WR", age: "21", uni: "Washington"},
     {id: "29", name: "Ja'Tavion Sanders", pos: "TE", age: "20", uni: "Texas"},
-    {id: "30", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
-    {id: "31", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
-    {id: "32", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
-    {id: "33", name: "Audric Estimé", pos: "RB", age: "20", uni: "Ohio State"}, 
-    {id: "34", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "30", name: "Isaac Guerendo", pos: "RB", age: "23", uni: "Louisville"},
+    {id: "31", name: "Blake Corum", pos: "RB", age: "23", uni: "Michigan"},
+    {id: "32", name: "Spencer Rattler", pos: "QB", age: "23", uni: "South Carolina"},
+    {id: "33", name: "Xavier Legette", pos: "WR", age: "22", uni: "South Carolina"},
+    {id: "34", name: "Bucky Irving", pos: "RB", age: "21", uni: "Oregon"},
     {id: "35", name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane"},
     {id: "36", name: "Devontez Walker", pos: "WR", age: "22", uni: "North Carolina"},
+    // {id: "36", name: "Audric Estimé", pos: "RB", age: "20", uni: "Ohio State"}, 
     // {id: "36", name: "Johnny Wilson", pos: "WR", age: "22", uni: "Florida State" },
 ];
 
 const nflTeams = [
     // NFC North
     {mascot: "Packers", location: "Green Bay", ppg: '22.5', logoUrl: packersLogo, division: 'NFC North', primCol: '#025928', secCol: '#FFB612', 
-    posLandingGrade: {QB: 'D', RB: 'B+', WR: 'C+', TE: 'C-'}, posLandingRank: {QB: '27', RB: '3', WR: '18', TE: '25'}, lastEditTime: '1/18/2024', 
+    posLandingGrade: {QB: 'D', RB: 'B+', WR: 'C+', TE: 'C-'}, posLandingRank: {QB: '27', RB: '5', WR: '18', TE: '25'}, lastEditTime: '1/18/2024', 
     posLandingAnalysis: {QB: `It looks like Green Bay has found their next QB in Jordan Love. Unless the back half of the 2023 season was all just an aberration, he won't be going away anytime soon.`, 
         RB: 'Even if Aaron Jones stays on the Packers next year, he is teetering on the RB age cliff. AJ Dillon will likely be gone and poses no threat to a talented rookie. This is a great RB landing spot.', 
         WR: `Green Bay's WR room is a tough one to analyze as it seems like they have 6 solid starters. However, if they find one that can develop into their true number 1 option, he could be a solid fantasy starter.`,
@@ -677,20 +712,20 @@ const nflTeams = [
         WR: `Amon-Ra St. Brown is that guy and Jameson Williams started improving over the back half of the year. With Gibbs and LaPorta also as dominant receivers in this offense, there's not many other targets to go around.`, 
         TE: `Sam LaPorta is a top-3 TE in dynasty without question. There is not room for another TE here.`}}, 
     {mascot: "Vikings", location: "Minnesota", ppg: '20.2', logoUrl: vikingsLogo, division: 'NFC North', primCol: '#582C83', secCol: '#FFC62F',
-    posLandingGrade: {QB: 'B+', RB: 'B-', WR: 'D-', TE: 'D'}, posLandingRank: {QB: '6', RB: '11', WR: '32', TE: '30'}, lastEditTime: '1/18/2024',
+    posLandingGrade: {QB: 'B+', RB: 'B', WR: 'D-', TE: 'D'}, posLandingRank: {QB: '6', RB: '7', WR: '32', TE: '30'}, lastEditTime: '1/18/2024',
     posLandingAnalysis: {QB: 'If Kirk stays, a rookie QB could be great after a few developmental years behind Cousins. If Kirk leaves, a new QB will have immediate access to great weapons in a scheme that creates QB production.', 
         RB: 'Ty Chandler came on over the second half of the season, but a new RB could come in and take over the job in that productive offense. A better runner with pass-catching chops could be a valuable fantasy asset.', 
         WR: `There isn't a better young receiving corps with JJ, Addison, and Hock. A rookie coming in and having success without injuries ahead of him and JJ leaving seems like a long shot.`, 
         TE: `TJ Hockenson is one of the best young TEs in the league. Even with his ACL injury that will likely sideline him for the beginning of the year, there's no reason to doubt that TJ would take over once he's back.`}}, 
     // NFC East
     {mascot: "Eagles", location: "Philadelphia", ppg: '25.5', logoUrl: eaglesLogo, division: 'NFC East', primCol: '#025159', secCol: '#B4BCBF',
-    posLandingGrade: {QB: 'D', RB: 'B', WR: 'D+', TE: 'C-'}, posLandingRank: {QB: '25', RB: '8', WR: '29', TE: '22'}, lastEditTime: '1/18/2024',
+    posLandingGrade: {QB: 'D', RB: 'B+', WR: 'D+', TE: 'C-'}, posLandingRank: {QB: '25', RB: '4', WR: '29', TE: '22'}, lastEditTime: '1/18/2024',
     posLandingAnalysis: {QB: `Despite Jalen Hurts' poor end to the 2023 season, he was still an MVP candidate for most of the last two years. He'll have a pretty long leash.`, 
         RB: `Even if the tush-push is outlawed, Jalen Hurts is Philly's goal-line back, and after Swift's solid year in 2023, they'll probably bring the hometown kid back. Expect him to have most of the RB touches in 2024.`, 
         WR: `A.J. Brown and DeVonta Smith rule this WR room. Until one of them is gone, don't get too excited by another Philly WR.`, 
         TE: `Dallas Goedert is one of the better TEs in the league and still has at least another year with the Eagles. He's also been less consistent than a guy of his talent would be on a team without this WR room.`}}, 
     {mascot: "Cowboys", location: "Dallas", ppg: '29.9', logoUrl: cowboysLogo, division: 'NFC East', primCol: '#041E42', secCol: '#F2F2F2',
-    posLandingGrade: {QB: 'D+', RB: 'B+', WR: 'B', TE: 'B-'}, posLandingRank: {QB: '24', RB: '4', WR: '11', TE: '12'}, lastEditTime: '1/18/2024',
+    posLandingGrade: {QB: 'D+', RB: 'A', WR: 'B', TE: 'B-'}, posLandingRank: {QB: '24', RB: '3', WR: '11', TE: '12'}, lastEditTime: '1/18/2024',
     posLandingAnalysis: {QB: `Dak will likely get a massive extension this year. With former top pick Trey Lance as their backup, they won't spend much on a new QB anytime soon.`, 
         RB: `The Zeke and Pollard days were great for fantasy football. We saw this year that Pollard can't do it by himself. Expect Dallas to try to find that combo again, and with it, valuable fantasy options.`, 
         WR: `McCarthy showed us this year that as long as he's at the helm with Dak he's going to air it out. With Gallup's decline and Cooks old age, a rookie WR could be productive behind Ceedee.`, 
@@ -746,7 +781,7 @@ const nflTeams = [
         WR: `Seattle has one of the best WR rooms in the NFL with DK Metcalf, Tyler Lockett, and Jaxon Smith-Njigba. Metcalf and Lockett both have time on their contract, but Lockett could be a cap casualty. Still, with Smith-Njigba just getting started in his NFL career, there's not much room for another WR in Seattle.`,
         TE: `There's a lot of target competition in Seattle with their impressive WR room. That being said, there's room for a rookie TE to come in and at the very least win the starting position. He could possibly even carve out a role.`}}, 
     {mascot: "Cardinals", location: "Arizona", ppg: '19.4', logoUrl: cardinalsLogo, division: 'NFC West', primCol: '#96233E', secCol: '#F2F2F2',
-    posLandingGrade: {QB: 'C-', RB: 'B-', WR: 'A+', TE: 'D'}, posLandingRank: {QB: '21', RB: '10', WR: '1', TE: '28'}, lastEditTime: '2/21/2024',
+    posLandingGrade: {QB: 'C-', RB: 'B', WR: 'A+', TE: 'D'}, posLandingRank: {QB: '21', RB: '8', WR: '1', TE: '28'}, lastEditTime: '2/21/2024',
     posLandingAnalysis: {QB: `It looks like the Cardinals are sticking with Kyler Murray as their QB, making this a poor QB landing spot. However, he hasn't shown enough to completely plant himself as a franchise QB. Maybe a rookie QB could find themselves as a starter in a couple years, but don't count on it.`,
         RB: `James Conner was incredible in 2023 after coming back from injury. At this point, we know Conner will miss at least a few weeks in 2024. We expect a rookie WR to join Kyler and Trey McBride in this offense. If they snag the right RB in this draft, he could have a ton of value for sure in 2025 and possibly 2024 as well.`,
         WR: `Hollywood Brown might be off this team come the start of the 2024 season. Even if he's still there, he isn't a true WR1 for a team. Whoever the Cardinals take with their first pick has immense opportunity to be the 1st read on an exciting young offense.`, 
@@ -759,19 +794,19 @@ const nflTeams = [
         TE: `The Rams extended Tyler Higbee in the 2023 season prior to him tearing his ACL in the Wild Card round. That being said, their rookie, Davis Allen, stepped up in Higbee's absences. Unless they draft one of the top TEs this year, it's unlikely that there will be much change.`}}, 
     // AFC North
     {mascot: "Bengals", location: "Cincinnati", ppg: '21.5', logoUrl: bengalsLogo, division: 'AFC North', primCol: '#000000', secCol: '#FA4D14',
-    posLandingGrade: {QB: 'D-', RB: 'B', WR: 'C+', TE: 'A-'}, posLandingRank: {QB: '29', RB: '5', WR: '19', TE: '4'}, lastEditTime: '2/26/2024',
+    posLandingGrade: {QB: 'D-', RB: 'B', WR: 'C+', TE: 'A-'}, posLandingRank: {QB: '29', RB: '9', WR: '19', TE: '4'}, lastEditTime: '2/26/2024',
     posLandingAnalysis: {QB: `Joe Burrow had a very disappointing year in 2023, but much of that can be explained away by injuries. He is still their franchise QB and locked into a long term deal.`, 
         RB: `Joe Mixon hasn't been very efficient as a runner in recent years and his time with Cincy is likely approaching its end. Chase Brown (Rookie) was decent when he got work in 2023, but was drafted late. If the Bengals choose to try to replace Mixon in this draft, there could be value in this high powered offense.`, 
         WR: `Tee Higgins was given the franchise tag meaning he'll be on the team at least another year. The third option in Cincy's high volume passing attack when Chase and Higgins are dealing through injury. However, it will likely be at least until 2025, that a new WR would find consistent work here.`, 
         TE: `Tee Higgins was given the franchise tag meaning he'll be on the team at least another year. Still, they have been searching for a good TE to help Burrow in the intermediate areas of the field. If they address that need in this draft, there could be some serious fantasy upside. `}}, 
     {mascot: "Ravens", location: "Baltimore", ppg: '28.4', logoUrl: ravensLogo, division: 'AFC North', primCol: '#201747', secCol: '#9A7611',
-    posLandingGrade: {QB: 'D', RB: 'B', WR: 'C', TE: 'D-'}, posLandingRank: {QB: '26', RB: '7', WR: '24', TE: '31'}, lastEditTime: '1/18/2024',
+    posLandingGrade: {QB: 'D', RB: 'B', WR: 'C', TE: 'D-'}, posLandingRank: {QB: '26', RB: '6', WR: '24', TE: '31'}, lastEditTime: '1/18/2024',
     posLandingAnalysis: {QB: `Lamar Jackson won the MVP in 2023. The Ravens have their franchise QB. Outside of a major injury, there's no value for a rookie QB in Baltimore.`,
         RB: `In 2023 we saw JK Dobbins tear his Achilles early, an injury that historically ends RB careers. We also saw Keaton Mitchell show major flashes as a small explosive back, and we saw Gus Edwards dominate in the TD department. Behind a good O-Line, in a great offense, there could be value for a rookie RB that can steal Gus' job.`,
         WR: `Zay Flowers flashed in 2023, elevating to Lamar's top option after Mark Andrews went down. However, Lamar likes to spread it around, so with a healthy Mark Andrews and a 2nd year Zay Flowers, don't expect another rookie WR to get enough opportunity to be fantasy relevant.`, 
         TE: `Lamar loves to throw to the TE. However, Mark Andrews will be back and Isaiah Likely is a very capable player in his own right. There is no room for another TE.`}}, 
     {mascot: "Browns", location: "Cleveland", ppg: '21.3', logoUrl: brownsLogo, division: 'AFC North', primCol: '#271203', secCol: '#F23806',
-    posLandingGrade: {QB: 'C-', RB: 'B', WR: 'C', TE: 'D'}, posLandingRank: {QB: '19', RB: '6', WR: '23', TE: '27'}, lastEditTime: '1/18/2024',
+    posLandingGrade: {QB: 'C-', RB: 'B-', WR: 'C', TE: 'D'}, posLandingRank: {QB: '19', RB: '10', WR: '23', TE: '27'}, lastEditTime: '1/18/2024',
     posLandingAnalysis: {QB: `Sadly for Cleveland and the NFL, the Browns are stuck with Deshaun Watson for the foreseeable future. His contract is far too big to not play him. The only value for a rookie QB here is through another injury for Watson.`, 
         RB: `Nick Chubb suffered another devastating injury this past season. Combine this with 2024 being his age 29 season, it's unlikely that he'll ever be the old world-beater version of himself. If Cleveland drafts an RB with decent draft capital, they could be in for a large workload behind a great O-Line for years to come.`, 
         WR: `With Amari Cooper and David Njoku, there currently isn't enough volume to go to a third option in the passing game without an extreme consolidation of targets. However, in a couple years, if Cooper is gone, there will be room for another WR to be involved.`, 
@@ -827,7 +862,7 @@ const nflTeams = [
         WR: `Michael Pittman impressed in 2023 and Josh Downs flashed. Unless Pittman moves on in free agency, there's not much value for a second or third option in this run first offense.`, 
         TE: `Anthony Richardson could benefit from a big body patrolling the middle of the field. If the Colts invest on a solid TE in this years draft, their could be value there.`}}, 
     {mascot: "Titans", location: "Tennessee", ppg: '17.9', logoUrl: titansLogo, division: 'AFC South', primCol: '#0C2340', secCol: '#4B92DB',
-    posLandingGrade: {QB: 'C+', RB: 'B-', WR: 'B', TE: 'C+'}, posLandingRank: {QB: '14', RB: '9', WR: '12', TE: '17'}, lastEditTime: '1/18/2024',
+    posLandingGrade: {QB: 'C+', RB: 'B-', WR: 'B', TE: 'C+'}, posLandingRank: {QB: '14', RB: '11', WR: '12', TE: '17'}, lastEditTime: '1/18/2024',
     posLandingAnalysis: {QB: `The Titans want to see what they have with Will Levis. They'll likely give him at least the 2024 season, provided he isn't a huge disappointment. Still, if the right QB goes here, he could be starting as soon as the middle of the 2024 season.`, 
         RB: `With Derrick Henry out, there is a lot of work to take in Tennessee. While Tyjae Spears impressed with limited workload in 2023, the new regime in 2024 could look to alter their backfield. If they do there could be a lot of value in this new offense.`, 
         WR: `DeAndre Hopkins will be in a Titans uniform for the foreseeable future, but he's definitely not the player he used to be. With Treylon Burks continued struggles, the right rookie WR could carve out a big role in this offense in the next few years. `, 
