@@ -1,5 +1,7 @@
 import { Route, Routes, Navigate, useLocation } from "react-router-dom";
 import React, {useEffect } from 'react';
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-CE4KYHDZN3');
 
 import FantasyForecast from "../FantasyForecast";
 import FantasyLanding from "./pages/FantasyLanding";
@@ -16,6 +18,7 @@ export default function FantasyRouter() {
         const sendPageView = (location) => {
             // console.log(location.pathname);
             window.gtag('config', 'G-CE4KYHDZN3', { page_path: location.pathname });
+            ReactGA.pageview(window.location.pathname + window.location.search);
         };
 
         sendPageView(location);

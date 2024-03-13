@@ -5,6 +5,7 @@ import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB } from "../../../rankings"
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
 import ReactGA from 'react-ga';
+ReactGA.initialize('G-CE4KYHDZN3');
 
 export default function DraftRanks(props) {
 
@@ -45,7 +46,7 @@ export default function DraftRanks(props) {
         // console.log(filter);
         ReactGA.event({
             category: 'Button Click',
-            action: 'Position/Univeristy Button Clicked', // Event action
+            action: 'Position/University Button Clicked', // Event action
             label: filter, // Event label
         });
     };
@@ -267,7 +268,7 @@ export default function DraftRanks(props) {
                     <Col style={metricsStyle}>
                         <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
                         <p style={modalBelowText}>Passing Yards: {selectedPlayer.passYrds}</p>
-                        <p style={modalBelowText}>Age: {selectedPlayer.age}</p>
+                        <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
                         <p style={modalBelowText}>TD/INT: {selectedPlayer.td2Int}</p>
                         <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
                         <p style={modalBelowText}>Completion Percentage: {selectedPlayer.compPerc}</p>
@@ -293,7 +294,7 @@ export default function DraftRanks(props) {
                     <Col style={metricsStyle}>
                         <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
                         <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
-                        <p style={modalBelowText}>Age: {selectedPlayer.age}</p>
+                        <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
                         <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
                         <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
                         <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
@@ -319,7 +320,7 @@ export default function DraftRanks(props) {
                     <Col style={metricsStyle}>
                         <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
                         <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
-                        <p style={modalBelowText}>Age: {selectedPlayer.age}</p>
+                        <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
                         <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
                         <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
                         <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
