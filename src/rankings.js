@@ -216,6 +216,20 @@ const playerInfo = [
             "Something to note: he had fumbling issues in 2023. Wright could prove to be very valuable in the NFL and in fantasy football if he lands in a good spot.", 
         imgSite: `utdailybeacon.com`, imgUrl: "https://bloximages.chicago2.vip.townnews.com/utdailybeacon.com/content/tncms/assets/v3/editorial/7/26/72697912-6c4b-11ee-a812-e3f8f5adc2c6/652d762347ef1.image.jpg?resize=1200%2C800",
         img: jaylenWright}, 
+    {name: "Adonai Mitchell", pos: "WR", age: "21", uni: "Texas", size: `6'2 1⁄4" | 205 lbs`, fortyYrd: "4.34", threeCone: "N/A", vert: `39.5"`, recTdRec: "55 (11 TDs)", recYrds: "845 yds",
+        lastEditTime: "3/19/24", 
+        analysis: "AD Mitchell may have had the best combine performances of 2023, but that wasn't a surprise. In Indy, his elite athletic traits were on full " +
+            `display, posting a 4.34 40 at just over 6'2" and 205 lbs, This impressive combination of size and speed gave him to a 9.98/10 relative athletic score ` +
+            "(RAS). This was the best among WRs. His athletic ability alone gives him rare upside. Beyond this, he has a great release package and change of " +
+            "speed allowing him to find separation from defenders. His body control, coordination, and ball-tracking abilities make him a highlight waiting to happen. " +
+            "Mitchell's feel for the game is elite and his play-style fits into today's NFL very well. His route-running is extremely smooth, but his tree could use " +
+            "broadening. Despite his <2% drop rate, AD has been criticized for his body catches, but don't worry about this. What keeps Mitchell from the top of our " +
+            "rankings is that he ranked bottom-4 in yards per route run versus man and zone in the class. This is very concerning as Y/RR is one of the most predictive " +
+            "metrics of future success. Also, given his lanky build, he struggles with contact and isn't a big YAC threat. Still, his route-running and athleticism are " +
+            "extremely impressive for a player of his size. His film is so fun to watch. If he can become more consistent and learn to play stronger through contact, " +
+            "he could prove to be an outlier amongst poor Y/RR producers. His elite traits and upside still make him well worth a top-15 pick in rookie drafts. ", 
+        imgSite: `vox.com`, imgUrl: "https://cdn.vox-cdn.com/thumbor/7QhrC5d0quCKGf-CxLHS-sA9Vdg=/0x0:2000x1473/1200x800/filters:focal(1021x379:1341x699)/cdn.vox-cdn.com/uploads/chorus_image/image/72835296/usa_today_21819373.0.jpg",
+        img: adonaiMitchell}, 
     {name: "Ricky Pearsall", pos: "WR", age: "23", uni: "Florida", size: `6'1" | 189 lbs`, fortyYrd: "4.41", threeCone: "6.64", vert: `42"`, recTdRec: "65 (4 TDs)", recYrds: "965 yds",
         lastEditTime: "3/3/24", 
         analysis: "Ricky Pearsall is an incredible route-runner with a great ability to create separation and find space in the defense. He " +
@@ -225,28 +239,6 @@ const playerInfo = [
             "he may end up as one of the bigger steals in this years draft regardless of how high his combine performance pushes him up boards.", 
         imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2023%2F0923%2Fss_20230923_193431430_23466101197%2Fss_20230923_193431430_23466101197.jpg",
         img: rickyPearsall}, 
-    {name: "Adonai Mitchell", pos: "WR", age: "21", uni: "Texas", size: `6'2 1⁄4" | 205 lbs`, fortyYrd: "4.34", threeCone: "N/A", vert: `39.5"`, recTdRec: "55 (11 TDs)", recYrds: "845 yds",
-        lastEditTime: "3/19/24", 
-        analysis: "AD Mitchell may have had the best combine performances of 2023, but that wasn't a surprise. In Indy, his elite athletic traits were on full " +
-            `display, posting a 4.34 40 at just over 6'2" and 205 lbs, This impressive combination of size and speed gave him to a 9.98/10 relative athletic score ` +
-            "(RAS). This was the best among WRs. His athletic ability alone gives him rare upside. Beyond this, he has a great release package and change of " +
-            "speed allowing him to find separation from defenders. His body control, coordination, and ball-tracking abilities make him a highlight waiting to happen. " +
-            "Mitchell's feel for the game is elite and his play-style fits into today's NFL very well. His route-running is solid, but his tree could use broadening. " +
-            "Despite his <2% drop rate, AD has been criticized for his body catches. What sinks Mitchell in our rankings is that he ranked bottom-4 in yards per " +
-            "route run versus man and zone in the class. This is very concerning as Y/RR is one of the most predictive metrics of future success. " +
-            "Given his lanky build, he struggles with contact and isn't a big YAC threat. If he can improve his route running and learn to play stronger through " +
-            "contact, he could prove to be an outlier amongst poor Y/RR producers. His elite traits and upside still make him worth a top-18 pick in rookie drafts. ", 
-        imgSite: `vox.com`, imgUrl: "https://cdn.vox-cdn.com/thumbor/7QhrC5d0quCKGf-CxLHS-sA9Vdg=/0x0:2000x1473/1200x800/filters:focal(1021x379:1341x699)/cdn.vox-cdn.com/uploads/chorus_image/image/72835296/usa_today_21819373.0.jpg",
-        img: adonaiMitchell}, 
-    {name: "Roman Wilson", pos: "WR", age: "22", uni: "Michigan", size: `5'10 3⁄4" | 185 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `N/A`, recTdRec: "48 (12 TDs)", recYrds: "789 yds",
-        lastEditTime: "3/5/24", 
-        analysis: "Wilson's performance at the Senior Bowl shot up his draft stock. It seems the concerns in his game were mostly to do with the low volume passing " +
-            "offense at Michigan. We shouldn't have been surprised by his sure hands at the Senior Bowl as he had only a 2% drop rate in 2023. What was shocking was his" +
-            "ability to consistently create separation through precise route-running and elite athleticism. The biggest concern for Roman is his slight frame and inability " +
-            "to play through contact. His performance at the NFL combine only continued the rise in his stock. He ran an impressive 4.39 40-yard dash which was good " +
-            "enough for 6th best in this elite WR class. Roman also looked great in the route-running drills. He could end up being a valuable slot WR in the NFL.", 
-        imgSite: `thedraftnetwork.com`, imgUrl: "https://www.thedraftnetwork.com/img/random/USATSI_22207545-1600x900.jpg",  
-        img: romanWilson}, 
     {name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", size: `6'1 1⁄4" | 202 lbs`, fortyYrd: "4.54", threeCone: "N/A", vert: `37"`, recTdRec: "52 (7 TDs)", recYrds: "1,139 yds",
         lastEditTime: "3/3/24", 
         analysis: "Javon Baker was a 5-star recruit coming out of High School and committed to Alabama where he struggled to get on the field. After 2 years at the bottom " +
@@ -266,6 +258,15 @@ const playerInfo = [
             "a valuable fantasy asset. However, his physical attributes give him solid upside.", 
         imgSite: `wistv.com`, imgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/AIHJH7RCRFCTXLC4RYFOKWK4HM.jpg",
         img: xavierLegette}, 
+    {name: "Roman Wilson", pos: "WR", age: "22", uni: "Michigan", size: `5'10 3⁄4" | 185 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `N/A`, recTdRec: "48 (12 TDs)", recYrds: "789 yds",
+        lastEditTime: "3/5/24", 
+        analysis: "Wilson's performance at the Senior Bowl shot up his draft stock. It seems the concerns in his game were mostly to do with the low volume passing " +
+            "offense at Michigan. We shouldn't have been surprised by his sure hands at the Senior Bowl as he had only a 2% drop rate in 2023. What was shocking was his" +
+            "ability to consistently create separation through precise route-running and elite athleticism. The biggest concern for Roman is his slight frame and inability " +
+            "to play through contact. His performance at the NFL combine only continued the rise in his stock. He ran an impressive 4.39 40-yard dash which was good " +
+            "enough for 6th best in this elite WR class. Roman also looked great in the route-running drills. He could end up being a valuable slot WR in the NFL.", 
+        imgSite: `thedraftnetwork.com`, imgUrl: "https://www.thedraftnetwork.com/img/random/USATSI_22207545-1600x900.jpg",  
+        img: romanWilson}, 
     {name: "Braelon Allen", pos: "RB", age: "20", uni: "Wisconsin", size: `6'1 1⁄4" | 235 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: `32"`, rushing: "984 yds (12 TDs)", ydsPerRush: "5.4 yds", recTdRec: "28 (0 TDs)", recYrds: "131 yds",
         lastEditTime: "3/5/24", 
         analysis: "Braelon Allen has been dominating Big 10 football since he was 17 as a freshman. Now, newly 20, he enters the draft as by far the biggest RB in the " +
@@ -567,12 +568,12 @@ const ppr1QB = [
     {id: "11", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "12", name: "Jayden Daniels", pos: "QB", uni: "LSU"},
     {id: "13", name: "Jaylen Wright", pos: "RB", uni: "Tennessee"}, 
-    {id: "14", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
+    {id: "14", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
     {id: "15", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
-    {id: "16", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
-    {id: "17", name: "Roman Wilson", pos: "WR", uni: "Michigan"}, 
-    {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"}, 
-    {id: "19", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "16", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
+    {id: "17", name: "Javon Baker", pos: "WR", uni: "UCF"}, 
+    {id: "18", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "19", name: "Roman Wilson", pos: "WR", uni: "Michigan"}, 
     {id: "20", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
     {id: "21", name: "Marshawn Lloyd", pos: "RB", uni: "USC"},
     {id: "22", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"}, 
@@ -608,12 +609,12 @@ const ppr2QB = [
     {id: "13", name: "Jonathon Brooks", pos: "RB", uni: "Texas"}, 
     {id: "14", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "15", name: "Jaylen Wright", pos: "RB", uni: "Tennessee"},
-    {id: "16", name: "Ricky Pearsall", pos: "WR",uni: "Florida"}, 
-    {id: "17", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
-    {id: "18", name: "Roman Wilson", pos: "WR", uni: "Michigan"},
-    {id: "19", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
-    {id: "20", name: "Javon Baker", pos: "WR", uni: "UCF"},
-    {id: "21", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "16", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
+    {id: "17", name: "Ricky Pearsall", pos: "WR",uni: "Florida"}, 
+    {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"},
+    {id: "19", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "20", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
+    {id: "21", name: "Roman Wilson", pos: "WR", uni: "Michigan"},
     {id: "22", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
     {id: "23", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
     {id: "24", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"}, 
@@ -647,12 +648,12 @@ const nPpr1QB = [
     {id: "11", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "12", name: "Jayden Daniels", pos: "QB", uni: "LSU"}, 
     {id: "13", name: "Jaylen Wright", pos: "RB", uni: "Tennessee"}, 
-    {id: "14", name: "Ricky Pearsall", pos: "WR", uni: "Florida"},
+    {id: "14", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
     {id: "15", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
-    {id: "16", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
-    {id: "17", name: "Roman Wilson", pos: "WR", uni: "Michigan"},
-    {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"},
-    {id: "19", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "16", name: "Ricky Pearsall", pos: "WR", uni: "Florida"},
+    {id: "17", name: "Javon Baker", pos: "WR", uni: "UCF"},
+    {id: "18", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "19", name: "Roman Wilson", pos: "WR", uni: "Michigan"},
     {id: "20", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
     {id: "21", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
     {id: "22", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"}, 
@@ -688,12 +689,12 @@ const nPpr2QB = [
     {id: "13", name: "Troy Franklin", pos: "WR", uni: "Oregon"}, 
     {id: "14", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "15", name: "Jaylen Wright", pos: "RB", uni: "Tennessee"},
-    {id: "16", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
-    {id: "17", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
-    {id: "18", name: "Roman Wilson", pos: "WR", uni: "Michigan"}, 
-    {id: "19", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
-    {id: "20", name: "Javon Baker", pos: "WR", uni: "UCF"},
-    {id: "21", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "16", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
+    {id: "17", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
+    {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"},
+    {id: "19", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "20", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
+    {id: "21", name: "Roman Wilson", pos: "WR", uni: "Michigan"}, 
     {id: "22", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"},
     {id: "23", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
     {id: "24", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"},
