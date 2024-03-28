@@ -65,7 +65,7 @@ export default function DraftRanks(props) {
         padding: '2px',
         display: 'grid',
         gridTemplateColumns: '8% 42% 10% 40%',
-        fontSize: '14px'
+        fontSize: '13.5px'
     };
     const description = {
         textAlign: 'center',
@@ -209,7 +209,7 @@ export default function DraftRanks(props) {
         };
     
         return (
-            <select style={{ width: '95%' }} value={playerRanks[rank]} onChange={handleSelectChange}>
+            <select style={{ width: '97%' }} value={playerRanks[rank]} onChange={handleSelectChange}>
                 <option key={"select"} value="select">Select Player</option>
                 {playerInfo.map(player => (
                     <option key={player.name} value={player.name}>{player.name}</option>
@@ -234,7 +234,7 @@ export default function DraftRanks(props) {
                 });
             }
         }
-        console.log(filteredPlayers);
+        // console.log(filteredPlayers);
 
         setPersonalRanks(filteredPlayers);
         generateCard(filteredPlayers, 'Personal Rankings', 'personal');
@@ -529,7 +529,7 @@ export default function DraftRanks(props) {
                             borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', 
                         }} 
                         onClick={() => { 
-                            alert("Sorry, this feature is coming soon.")
+                            alert("Sorry, this feature is still being developed.")
                             setSelectedPositions(prevState => ({ 
                                 ...prevState,
                                 'personal': null,
@@ -544,7 +544,7 @@ export default function DraftRanks(props) {
                 </div>
             )}
             
-            <div style={{ width: '70%', color: '#eFeFeF', fontSize: '16px'}}>
+            <div style={{ width: (width > screenCutOff ? '70%' : '95%'), color: '#eFeFeF', fontSize: '16px'}}>
                 {buttonClick ? 
                     generateCard(ranks(buttonClick), 
                     buttonClick === 'ppr1QB' ? 'PPR 1-QB Rankings' :
