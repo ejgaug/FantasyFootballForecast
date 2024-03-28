@@ -1,7 +1,7 @@
 import { Button, Card, Col, Row, Modal, CloseButton } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 
-import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB } from "../../../rankings";
+import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB, personal } from "../../../rankings";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
 import ReactGA from 'react-ga';
@@ -12,10 +12,8 @@ export default function DraftRanks(props) {
     const [isHovering, setIsHovering] = useState(null);
     const [selectedPlayer, setSelectedPlayer] = useState(null);
     const [showPlayerModal, setShowPlayerModal] = useState(false);
-    // const [selectedUni, setSelectedUni] = useState(null);
     const [showUniModal, setShowUniModal] = useState(false);
     const [width, setWidth] = useState(window.innerWidth);
-    // const [uniPlayers, setUniPlayers] = useState({});
     const [selectedPositions, setSelectedPositions] = useState({
         'ppr1QB': null,
         'ppr2QB': null,
@@ -28,6 +26,14 @@ export default function DraftRanks(props) {
         'nPpr1QB': null,
         'nPpr2QB': null,
     });
+    const [buttonClick, setButtonClick] = useState(null);
+    const [playerRanks, setPlayerRanks] = useState({
+        '1': '??', '2': '??', '3': '??', '4': '??', '5': '??', '6': '??', '7': '??', '8': '??', '9': '??', '10': '??', '11': '??', '12': '??',
+        '13': '??', '14': '??', '15': '??', '16': '??', '17': '??', '18': '??', '19': '??', '20': '??', '21': '??', '22': '??', '23': '??', '24': '??',
+        '25': '??', '26': '??', '27': '??', '28': '??', '29': '??', '30': '??', '31': '??', '32': '??', '33': '??', '34': '??', '35': '??', '36': '??', '37': '??'
+    });
+    const [lockPersonal, setLockPersonal] = useState(false);
+    const [personalRanks, setPersonalRanks] = useState([]);
 
     useEffect(() => {
     }, [selectedPositions, selectedUni]);
@@ -59,7 +65,7 @@ export default function DraftRanks(props) {
         padding: '2px',
         display: 'grid',
         gridTemplateColumns: '8% 42% 10% 40%',
-        fontSize: '12px'
+        fontSize: '14px'
     };
     const description = {
         textAlign: 'center',
@@ -120,13 +126,24 @@ export default function DraftRanks(props) {
         marginTop: '0px',
         marginBottom: '4px',
         color: '#DEAB2A'
-    }
+    };
+    const buttonStyles = specifier => ({
+        borderRadius: '3px', 
+        cursor: 'pointer'
+    });
 
     function ranks(specifier) {
         if (specifier === 'ppr1QB') {return ppr1QB;}
         if (specifier === 'ppr2QB') {return ppr2QB;}
         if (specifier === 'nPpr1QB') {return nPpr1QB;}
         if (specifier === 'nPpr2QB') {return nPpr2QB;}
+        if (specifier === 'personal') {
+            if (lockPersonal) {
+                return personalRanks
+            } else {
+                return personal; // gonna have to GET from an API that saves them
+            }
+        } 
     }
     
     const openPlayerModal = (selectedPlayer) => {
@@ -173,6 +190,56 @@ export default function DraftRanks(props) {
 
     const screenCutOff = 767;
     
+    // Add a useEffect hook to log the updated playerRanks state
+    // useEffect(() => {
+    //     console.log(playerRanks);
+    // }, [playerRanks]);
+
+    function handlePlayerRanks(rank, player) { 
+
+        setPlayerRanks(prevState => ({
+            ...prevState,
+            [rank]: player
+        }));
+    };
+
+    function pullDown(rank) {
+        const handleSelectChange = (event) => {
+            handlePlayerRanks(rank, event.target.value);
+        };
+    
+        return (
+            <select style={{ width: '95%' }} value={playerRanks[rank]} onChange={handleSelectChange}>
+                <option key={"select"} value="select">Select Player</option>
+                {playerInfo.map(player => (
+                    <option key={player.name} value={player.name}>{player.name}</option>
+                ))}
+            </select>
+        );
+    }
+
+    function makePersonalRanks() { // need to actually map it from the playerInfo array because it has all the info needed
+
+        const filteredPlayers = [];
+    
+        // Loop through playerRanks to maintain order
+        for (const rank of Object.values(playerRanks)) {
+            // Find the player in playerInfo with the corresponding name
+            const player = playerInfo.find(player => player.name === rank);
+            if (player) {
+                // Add the player to filteredPlayers
+                filteredPlayers.push({
+                    ...player,
+                    id: Math.floor(Math.random() * 10000) // Generate a random id
+                });
+            }
+        }
+        console.log(filteredPlayers);
+
+        setPersonalRanks(filteredPlayers);
+        generateCard(filteredPlayers, 'Personal Rankings', 'personal');
+    }
+
     function generateCard(rankings, title, specifier) {
         const filteredRankings = selectedPositions[specifier]
             ? rankings.filter(player => player.pos === selectedPositions[specifier])
@@ -180,13 +247,15 @@ export default function DraftRanks(props) {
             ? rankings.filter(player => player.uni === selectedUni[specifier])
             : rankings;
 
+        let rank = 1;
+
         return (
             <Col
                 xs={12}
                 sm={12}
-                md={6}
-                lg={3}
-                xxl={3}
+                md={12}
+                lg={12}
+                xxl={12}
                 key={title + rankings}
             >
                 <Card style={{ borderRadius: '8px', borderWidth: '5px', borderColor: 'black', backgroundColor: '#eFeFeF', marginBottom: '20px' }}>
@@ -194,19 +263,24 @@ export default function DraftRanks(props) {
                     {filteredRankings.map(player => (
                         <Col key={title + player.id}>
                             <p style={rankedItems}>
-                                <span style={rankNum}>{player.id}</span>
+                                <span style={rankNum}>
+                                    {rank++}
+                                </span>
                                 <span
                                     style={{
                                         ...playerName,
                                         fontWeight: isHovering === player.name ? 'bold' : 'normal',
                                     }}
                                     onClick={() => {
-                                        trackNameClick(player.name);
-                                        openPlayerModal(player);
+                                        // needs to only do the following if there is a player selected
+                                        if (lockPersonal === true) {
+                                            trackNameClick(player.name);
+                                            openPlayerModal(player);
+                                        }
                                     }}
                                     onMouseOver={() => setIsHovering(player.name)}
                                     onMouseOut={() => setIsHovering(null)}>
-                                        {player.name}
+                                        {(specifier === 'personal' && !lockPersonal) ? pullDown(rank) : player.name}
                                 </span>
                                 <span
                                     style={{
@@ -238,21 +312,20 @@ export default function DraftRanks(props) {
                     ))}
                     <Button  
                         style={{borderRadius: '3px', backgroundColor: 'green', borderColor: '#C79A25'}} 
-                        onClick={() => {
-                            setSelectedPositions(prevState => ({
+                        onClick={() => { 
+                            setSelectedPositions(prevState => ({ // HAVE TO PUT SOMETHING SIMILAR TO ABOVE WITH LOCK BUTTON
                             ...prevState,
                             [specifier]: null,
                             }));
                             setSelectedUni(prevState => ({
                                 ...prevState,
                                 [specifier]: null,
-                            }));
-                        }}>Reset</Button>
+                            })); 
+                        }}>Reset</Button> 
                 </Card>
             </Col>
         );
-    }
-        
+    }   
 
     function WhichMetrics(selectedPlayer) {
         if (selectedPlayer.pos === "QB") {
@@ -334,8 +407,8 @@ export default function DraftRanks(props) {
         }
     }
     
-    return <div>
-        <Row>
+    return <div  style={{ flex: '1', flexDirection: 'row', textAlign: 'center'}}>
+        <Row className="justify-content-center">
             <h1 style={{textAlign: 'center', marginBottom: '0px', marginTop: '70px', color: '#eFeFeF'}} className="headerFont">
                 <img
                     src={footballL} 
@@ -355,14 +428,134 @@ export default function DraftRanks(props) {
                     fontSize: width > screenCutOff ? '15px' : '12px'
                 }}>
                 To filter the rankings, try clicking on a position or university. This can be canceled by using the "reset" button. 
-                Also, selecting a player's name will give you an in-depth analysis and important statistics for the player.  
+                Also, selecting a player's name will give you an in-depth analysis and important statistics for the player. Unofficial
+                measurements are denoted by a 'u' following the number. If there are players you'd like us to add to the site, contact 
+                us using the email at the bottom of the page.
             </p>
-            {generateCard(ranks('ppr1QB'), 'PPR 1-QB Rankings', 'ppr1QB')}
-            {generateCard(ranks('ppr2QB'), 'PPR 2-QB Rankings', 'ppr2QB')}
-            {generateCard(ranks('nPpr1QB'), 'Non-PPR 1-QB Rankings', 'nPpr1QB')}
-            {generateCard(ranks('nPpr2QB'), 'Non-PPR 2-QB Rankings', 'nPpr2QB')}
+            <div style={{ marginBottom: '15px'}}>
+                <Button  
+                    style={{
+                        ...buttonStyles,
+                        backgroundColor: buttonClick === 'ppr1QB' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'ppr1QB' ? 'none' : '1px 1px 1px 0.5px darkgreen',
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', 
+                    }} 
+                    onClick={() => {
+                        setButtonClick('ppr1QB');
+                        setLockPersonal(true);
+                    }}>
+                    PPR 1-QB Rankings
+                </Button>
+                <Button  
+                    style={{
+                        ...buttonStyles,
+                        backgroundColor: buttonClick === 'ppr2QB' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'ppr2QB' ? 'none' : '1px 1px 1px 0.5px darkgreen',
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', 
+                    }} 
+                    onClick={() => {
+                        setButtonClick('ppr2QB');
+                        setLockPersonal(true);
+
+                    }}>
+                    PPR 2-QB Rankings
+                </Button>
+                <Button  
+                    style={{
+                        ...buttonStyles,
+                        backgroundColor: buttonClick === 'nPpr1QB' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'nPpr1QB' ? 'none' : '1px 1px 1px 0.5px darkgreen',
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px',  
+                    }} 
+                    onClick={() => {
+                        setButtonClick('nPpr1QB');
+                        setLockPersonal(true);
+
+                    }}>
+                    Non-PPR 1-QB Rankings
+                </Button>
+                <Button  
+                    style={{
+                        ...buttonStyles,
+                        backgroundColor: buttonClick === 'nPpr2QB' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'nPpr2QB' ? 'none' : '1px 1px 1px 0.5px darkgreen',
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px',     
+                    }} 
+                    onClick={() => {
+                        setButtonClick('nPpr2QB');
+                        setLockPersonal(true);
+
+                    }}>
+                    Non-PPR 2-QB Rankings
+                </Button>
+                <Button  
+                    style={{
+                        ...buttonStyles,
+                        backgroundColor: buttonClick === 'personal' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'personal' ? 'none' : '1px 1px 1px 0.5px darkgreen',
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px',    
+                    }} 
+                    onClick={() => {
+                        setButtonClick('personal'); // need to check if user is signed in first
+                        setLockPersonal(false);
+
+                    }}>
+                    Personal Rankings
+                </Button>
+            </div>
+            {buttonClick === 'personal' && (
+                <div style={{ marginBottom: '15px'}}>
+                    <Button  
+                        style={{
+                            ...buttonStyles,
+                            backgroundColor: 'green', boxShadow: '1px 1px 1px 0.5px darkgreen',
+                            borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', 
+                        }} 
+                        onClick={() => { 
+                            if (!lockPersonal) {
+                                makePersonalRanks();
+                            }
+                            setLockPersonal(!lockPersonal);
+                            setSelectedPositions(prevState => ({ 
+                                ...prevState,
+                                'personal': null,
+                            }));
+                            setSelectedUni(prevState => ({
+                                ...prevState,
+                                'personal': null,
+                            })); 
+                        }}>
+                        {lockPersonal ? "Edit Rankings" : "Lock Rankings"}
+                    </Button>
+                    <Button  
+                        style={{
+                            ...buttonStyles,
+                            backgroundColor: 'green', boxShadow: '1px 1px 1px 0.5px darkgreen',
+                            borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', 
+                        }} 
+                        onClick={() => { 
+                            alert("Sorry, this feature is coming soon.")
+                            setSelectedPositions(prevState => ({ 
+                                ...prevState,
+                                'personal': null,
+                            }));
+                            setSelectedUni(prevState => ({
+                                ...prevState,
+                                'personal': null,
+                            })); 
+                        }}>
+                        Save Rankings
+                    </Button>
+                </div>
+            )}
+            
+            <div style={{ width: '70%', color: '#eFeFeF', fontSize: '16px'}}>
+                {buttonClick ? 
+                    generateCard(ranks(buttonClick), 
+                    buttonClick === 'ppr1QB' ? 'PPR 1-QB Rankings' :
+                    buttonClick === 'ppr2QB' ? 'PPR 2-QB Rankings' : 
+                    buttonClick === 'nPpr1QB' ? 'Non-PPR 1-QB Rankings' :
+                    buttonClick === 'nPpr2QB' ? 'Non-PPR 2-QB Rankings' : 'Personal Rankings', 
+                    buttonClick) : '* click to view format-based rankings *'
+                }
+            </div>
         </Row>
-s
+
         <Modal show={showPlayerModal} onHide={handleCloseModal}>
             <Modal.Header style={{backgroundColor: '#1F1F1F', color: '#DDAA2f'}}>
                 <Modal.Title style={{backgroundColor: '#1F1F1F'}}>{selectedPlayer && selectedPlayer.name + " (" + selectedPlayer.uni + ")"}</Modal.Title>
@@ -375,4 +568,5 @@ s
         
     </div>
 }
+
 

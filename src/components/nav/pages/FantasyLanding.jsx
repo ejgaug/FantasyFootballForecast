@@ -56,10 +56,9 @@ export default function FantasyLanding(props) {
                         post-combine player analysis and rankings. As the NFL and prospect landscape changes, so will The Forecast.
                     </p>
                     <p style={{fontSize: '15px'}}> 
-                        Checkout the Draft Rankings page to see how we'd draft a 3-round rookie class for dynasty fantasy football leagues if it were 
-                        to happen today. This includes rankings for 4 major league formats (1-QB PPR, 2-QB PPR, 1-QB Non-PPR, and 2-QB Non-PPR). Keep 
-                        in mind that for leagues with less than 12 teams, upside is more valuable than a solid floor. Feel free to make your own adjustments 
-                        based on your league settings. 
+                        Check out the Draft Rankings page to see how we'd draft a 3-round rookie draft for dynasty leagues today. This includes rankings 
+                        for the 4 primary league formats (1-QB PPR, 2-QB PPR, 1-QB Non-PPR, and 2-QB Non-PPR). You can also build your own rankings to prepare for 
+                        your draft. Keep in mind that for leagues with less than 12 teams, upside is more valuable than a solid floor. 
                     </p>
                     <p style={{fontSize: '15px'}}>
                         For more in-depth analysis on each of these players, take a look at the Rookie Preview tab. Here you'll find a player analysis 
