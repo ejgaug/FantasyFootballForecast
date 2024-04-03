@@ -34,6 +34,7 @@ export default function DraftRanks(props) {
     });
     const [lockPersonal, setLockPersonal] = useState(false);
     const [personalRanks, setPersonalRanks] = useState([]);
+    const [selectedPersonalPlayers, setSelectedPersonalPlayers] = useState([]);
 
     useEffect(() => {
     }, [selectedPositions, selectedUni]);
@@ -205,17 +206,25 @@ export default function DraftRanks(props) {
 
     function pullDown(rank) {
         const handleSelectChange = (event) => {
-            handlePlayerRanks(rank, event.target.value);
+            const playerName = event.target.value;
+            handlePlayerRanks(rank, playerName);
+
         };
-    
+
         return (
             <select style={{ width: '97%' }} value={playerRanks[rank]} onChange={handleSelectChange}>
                 <option key={"select"} value="select">Select Player</option>
-                {playerInfo.map(player => (
-                    <option key={player.name} value={player.name}>{player.name}</option>
-                ))}
+                {playerInfo.map(player => {
+                    const isSelected = Object.values(playerRanks).includes(player.name);
+                    return (
+                        <option key={player.name} value={player.name} style={{ backgroundColor: isSelected ? 'lightgray' : 'inherit' }}>
+                            {player.name}
+                        </option>
+                    );
+                })}
             </select>
         );
+
     }
 
     function makePersonalRanks() { // need to actually map it from the playerInfo array because it has all the info needed
@@ -227,11 +236,13 @@ export default function DraftRanks(props) {
             // Find the player in playerInfo with the corresponding name
             const player = playerInfo.find(player => player.name === rank);
             if (player) {
+                const playerName = player.name;
                 // Add the player to filteredPlayers
                 filteredPlayers.push({
                     ...player,
                     id: Math.floor(Math.random() * 10000) // Generate a random id
                 });
+               
             }
         }
         // console.log(filteredPlayers);
