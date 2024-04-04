@@ -58,17 +58,17 @@ export default function FantasyLanding(props) {
                     <p style={{fontSize: '15px'}}> 
                         Check out the Draft Rankings page to see how we'd draft a 3-round rookie draft for dynasty leagues today. This includes rankings 
                         for the 4 primary league formats (1-QB PPR, 2-QB PPR, 1-QB Non-PPR, and 2-QB Non-PPR). You can also build your own rankings to prepare for 
-                        your draft. Keep in mind that for leagues with less than 12 teams, upside is more valuable than a solid floor. 
+                        your draft. Keep in mind that for shallower leagues, high upside is more valuable than a solid floor. 
                     </p>
                     <p style={{fontSize: '15px'}}>
                         For more in-depth analysis on each of these players, take a look at the Rookie Preview tab. Here you'll find a player analysis 
                         as well relevant statistics from the 2023 season and the most predictive combine measurements of NFL success for that position.
-                        If there is a "N/A" on a player's profile, this means that there wasn't a official measurement for that statistic at the time of 
+                        If there is a "N/A" on a player's profile, this means that there wasn't a measurement for that statistic at the time of 
                         the last update. 
                     </p>
                     <p style={{fontSize: '15px'}}> 
-                        The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on any NFL roster.
-                        This is based on team need for that position and the overall production that could be seen in that offense.
+                        The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on a specific
+                        NFL roster. This is based on team need for that position and the overall production that could be seen in that offense.
                     </p>
                     {/* <img 
                         src={fff3}

@@ -34,7 +34,6 @@ export default function DraftRanks(props) {
     });
     const [lockPersonal, setLockPersonal] = useState(false);
     const [personalRanks, setPersonalRanks] = useState([]);
-    const [selectedPersonalPlayers, setSelectedPersonalPlayers] = useState([]);
 
     useEffect(() => {
     }, [selectedPositions, selectedUni]);
@@ -324,15 +323,29 @@ export default function DraftRanks(props) {
                     <Button  
                         style={{borderRadius: '3px', backgroundColor: 'green', borderColor: '#C79A25'}} 
                         onClick={() => { 
-                            setSelectedPositions(prevState => ({ // HAVE TO PUT SOMETHING SIMILAR TO ABOVE WITH LOCK BUTTON
-                            ...prevState,
-                            [specifier]: null,
-                            }));
-                            setSelectedUni(prevState => ({
-                                ...prevState,
-                                [specifier]: null,
-                            })); 
-                        }}>Reset</Button> 
+                            if (buttonClick === 'personal' && lockPersonal === false) {
+                                const confirmed = window.confirm("Are you sure you want to permanently clear your personal rankings?");
+                                if (confirmed) {
+                                    for (let i = 0; i < 38; i++) {
+                                        setPlayerRanks(prevState => ({
+                                            ...prevState,
+                                            [i]: "??"
+                                        }));
+                                    }
+                                }
+                            } else {
+                                setSelectedPositions(prevState => ({ // HAVE TO PUT SOMETHING SIMILAR TO ABOVE WITH LOCK BUTTON
+                                    ...prevState,
+                                    [specifier]: null,
+                                    }));
+                                    setSelectedUni(prevState => ({
+                                        ...prevState,
+                                        [specifier]: null,
+                                    })); 
+                            }
+                        }}>
+                            {(buttonClick === 'personal' && lockPersonal === false) ? "Clear Rankings" : "Reset Filters"}
+                    </Button> 
                 </Card>
             </Col>
         );
