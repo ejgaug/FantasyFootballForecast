@@ -5,6 +5,7 @@ import { playerInfo, nflTeams } from "../../../rankings";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
 import ReactGA from 'react-ga';
+ReactGA.initialize('G-CE4KYHDZN3');
 
 export default function LandingSpots(props) {
 
@@ -23,6 +24,12 @@ export default function LandingSpots(props) {
             label: teamName + " - " + position, // Event label
         });
     };
+
+    useEffect(() => {
+        // Set custom page title for Google Analytics tracking
+        ReactGA.set({ page: window.location.pathname });
+        ReactGA.pageview(window.location.pathname);
+    }, []);
 
     const description = {
         textAlign: 'center',

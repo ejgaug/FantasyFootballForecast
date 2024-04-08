@@ -28,6 +28,12 @@ export default function RookiePreview(props) {
         });
     };
 
+    useEffect(() => {
+        // Set custom page title for Google Analytics tracking
+        ReactGA.set({ page: window.location.pathname });
+        ReactGA.pageview(window.location.pathname);
+    }, []);
+
     const description = {
         textAlign: 'center',
         marginBottom: '11px',

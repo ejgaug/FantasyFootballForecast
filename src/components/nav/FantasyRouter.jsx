@@ -16,9 +16,10 @@ export default function FantasyRouter() {
     useEffect(() => {
         // Google Analytics setup
         const sendPageView = (location) => {
-            // console.log(location.pathname);
-            window.gtag('config', 'G-CE4KYHDZN3', { page_path: location.pathname });
-            ReactGA.pageview(window.location.pathname + window.location.search);
+
+             // Set custom page title for Google Analytics tracking
+            ReactGA.set({ page: location.pathname });
+            ReactGA.pageview(window.location.pathname);
         };
 
         sendPageView(location);

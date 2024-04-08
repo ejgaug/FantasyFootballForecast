@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
-
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-CE4KYHDZN3');
 import fff3 from '../../../assets/Fantasy Football Forecaster 3.svg'
 
 export default function FantasyLanding(props) {
@@ -34,6 +35,12 @@ export default function FantasyLanding(props) {
         marginBottom: '5px',
         
     }
+
+    useEffect(() => {
+        // Set custom page title for Google Analytics tracking
+        ReactGA.set({ page: window.location.pathname });
+        ReactGA.pageview(window.location.pathname);
+    }, []);
 
     useEffect(() => {
         const handleResizeWindow = () => setWidth(window.innerWidth);

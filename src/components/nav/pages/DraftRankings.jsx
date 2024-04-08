@@ -57,6 +57,12 @@ export default function DraftRanks(props) {
         });
     };
 
+    useEffect(() => {
+        // Set custom page title for Google Analytics tracking
+        ReactGA.set({ page: window.location.pathname });
+        ReactGA.pageview(window.location.pathname);
+    }, []);
+
     const rankedItems = {
         justifyContent: 'center',  // Center horizontally
         borderBottom: '1.5px dashed #000',
@@ -210,10 +216,13 @@ export default function DraftRanks(props) {
 
         };
 
+        // Sort playerInfo array alphabetically by player name
+        const sortedPlayerInfo = playerInfo.sort((a, b) => a.name.localeCompare(b.name));
+
         return (
             <select style={{ width: '97%' }} value={playerRanks[rank]} onChange={handleSelectChange}>
                 <option key={"select"} value="select">Select Player</option>
-                {playerInfo.map(player => {
+                {sortedPlayerInfo.map(player => {
                     const isSelected = Object.values(playerRanks).includes(player.name);
                     return (
                         <option key={player.name} value={player.name} style={{ backgroundColor: isSelected ? 'lightgray' : 'inherit' }}>
@@ -461,7 +470,7 @@ export default function DraftRanks(props) {
                     style={{
                         ...buttonStyles,
                         backgroundColor: buttonClick === 'ppr1QB' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'ppr1QB' ? 'none' : '1px 1px 1px 0.5px darkgreen',
-                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', 
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', marginBottom: '4px'
                     }} 
                     onClick={() => {
                         setButtonClick('ppr1QB');
@@ -473,7 +482,7 @@ export default function DraftRanks(props) {
                     style={{
                         ...buttonStyles,
                         backgroundColor: buttonClick === 'ppr2QB' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'ppr2QB' ? 'none' : '1px 1px 1px 0.5px darkgreen',
-                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', 
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', marginBottom: '4px'
                     }} 
                     onClick={() => {
                         setButtonClick('ppr2QB');
@@ -486,7 +495,7 @@ export default function DraftRanks(props) {
                     style={{
                         ...buttonStyles,
                         backgroundColor: buttonClick === 'nPpr1QB' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'nPpr1QB' ? 'none' : '1px 1px 1px 0.5px darkgreen',
-                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px',  
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', marginBottom: '4px'  
                     }} 
                     onClick={() => {
                         setButtonClick('nPpr1QB');
@@ -499,7 +508,7 @@ export default function DraftRanks(props) {
                     style={{
                         ...buttonStyles,
                         backgroundColor: buttonClick === 'nPpr2QB' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'nPpr2QB' ? 'none' : '1px 1px 1px 0.5px darkgreen',
-                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px',     
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', marginBottom: '4px'
                     }} 
                     onClick={() => {
                         setButtonClick('nPpr2QB');
@@ -512,7 +521,7 @@ export default function DraftRanks(props) {
                     style={{
                         ...buttonStyles,
                         backgroundColor: buttonClick === 'personal' ? 'darkgreen' : 'green', boxShadow: buttonClick === 'personal' ? 'none' : '1px 1px 1px 0.5px darkgreen',
-                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px',    
+                        borderColor: '#C79A25', marginLeft: '10px', marginRight: '10px', 
                     }} 
                     onClick={() => {
                         setButtonClick('personal'); // need to check if user is signed in first
@@ -568,7 +577,7 @@ export default function DraftRanks(props) {
                 </div>
             )}
             
-            <div style={{ width: (width > screenCutOff ? '70%' : '95%'), color: '#eFeFeF', fontSize: '16px'}}>
+            <div style={{ width: (width > screenCutOff ? '70%' : '96%'), color: '#eFeFeF', fontSize: '16px'}}>
                 {buttonClick ? 
                     generateCard(ranks(buttonClick), 
                     buttonClick === 'ppr1QB' ? 'PPR 1-QB Rankings' :
