@@ -84,18 +84,18 @@ const playerInfo = [
         imgSite: `people.com`, imgUrl: "https://people.com/thmb/I_Hh94F3wdksYhtkTAgzmjtzCu0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(979x225:981x227)/malik-nabers-lsu-carrying-weapon-022323-2-a6504e70d82f481585a6a92ead121b64.jpg",
         img: malikNabers}, 
     {name: "Jayden Daniels", pos: "QB", age: "23", uni: "LSU", size: `6'3 5⁄8" | 210 lbs`, fortyYrd: "N/A", threeCone: "N/A", compPerc: "72.2%", td2Int: "40/4", passYrds: "3,812 yds", yrdsPerAtt: "11.7 yds", rush: "1,134 yds (10 TDs)", 
-        lastEditTime: "3/2/24", 
+        lastEditTime: "4/17/24", 
         analysis: "The 2023 Heisman trophy winner just had one of the best dual-threat QB seasons college football has ever seen. After starting 3 seasons at Arizona " +
             "State, he made enormous strides from 2022 to 2023 at LSU. While the incredible talent around him can't be overlooked, there was a noticeable improvement in " +
             "his footwork, accuracy, and processing skills during the 2023 season. Still, at times he misses the target on short out and flat-routes, and he doesn't have " +
             "the elite arm strength to consistently laser in tight window passes down field. However, he has beautiful " +
-            "throwing mechanics that make him an incredibly accurate and effortless deep-ball thrower. Adding to his deep-ball prowess, Jayden is extremely accurate over " +
-            "the middle of the field, usually leading his receivers into YAC opportunities. Daniels also developed elite processing skills during his extra years in college. " +
-            "His ability to read a defense and run his offense makes him maybe the most pro-ready QB in this class. Now, for the fun stuff... Jayden Daniels is the most " +
-            "electric rushing QB we've seen since Lamar Jackson won the Heisman at Louisville in 2016. He has elite burst, elusiveness, and speed allowing him to extend plays " +
-            "and break off long runs. Even with the advanced competition in the NFL, he will have no problem producing on the ground. While he evades pressure in the pocket " +
-            "he is great at keeping his eyes down field, and doesn't tuck and run too quickly. However, his extremely wiry frame is cause for injury concern in the NFL. " +
-            "Overall, Jayden Daniels is an incredible talent that looks ready to make waves in the NFL and in fantasy football. ", 
+            "throwing mechanics that make him an incredibly accurate deep-ball thrower. Adding to his deep-ball prowess, Jayden is accurate over " +
+            "the middle of the field, usually leading his receivers into YAC opportunities. Daniels also developed great processing skills during his extra years in college. " +
+            "His ability to read a defense and run his offense makes him one of the most pro-ready QBs in this class. Beyond the traditional QB role, Daniels is the most " +
+            "electric rushing QB we've seen since Lamar Jackson at Louisville. He has elite burst, elusiveness, and speed allowing him to extend plays and break off long " +
+            "runs. Even with the advanced competition in the NFL, he will have no problem producing on the ground. While he evades pressure in the pocket he is good " +
+            "at keeping his eyes down field, and doesn't tuck and run too quickly. However, his extremely wiry frame is cause for injury concern in the NFL, especially " +
+            "given the few huge hits he took in 2023. Overall, Jayden Daniels is an incredible talent that looks ready to make waves in the NFL and in fantasy football. ", 
         imgSite: `si.com`, imgUrl: "https://www.si.com/.image/t_share/MjAyNjMzMDI0NDE0Njg4MzI0/daniels.jpg",
         img: jaydenDaniels}, 
     {name: "Rome Odunze", pos: "WR", age: "21", uni: "Washington", size: `6'2 7⁄8" | 216 lbs`, fortyYrd: "4.45", threeCone: "6.88", vert: `39"`, recTdRec: "92 (13 TDs)", recYrds: "1,640 yds",
@@ -824,16 +824,16 @@ const nflTeams = [
         WR: `A.J. Brown and DeVonta Smith rule this WR room. Until one of them is gone, don't get too excited by another Philly WR.`, 
         TE: `Dallas Goedert is one of the better TEs in the league and still has at least another year with the Eagles. He's also been less consistent than a guy of his talent would be on a team without this WR room.`}}, 
     {mascot: "Cowboys", location: "Dallas", ppg: '29.9', logoUrl: cowboysLogo, division: 'NFC East', primCol: '#041E42', secCol: '#F2F2F2',
-    posLandingGrade: {QB: 'D+', RB: 'A+', WR: 'B', TE: 'B-'}, posLandingRank: {QB: '24', RB: '1', WR: '8', TE: '10'}, lastEditTime: '3/11/2024',
+    posLandingGrade: {QB: 'D+', RB: 'A+', WR: 'B+', TE: 'B-'}, posLandingRank: {QB: '24', RB: '1', WR: '5', TE: '10'}, lastEditTime: '3/11/2024',
     posLandingAnalysis: {QB: `Dak will likely get a massive extension this year. With former top pick Trey Lance as their backup, they won't spend much on a new QB anytime soon.`, 
         RB: `Pollard left in free agency. If they don't address the position in free agency, expect them to draft a rookie RB and give him a significant workload.`, 
         WR: `McCarthy showed us this year that as long as he's at the helm with Dak he's going to air it out. With Gallup's decline and Cooks old age, a rookie WR could be productive behind Ceedee.`, 
         TE: `Dak loves the TE, especially in the red zone. While Ferguson is solid, but there is a path to him getting overtaken by a rookie TE.`}}, 
     {mascot: "Giants", location: "New York", ppg: '15.6', logoUrl: giantsLogo, division: 'NFC East', primCol: '#082366', secCol: '#F2F2F2',
-    posLandingGrade: {QB: 'B', RB: 'B', WR: 'A', TE: 'C+'}, posLandingRank: {QB: '8', RB: '4', WR: '4', TE: '16'}, lastEditTime: '4/3/2024',
+    posLandingGrade: {QB: 'B', RB: 'B', WR: 'B', TE: 'C+'}, posLandingRank: {QB: '8', RB: '4', WR: '6', TE: '16'}, lastEditTime: '4/17/2024',
     posLandingAnalysis: {QB: `The Giants dug themselves in a hole with the recent Daniel Jones contract. Even if they do decide to move on, they have very limited weapons for a QB to produce. In a deep WR class, maybe they could pickup weapons and O-line help in the later rounds.`, 
         RB: `Out goes Saquon Barkley and in comes Devin Singletary in the first day of free agency. Devin should soak up much of the carries that Saquon leaves up for grabs up for grabs. However, if the Giants choose to draft a RB, there's a chance they could earn the lead roll and fantasy relevancy. This would be even more likely for 2025.`, 
-        WR: `We haven't seen a consistent producer in the Giants WR room since Odell. However, there will be more than ample opportunity for a rookie WR this year. Even with the less-than QB play, this should be a great spot for an incoming WR.`, 
+        WR: `We haven't seen a consistent producer in the Giants WR room since Odell. However, there will be more than ample opportunity for a rookie WR this year. Even with the less-than QB play, this should be a solid spot for an incoming WR.`, 
         TE: `Despite his injury struggles, Darren Waller is still a good TE when he's on the field. In addition, their backup, Daniel Bellinger, is a solid TE in his own right. If Waller decides to continue to play, there won't be much use for another TE.`}}, 
     {mascot: "Commanders", location: "Washington", ppg: '19.4', logoUrl: commandersLogo, division: 'NFC East', primCol: '#591616', secCol: '#FFB612',
     posLandingGrade: {QB: 'A', RB: 'C-', WR: 'B-', TE: 'B'}, posLandingRank: {QB: '3', RB: '20', WR: '12', TE: '7'}, lastEditTime: '3/11/2024',
@@ -880,7 +880,7 @@ const nflTeams = [
         WR: `Seattle has one of the best WR rooms in the NFL with DK Metcalf, Tyler Lockett, and Jaxon Smith-Njigba. Metcalf and Lockett both have time on their contract, but Lockett could be a cap casualty. Still, with Smith-Njigba just getting started in his NFL career, there's not much room for another WR in Seattle.`,
         TE: `There's a lot of target competition in Seattle with their impressive WR room. That being said, there's room for a rookie TE to come in and at the very least win the starting position. He could possibly even carve out a role.`}}, 
     {mascot: "Cardinals", location: "Arizona", ppg: '19.4', logoUrl: cardinalsLogo, division: 'NFC West', primCol: '#96233E', secCol: '#F2F2F2',
-    posLandingGrade: {QB: 'C-', RB: 'B', WR: 'A+', TE: 'D'}, posLandingRank: {QB: '21', RB: '5', WR: '1', TE: '28'}, lastEditTime: '4/3/2024',
+    posLandingGrade: {QB: 'C-', RB: 'B', WR: 'A+', TE: 'D'}, posLandingRank: {QB: '21', RB: '5', WR: '2', TE: '28'}, lastEditTime: '4/3/2024',
     posLandingAnalysis: {QB: `It looks like the Cardinals are sticking with Kyler Murray as their QB, making this a poor QB landing spot. However, he hasn't shown enough to completely plant himself as a franchise QB. Maybe a rookie QB could find themselves as a starter in a couple years, but don't count on it.`,
         RB: `James Conner was incredible in 2023 after coming back from injury. At this point, we know Conner will miss at least a few weeks in 2024. We expect a rookie WR to join Kyler and Trey McBride in this offense. If they snag the right RB in this draft, he could have a ton of value in the coming years.`,
         WR: `Hollywood Brown might be off this team come the start of the 2024 season. Even if he's still there, he isn't a true WR1 for a team. Whoever the Cardinals take with their first pick has immense opportunity to be the 1st read on an exciting young offense.`, 
@@ -893,7 +893,7 @@ const nflTeams = [
         TE: `The Rams extended Tyler Higbee in the 2023 season prior to him tearing his ACL in the Wild Card round. That being said, their rookie, Davis Allen, stepped up in Higbee's absences. Unless they draft one of the top TEs this year, it's unlikely that there will be much change.`}}, 
     // AFC North
     {mascot: "Bengals", location: "Cincinnati", ppg: '21.5', logoUrl: bengalsLogo, division: 'AFC North', primCol: '#000000', secCol: '#FA4D14',
-    posLandingGrade: {QB: 'D-', RB: 'B+', WR: 'B', TE: 'A-'}, posLandingRank: {QB: '29', RB: '3', WR: '9', TE: '3'}, lastEditTime: '4/3/2024',
+    posLandingGrade: {QB: 'D-', RB: 'B+', WR: 'B', TE: 'A-'}, posLandingRank: {QB: '29', RB: '3', WR: '11', TE: '3'}, lastEditTime: '4/3/2024',
     posLandingAnalysis: {QB: `Joe Burrow had a very disappointing year in 2023, but much of that can be explained away by injuries. He is still their franchise QB and locked into a long term deal.`, 
         RB: `We've seen with Mixon, that the lead RB role in Cincy is very fantasy relevant. Zach Moss replaced Joe Mixon in free agency, making Moss the current lead back. Chase Brown (Rookie) was decent when he got work in 2023, but was drafted late. If the Bengals try to find a new lead back in the draft, he would have a decent shot to beat out Moss and Brown.`, 
         WR: `Following receiving the franchise tag, Tee Higgins requested a trade. If his request is granted and he is off the team, Cincy will be an amazing landing spot for the WR position with immediate opportunity and fantasy value.`, 
@@ -911,7 +911,7 @@ const nflTeams = [
         WR: `Cleveland traded for Jerry Jeudy to pair him with Amari Cooper and David Njoku. In 2023, there wasn't enough volume and efficiency for a third option, let alone a 4th. This isn't a good landing spot for WRs.`, 
         TE: `David Njoku finished the year playing at an extremely high level. It will be interesting to see how involved he his when Watson comes back. They also have Harrison Bryant as a good pass catching backup TE. This duo leaves no room for additional TEs.`}}, 
     {mascot: "Steelers", location: "Pittsburgh", ppg: '17.9', logoUrl: steelersLogo, division: 'AFC North', primCol: '#0C0C0E', secCol: '#C1C1C1',
-    posLandingGrade: {QB: 'C', RB: 'C-', WR: 'B', TE: 'C-'}, posLandingRank: {QB: '13', RB: '21', WR: '7', TE: '24'}, lastEditTime: '3/12/2024',
+    posLandingGrade: {QB: 'C', RB: 'C-', WR: 'B', TE: 'C-'}, posLandingRank: {QB: '13', RB: '21', WR: '10', TE: '24'}, lastEditTime: '3/12/2024',
     posLandingAnalysis: {QB: `The Steelers have had QB struggles since Big Ben's down fall. To help remedy this, they picked up Russell Wilson on a team-friendly deal. With Kenny Pickett still there as well, don't get excited about any rookie QB going here.`, 
         RB: `Najee Harris and Jaylen Warren have been heavily used in combination over the past two years. All signs point to this continuing. Their high involvement won't allow for another back to insert himself into the rotation.`, 
         WR: `Diontae Johnson was traded to the Panthers, meaning there may be room for a new option in Pitt. While you do not want Arthur Smith's receiving options, a rookie in this class could easily become the WR1 for the Steelers.`, 
@@ -930,13 +930,13 @@ const nflTeams = [
         WR: `Tyreek Hill and Jaylen Waddle are an incredible WR tandem when on the field. However, keeping them both on the field has been a problem. This, along with a very high volume passing offense, could allow for a rookie WR to come in and produce, but probably wouldn't be fantasy relevant.`, 
         TE: `Miami hasn't used their TEs in a valuable capacity in recent years. With as much as they throw the ball down in South Beach, if they draft a TE in this years draft who is able to beat out newly-acquired Jonnu Smith, he could see valuable targets.`}}, 
     {mascot: "Jets", location: "New York", ppg: '15.8', logoUrl: jetsLogo, division: 'AFC East', primCol: '#006633', secCol: '#FFFFFF',
-    posLandingGrade: {QB: 'B', RB: 'D-', WR: 'B-', TE: 'A'}, posLandingRank: {QB: '9', RB: '30', WR: '11', TE: '2'}, lastEditTime: '3/19/2024',
+    posLandingGrade: {QB: 'B', RB: 'D-', WR: 'B-', TE: 'A'}, posLandingRank: {QB: '9', RB: '30', WR: '14', TE: '2'}, lastEditTime: '4/17/2024',
     posLandingAnalysis: {QB: `Aaron Rodgers will be back next year, but anything after that is uncertain. After what we've seen from Jordan Love, giving a rookie time to sit behind Aaron Rodgers can be extremely valuable to their development. This could mean for a great QB once Rodgers retires.`, 
         RB: `Following his return from the torn ACL in 2023, Breece Hall dominated the touches out of their backfield during the second half of the season and finished as the RB2 in PPR leagues. With his talent, there's no room for a rookie RB to come in and take work from Breece.`, 
-        WR: `Garrett Wilson is a true WR1. Mike Williams will likely take the second spot for 2024, but has a history of major injuries and is aging. A rookie WR could easily slot into being the 2 or 3 in 2024, and then fully take the WR2 role in 2025.`, 
+        WR: `Garrett Wilson is a true WR1. Mike Williams will likely take the second spot for 2024, but he has a history of major injuries and is aging. A rookie WR could easily slot into being the 2 or 3 in 2024, and then fully take the WR2 role in 2025.`, 
         TE: `Other than Garrett Wilson and Breece Hall, this team has very poor weapons. If they choose to draft a TE in this years' draft, he could easily see a very substantial workload for a TE.`}}, 
     {mascot: "Patriots", location: "New England", ppg: '13.9', logoUrl: patriotsLogo, division: 'AFC East', primCol: '#0C2240', secCol: '#BF0404',
-    posLandingGrade: {QB: 'B+', RB: 'C', WR: 'B+', TE: 'C-'}, posLandingRank: {QB: '5', RB: '15', WR: '5', TE: '19'}, lastEditTime: '3/12/2024',
+    posLandingGrade: {QB: 'B+', RB: 'C', WR: 'B', TE: 'C-'}, posLandingRank: {QB: '6', RB: '15', WR: '8', TE: '19'}, lastEditTime: '4/17/2024',
     posLandingAnalysis: {QB: `Whichever QB the Patriots draft will be their starter; that isn't a question. The concern is the weapons that will be at his disposal. Rhamondre Stevenson is a good runner and a great pass catcher out of the back field, but beyond him there isn't much. Pop Douglas did well with the opportunities given to him in 2023, but don't get too excited about the QB that lands here unless they make a move at WR as well.`, 
         RB: `Rhamondre Stevenson struggled with injury in 2023, but he'll be back to 100% in 2024. After bringing in Antonio Gibson in free agency, the RB2 role seems to be occupied. Don't get too excited about a RB drafted to New England.`, 
         WR: `With Pop Douglas as the only threat to any incoming rookies, there is plenty of opportunity for WR production in New England. It will be interesting to see what the Patriots offense looks like in 2024 with all the changes. Except their WR1 to at least have value through volume.`, 
@@ -949,10 +949,10 @@ const nflTeams = [
         WR: `Nico Collins and Tank Dell shocked the nFL with their performance in 2023. With Diggs there now too, there is no way for a rookie WR to slot in at better than their WR4 in 2024.`, 
         TE: `The Texans re-signed Dalton Schultz to a 3-year deal. Don't expect them to draft another, and if they do, they won't be fantasy relevant.`}}, 
     {mascot: "Jaguars", location: "Jacksonville", ppg: '22.2', logoUrl: jaguarsLogo, division: 'AFC South', primCol: '#006073', secCol: '#D99414',
-    posLandingGrade: {QB: 'D+', RB: 'D+', WR: 'B', TE: 'C-'}, posLandingRank: {QB: '23', RB: '26', WR: '10', TE: '23'}, lastEditTime: '4/3/2024',
+    posLandingGrade: {QB: 'D+', RB: 'D+', WR: 'B+', TE: 'C-'}, posLandingRank: {QB: '23', RB: '26', WR: '4', TE: '23'}, lastEditTime: '4/17/2024',
     posLandingAnalysis: {QB: `Trevor Lawrence's first few NFL seasons have been pretty disappointed. It seems that he'll never turn out to be the QB he was projected to be. Still, he's been good enough to maintain his job for the foreseeable future.`, 
         RB: `Travis Etienne was very productive for much of the 2023 season. Despite preseason narratives, he was a true workhorse for Jacksonville. His role seems safe with the Jaguars, making any rookie likely just an insurance policy.`, 
-        WR: `The Jag's WR room got shaken up a lot in free agency. The signings of Gabe Davis and Devin Duvernay were followed by Calvin Ridley walking. While there are many solid players in this room, if the Jags decide to grab a WR in the draft, he could beat out the rest of the room to be a top 2 target-getter in TLaw's offense.`, 
+        WR: `The Jag's WR room got shaken up a lot in free agency. The signings of Gabe Davis and Devin Duvernay were followed by Calvin Ridley walking. While there are many solid players in this room, if the Jags decide to grab a WR in the draft, he could beat out the rest of the room to be a top target-getter in TLaw's offense.`, 
         TE: `Evan Engram was very close to breaking the single-season TE receptions record in 2023. With multiple years still left on his contract, there's little to no value for a new TE in this offense.`}}, 
     {mascot: "Colts", location: "Indianapolis", ppg: '23.3', logoUrl: coltsLogo, division: 'AFC South', primCol: '#104573', secCol: '#F2F2F2',
     posLandingGrade: {QB: 'C-', RB: 'D', WR: 'C+', TE: 'B-'}, posLandingRank: {QB: '14', RB: '28', WR: '21', TE: '8'}, lastEditTime: '3/11/2024',
@@ -968,7 +968,7 @@ const nflTeams = [
         TE: `Chig Okonkwo continues to show flashes when given the chance. The Titans likely won't draft another TE in 2023, but even if they do, expect Chig to beat out the competition for receiving work.`}}, 
     // AFC West
     {mascot: "Chiefs", location: "Kansas City", ppg: '21.8', logoUrl: chiefsLogo, division: 'AFC West', primCol: '#E31936', secCol: '#FCFCFC',
-    posLandingGrade: {QB: 'F', RB: 'B-', WR: 'B-', TE: 'B'}, posLandingRank: {QB: '32', RB: '7', WR: '14', TE: '5'}, lastEditTime: '3/15/2024',
+    posLandingGrade: {QB: 'F', RB: 'B-', WR: 'B', TE: 'B'}, posLandingRank: {QB: '32', RB: '7', WR: '7', TE: '5'}, lastEditTime: '3/15/2024',
     posLandingAnalysis: {QB: `Patrick Mahomes. Carry on.`, 
         RB: `Despite his lower draft capital, Isaiah Pacheco has been a stud the last two years. He was a huge part of KC's offense in 2023, they likely won't move on from him in 2024, but there was a reason he slipped in the draft. Maybe a rookie can take over the lead role.`, 
         WR: `Rashee Rice excelled in his rookie year and KC brought in 'Hollywood' Brown in free agency. Still, with the slow decline of Travis Kelce, there is a chance that another WR could carve out a role in 2024.`, 
@@ -980,7 +980,7 @@ const nflTeams = [
         WR: `Mike Williams was cut, Keenan Allen was traded to the Bears, Quentin Johnston was very disappointing, and Justin Herbert is under center. With basically no competition, the opportunity will be great for whatever WR ends up in LA. However, there is some concern about the extent to which this new coaching staff will implement their run-first offense. This could limit the upside of the Charger's receiving options.`, 
         TE: `This team's pass catchers are dwindling. If LA decides the refill their receiving corp with a TE, he could slide into being Justin Herbert's second target. This would be very valuable in fantasy. `}}, 
     {mascot: "Broncos", location: "Denver", ppg: '21.0', logoUrl: broncosLogo, division: 'AFC West', primCol: '#0A2343', secCol: '#FB4F14',
-    posLandingGrade: {QB: 'B+', RB: 'C', WR: 'B+', TE: 'B-'}, posLandingRank: {QB: '6', RB: '13', WR: '6', TE: '9'}, lastEditTime: '3/12/2024',
+    posLandingGrade: {QB: 'B+', RB: 'C', WR: 'B', TE: 'B-'}, posLandingRank: {QB: '5', RB: '13', WR: '9', TE: '9'}, lastEditTime: '4/17/2024',
     posLandingAnalysis: {QB: `Russell Wilson is out of Denver, and Sean Payton is looking for a QB to build around. Provided the Broncos fill out their receiving corps, this would be a great landing spot for a QB.`, 
         RB: `Javonte Williams had a tough season in 2023 after returning from injury. However, he's still a talented back and would beat out most RBs in this draft class.`, 
         WR: `After years of wanting to part ways with Jerry Jeudy, they made it happen. There have also been murmurs about Sutton getting out of there. Even if Sutton stays, this would be a good landing spot for a WR who will likely be a building block around a rookie QB.`, 
