@@ -245,7 +245,7 @@ const playerInfo = [
         img: rickyPearsall}, 
     {name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", size: `6'1 1⁄4" | 202 lbs`, fortyYrd: "4.54", threeCone: "N/A", vert: `37"`, recTdRec: "52 (7 TDs)", recYrds: "1,139 yds",
         lastEditTime: "3/3/24", 
-        analysis: "Javon Baker was a 5-star recruit coming out of High School and committed to Alabama where he struggled to get on the field. After 2 years at the bottom " +
+        analysis: "Javon Baker was a very high recruit coming out of High School and committed to Alabama where he struggled to get on the field. After 2 years at the bottom " +
             "of an elite WR depth chart, he transferred to UCF to be the main guy. He thrived in that role, posting top-5 numbers in yards per route run versus man and zone " +
             "in 2023. This metrics has extreme historical significance in predicting future success. He has great hands and elite body control giving him highlight reel potential. " +
             "Baker is incredible at the catch point. Despite is mediocre 4.54 40 at the combine, he has enough top end speed to race past defenders. While his route-tree " +
@@ -263,6 +263,16 @@ const playerInfo = [
             "pan out. He could use his elite explosiveness to excel in a complimentary roll.", 
         imgSite: `latimes.com`, imgUrl: "https://ca-times.brightspotcdn.com/dims4/default/6f1bd99/2147483647/strip/true/crop/5262x2763+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F64%2F59%2F077e94f549809f6a1db77120ef89%2Fusc-nevada-football-04073.jpg",
         img: marshawnLloyd},  
+    {name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama", size: `6'0 1⁄4" | 196 lbs`, fortyYrd: "4.45", threeCone: "N/A", vert: `38.5"`, recTdRec: "39 (8 TDs)", recYrds: "798 yds",
+        lastEditTime: "4/18/24", 
+        analysis: "Jermaine Burton is a great route-runner with excellent acceleration and speed allowing him to consistently create separation at every level of the " +
+            "field. Don't let this incredibly athletic WR class discount the 4.45 that Burton ran. This is still well above-average for the 40, don't be concerned " +
+            "about Burton's speed. He has plenty ability to beat defenders down the field. With 0 drops in 2023, Burton is sure to reel in everything that comes his " +
+            "way with his excellent hands. Burton sometimes struggles in play strength. At times, he can get bullied and doesn't project to do much after the catch " +
+            "when contact is involved. However, he routinely won against press coverage. Burton has been pushed down boards by his attitude problems and off-field drama. " +
+            "Talent wise, has the makings of a consistently producing WR in the NFL. If he can get his attitude under control, he could be a major steal in this draft.", 
+        imgSite: `rolltide.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2022/10/12/100822_MFB_BurtonJe_TAMU_TN5320_mQx2V.jpg",
+        img: jermaineBurton},  
     {name: "Keon Coleman", pos: "WR", age: "20", uni: "Florida State", size: `6'3 1⁄4" | 213 lbs`, fortyYrd: "4.61", threeCone: "N/A", vert: `38"`, recTdRec: "50 (11 TDs)", recYrds: "658 yds",
         lastEditTime: "3/19/24", 
         analysis: "Keon Coleman looks like he was built in a lab in to be a WR. His elite combination of size, speed, strength, athleticism, and good hands make him " +
@@ -296,15 +306,6 @@ const playerInfo = [
             "injuries for much of the 2023 season, people would likely be talking about McMillan a lot more.", 
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/404/613/10613404.jpg",
         img: jalenMcmillan}, 
-    {name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama", size: `6'0 1⁄4" | 196 lbs`, fortyYrd: "4.45", threeCone: "N/A", vert: `38.5"`, recTdRec: "39 (8 TDs)", recYrds: "798 yds",
-        lastEditTime: "3/5/24", 
-        analysis: "Jermaine Burton is a great route-runner with excellent acceleration and speed allowing him to consistently create separation at every level of the " +
-            "field. Don't let this incredibly athletic WR class discount the 4.45 that Burton ran. This is still well above-average for the 40, don't be concerned " +
-            "about Burton's speed. He has plenty ability to beat defenders down the field When the ball comes his ways, he's just about guaranteed to reel it " +
-            "in with his excellent hands. Burton sometimes struggles in play strength. At times, he can get bullied and doesn't project to do much after the catch " +
-            "when contact is involved. He does have attitude concerns seen in his off-field drama. He has the makings of a consistently producing WR in the NFL.", 
-        imgSite: `rolltide.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2022/10/12/100822_MFB_BurtonJe_TAMU_TN5320_mQx2V.jpg",
-        img: jermaineBurton},  
     {name: "Braelon Allen", pos: "RB", age: "20", uni: "Wisconsin", size: `6'1 1⁄4" | 235 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: `32"`, rushing: "984 yds (12 TDs)", ydsPerRush: "5.4 yds", recTdRec: "28 (0 TDs)", recYrds: "131 yds",
         lastEditTime: "3/5/24", 
         analysis: "Braelon Allen has been dominating Big 10 football since he was 17 as a freshman. Now, newly 20, he enters the draft as by far the biggest RB in the " +
@@ -602,11 +603,11 @@ const ppr1QB = [
     {id: "16", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
     {id: "17", name: "Javon Baker", pos: "WR", uni: "UCF"}, 
     {id: "18", name: "Marshawn Lloyd", pos: "RB", uni: "USC"},
-    {id: "19", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
-    {id: "20", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
-    {id: "21", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
-    {id: "22", name: "Jalen McMillan", pos: "WR", uni: "Washington"}, 
-    {id: "23", name: "Jermaine Burton", pos: "WR", uni: "Alabama"}, 
+    {id: "19", name: "Jermaine Burton", pos: "WR", uni: "Alabama"}, 
+    {id: "20", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
+    {id: "21", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "22", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
+    {id: "23", name: "Jalen McMillan", pos: "WR", uni: "Washington"}, 
     {id: "24", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
     {id: "25", name: "Roman Wilson", pos: "WR", uni: "Michigan"}, 
     {id: "26", name: "Audric Estimé", pos: "RB", uni: "Notre Dame"},
@@ -644,11 +645,11 @@ const ppr2QB = [
     {id: "17", name: "Ricky Pearsall", pos: "WR",uni: "Florida"}, 
     {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"},
     {id: "19", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
-    {id: "20", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
-    {id: "21", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
-    {id: "22", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
-    {id: "23", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
-    {id: "24", name: "Jermaine Burton", pos: "WR", uni: "Alabama"}, 
+    {id: "20", name: "Jermaine Burton", pos: "WR", uni: "Alabama"}, 
+    {id: "21", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
+    {id: "22", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "23", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
+    {id: "24", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
     {id: "25", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
     {id: "26", name: "Roman Wilson", pos: "WR", uni: "Michigan"},
     {id: "27", name: "Bo Nix", pos: "QB", uni: "Oregon"},
@@ -684,13 +685,13 @@ const nPpr1QB = [
     {id: "16", name: "Ricky Pearsall", pos: "WR", uni: "Florida"},
     {id: "17", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
     {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"},
-    {id: "19", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
-    {id: "20", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
-    {id: "21", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
-    {id: "22", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
-    {id: "23", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
-    {id: "24", name: "Audric Estimé", pos: "RB", uni: "Notre Dame"},
-    {id: "25", name: "Jermaine Burton", pos: "WR", uni: "Alabama"},
+    {id: "19", name: "Jermaine Burton", pos: "WR", uni: "Alabama"},
+    {id: "20", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
+    {id: "21", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "22", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
+    {id: "23", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
+    {id: "24", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
+    {id: "25", name: "Audric Estimé", pos: "RB", uni: "Notre Dame"},
     {id: "26", name: "Roman Wilson", pos: "WR", uni: "Michigan"},
     {id: "27", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"}, 
     {id: "28", name: "Blake Corum", pos: "RB", uni: "Michigan"},
@@ -727,13 +728,13 @@ const nPpr2QB = [
     {id: "17", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
     {id: "18", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
     {id: "19", name: "Javon Baker", pos: "WR", uni: "UCF"},
-    {id: "20", name: "Keon Coleman", pos: "WR", uni: "Florida State"}, 
-    {id: "21", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
-    {id: "22", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
-    {id: "23", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
-    {id: "24", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"},
-    {id: "25", name: "Audric Estimé", pos: "RB", uni: "Notre Dame"}, 
-    {id: "26", name: "Jermaine Burton", pos: "WR", uni: "Alabama"},  
+    {id: "20", name: "Jermaine Burton", pos: "WR", uni: "Alabama"},  
+    {id: "21", name: "Keon Coleman", pos: "WR", uni: "Florida State"}, 
+    {id: "22", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "23", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
+    {id: "24", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
+    {id: "25", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"},
+    {id: "26", name: "Audric Estimé", pos: "RB", uni: "Notre Dame"}, 
     {id: "27", name: "Roman Wilson", pos: "WR", uni: "Michigan"}, 
     {id: "28", name: "Bo Nix", pos: "QB", uni: "Oregon"},
     {id: "29", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"},
