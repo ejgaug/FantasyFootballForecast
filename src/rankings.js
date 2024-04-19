@@ -179,18 +179,6 @@ const playerInfo = [
             "from the ACL, he has the talent to dominate his future backfield.",
         imgSite: `texasfootball.com`, imgUrl: "https://txfbstatic.blob.core.windows.net/txfb-static/img/articles/banner/editFG8A5014-copy-93022625.jpg",
         img: jonothanBrooks}, 
-    {name: "Troy Franklin", pos: "WR", age: "21", uni: "Oregon", size: `6'1 7⁄8" | 176 lbs`, fortyYrd: "4.41", threeCone: "6.90", vert: `39"`, recTdRec: "81 (14 TDs)", recYrds: "1,383 yds",
-        lastEditTime: "4/16/24", 
-        analysis: "Franklin is an extremely smooth, complete route-runner, maintaining his elite speed through the entirety of his routes. This, combined with his " +
-            "extensive release package, allow him to consistently separate from defenders and escape tackles once the ball is in his hands. His elite acceleration " +
-            "allows him to quickly regain top speed and continue down field for impressive YAC given his thinner frame. He has the ability to make explosive plays " +
-            "from both the slot and outside. His shortcomings are due to his skinny, lanky frame. He isn't great battling through contact in routes or at the catch point. " +
-            "On top of all there is to be excited about Troy Franklin, he'll be 21 for the entirety of his rookie season (very young). Contrary to our expectations, " +
-            "Franklin had a less-than ideal combine. His gauntlet run was concerning and his 40 time was slower than expected. While a 4.41 40-yard dash time was " +
-            "underwhelming in the context of this class, that number is still very impressive. From what we saw in 2023, Franklin is an elite talent, so we'll choose to " +
-            "value the tape over his combine performance. Provided an above-average landing spot, expect success for the Oregon WR at the next level.", 
-        imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/133/999/11999133.jpg",
-        img: troyFranklin}, 
     {name: "Trey Benson", pos: "RB", age: "21", uni: "Florida State", size: `6'0 1⁄4" | 216 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `33.5"`, rushing: "905 yds (14 TDs)", ydsPerRush: "5.8 yds", recTdRec: "20 (1 TDs)", recYrds: "227 yds",
         lastEditTime: "3/4/24", 
         analysis: "Benson is one of the more complete backs in this class. He has the elite acceleration and top end speed to take any touch to the house. He showed " +
@@ -200,17 +188,6 @@ const playerInfo = [
             "losing 3rd down snaps. However, he still has time to clean this up. If he lands somewhere with good opportunity, he could be a solid NFL and fantasy RB.", 
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/729/337/11337729.jpg",
         img: treyBenson}, 
-    {name: "Xavier Worthy", pos: "WR", age: "21", uni: "Texas", size: `5'11 1⁄4" | 165 lbs`, fortyYrd: "4.21", threeCone: "N/A", vert: `41"`, recTdRec: "75 (5 TDs)", recYrds: "1,014 yds",
-        lastEditTime: "4/16/24", 
-        analysis: "Worthy is a very young player with good route-running prowess. This, combined with his record breaking 4.21 40-yard dash and great quickness " +
-            "allow him to create separation, at all levels of the field. That being said, he does profile to be more of a field-stretcher. His rail-thin frame limits " +
-            "him when dealing with press coverage, jump balls, and in YAC situations. Despite his strength issues, he was extremely productive at Texas as a true freshman " + 
-            "and continued to produce over the next two seasons. Worthy did show cause for slight drop concerns through his years at Texas. However, he was also dealing " + 
-            "poor QB play as seen by having the most uncatchable targets in this class. It would be hard to repeat this dominance in the NFL at his weight, but maybe he'll " +
-            "be an outlier as a 165 pound WR like Tank Dell last year. His frame likely limits him from ever being a WR1 in fantasy or on his team, but he could still " +
-            "produce great numbers. His landing spot will likely determine if we're gambling on him.", 
-        imgSite: `texassports.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/texassports_com/images/2023/9/18/X_TD_Filtered_2023_09_16_DK-2.jpg",  
-        img: xavierWorthy},
     {name: "J.J. McCarthy", pos: "QB", age: "21", uni: "Michigan", size: `6'2 1⁄2" | 219 lbs`, fortyYrd: "N/A", threeCone: "6.82", compPerc: "72.3%", td2Int: "22/4", passYrds: "2,991 yds", yrdsPerAtt: "9.0 yds", rush: "202 yds (3 TDs)", 
         lastEditTime: "3/5/24", 
         analysis: "2023's National Championship winning QB profited greatly from an incredible defense, elite O-line, and great RB play at Michigan. However, there's " +
@@ -224,6 +201,26 @@ const playerInfo = [
             "or two while he develops his game. He's definitely worth a high pick in 2-QB leagues.", 
         imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0627%2Fr1191339_1296x729_16%2D9.jpg",
         img: jjMccarthy}, 
+    {name: "Ricky Pearsall", pos: "WR", age: "23", uni: "Florida", size: `6'1" | 189 lbs`, fortyYrd: "4.41", threeCone: "6.64", vert: `42"`, recTdRec: "65 (4 TDs)", recYrds: "965 yds",
+        lastEditTime: "3/3/24", 
+        analysis: "Ricky Pearsall is an incredible route-runner with a great ability to create separation and find space in the defense. He " +
+            "has a league-ready release package and enough explosiveness to consistently get open and make plays. Ricky has great hands and ball " +
+            "tracking skills down field. Pearsall showed his sneaky athleticism at the combine by posting a top-10 40 time and a top-3 vertical amongst " +
+            "WRs. He also had the quickest 3-cone drill of the entire event. Combine this incredible athletic ability with his pristine route-running and a high IQ, " +
+            "he may end up as one of the bigger steals in this years draft regardless of how high his combine performance pushes him up boards.", 
+        imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2023%2F0923%2Fss_20230923_193431430_23466101197%2Fss_20230923_193431430_23466101197.jpg",
+        img: rickyPearsall}, 
+    {name: "Xavier Worthy", pos: "WR", age: "21", uni: "Texas", size: `5'11 1⁄4" | 165 lbs`, fortyYrd: "4.21", threeCone: "N/A", vert: `41"`, recTdRec: "75 (5 TDs)", recYrds: "1,014 yds",
+        lastEditTime: "4/16/24", 
+        analysis: "Worthy is a very young player with good route-running prowess. This, combined with his record breaking 4.21 40-yard dash and great quickness " +
+            "allow him to create separation, at all levels of the field. That being said, he does profile to be more of a field-stretcher. His rail-thin frame limits " +
+            "him when dealing with press coverage, jump balls, and in YAC situations. Despite his strength issues, he was extremely productive at Texas as a true freshman " + 
+            "and continued to produce over the next two seasons. Worthy did show cause for slight drop concerns through his years at Texas. However, he was also dealing " + 
+            "poor QB play as seen by having the most uncatchable targets in this class. It would be hard to repeat this dominance in the NFL at his weight, but maybe he'll " +
+            "be an outlier as a 165 pound WR like Tank Dell last year. His frame likely limits him from ever being a WR1 in fantasy or on his team, but he could still " +
+            "produce great numbers. His landing spot will likely determine if we're gambling on him.", 
+        imgSite: `texassports.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/texassports_com/images/2023/9/18/X_TD_Filtered_2023_09_16_DK-2.jpg",  
+        img: xavierWorthy},
     {name: "Jaylen Wright", pos: "RB", age: "21", uni: "Tennessee", size: `5'10 1⁄2" | 210 lbs`, fortyYrd: "4.38", threeCone: "N/A", vert: `38"`, rushing: "1,010 yds (4 TDs)", ydsPerRush: "7.4 yds", recTdRec: "22 (0 TDs)", recYrds: "141 yds",
         lastEditTime: "3/19/24", 
         analysis: "Seen by his 7.4 yards per carry in 2023, Wright is a highly efficient RB with great speed and explosiveness. He only solidified this with an extremely " +
@@ -234,35 +231,18 @@ const playerInfo = [
             "He did have a note-worthy fumbling issue in 2023. Wright could prove to be very valuable in the NFL and in fantasy football if he lands in a good spot.", 
         imgSite: `utdailybeacon.com`, imgUrl: "https://bloximages.chicago2.vip.townnews.com/utdailybeacon.com/content/tncms/assets/v3/editorial/7/26/72697912-6c4b-11ee-a812-e3f8f5adc2c6/652d762347ef1.image.jpg?resize=1200%2C800",
         img: jaylenWright}, 
-    {name: "Ricky Pearsall", pos: "WR", age: "23", uni: "Florida", size: `6'1" | 189 lbs`, fortyYrd: "4.41", threeCone: "6.64", vert: `42"`, recTdRec: "65 (4 TDs)", recYrds: "965 yds",
-        lastEditTime: "3/3/24", 
-        analysis: "Ricky Pearsall is an incredible route-runner with a great ability to create separation and find space in the defense. He " +
-            "has a league-ready release package and enough explosiveness to consistently get open and make plays. Ricky has great hands and ball " +
-            "tracking skills down field. Pearsall showed his sneaky athleticism at the combine by posting a top-10 40 time and a top-3 vertical amongst " +
-            "WRs. He also had the quickest 3-cone drill of the entire event. Combine this incredible athletic ability with his pristine route-running and a high IQ, " +
-            "he may end up as one of the bigger steals in this years draft regardless of how high his combine performance pushes him up boards.", 
-        imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2023%2F0923%2Fss_20230923_193431430_23466101197%2Fss_20230923_193431430_23466101197.jpg",
-        img: rickyPearsall}, 
-    {name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", size: `6'1 1⁄4" | 202 lbs`, fortyYrd: "4.54", threeCone: "N/A", vert: `37"`, recTdRec: "52 (7 TDs)", recYrds: "1,139 yds",
-        lastEditTime: "3/3/24", 
-        analysis: "Javon Baker was a very high recruit coming out of High School and committed to Alabama where he struggled to get on the field. After 2 years at the bottom " +
-            "of an elite WR depth chart, he transferred to UCF to be the main guy. He thrived in that role, posting top-5 numbers in yards per route run versus man and zone " +
-            "in 2023. This metrics has extreme historical significance in predicting future success. He has great hands and elite body control giving him highlight reel potential. " +
-            "Baker is incredible at the catch point. Despite is mediocre 4.54 40 at the combine, he has enough top end speed to race past defenders. While his route-tree " +
-            "can use work, he has the talent to be a great player going later in drafts. After a stock-rising performance at the Senior Bowl, the combine was a pretty " +
-            "neutral event for Baker. With his elite underlying metrics, keep an eye out for Javon Baker in the later rounds of rookie drafts. ", 
-        imgSite: `collegefootballnetwork.com`, imgUrl: "https://collegefootballnetwork.com/wp-content/uploads/2023/08/USATSI_19326665-1024x683.jpg",
-        img: javonBaker}, 
-    {name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", size: `5'8 3⁄4" | 220 lbs`, fortyYrd: "4.46", threeCone: "N/A", vert: `36"`, rushing: "820 yds (9 TDs)", ydsPerRush: "7.1 yds", recTdRec: "13 (0 TDs)", recYrds: "232 yds",
-        lastEditTime: "3/5/24", 
-        analysis: "Lloyd is an extremely explosive runner with elite speed and burst. He has the agility to make guys miss in the open field and enough size to break a " +
-            "few tackles along the way. He is a threat to take it to the house every time he touches the ball. He showed this explosiveness at the combine by posting " +
-            "a 4.46 40-yard dash which was the 6th best time among the RBs. This speed is even more impressive when taking his elite weight into account. While he saw " +
-            "very limited receiving work at USC, this may have been a product of the system and Caleb Williams preferring down field throws as Lloyd look pretty fluid on the " +
-            "targets he did get. Lloyd also wasn't very effective in pass-pro. Combine this with his advanced age for a rookie, he'll likely need a solid landing spot to " +
-            "pan out. He could use his elite explosiveness to excel in a complimentary roll.", 
-        imgSite: `latimes.com`, imgUrl: "https://ca-times.brightspotcdn.com/dims4/default/6f1bd99/2147483647/strip/true/crop/5262x2763+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F64%2F59%2F077e94f549809f6a1db77120ef89%2Fusc-nevada-football-04073.jpg",
-        img: marshawnLloyd},  
+    {name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina", size: `6'1" | 221 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `40"`, recTdRec: "71 (7 TDs)", recYrds: "1,255 yds",
+        lastEditTime: "4/18/24",  
+        analysis: "Legette is one of the most physically imposing WRs in this class. While smaller than originally thought, he still has the size and strength to " +
+            `bully many NFL DBs. Legette showed off his ridiculous athletic ability at the combine by posting a 4.39 40-yard dash and a 40" vertical at 221 lbs. ` +
+            "This testing was good for a 9.88/10 relative athletic score (RAS). This athleticism and his hulking strength make him clear YAC threat. While, he " +
+            "does have all the physical traits you would want, he still needs refinement in his game. Legette's route-running is definitely a project, and it limits" +
+            "his ability to get open at a consistent level. One of his biggest red flags is that he did practically nothing from a production standpoint prior to " +
+            "his 5th season in college (2023). However, there are many events that contributed to this including him playing QB until college, coaching changes at SC, and  " +
+            "a motorcycle accident during his junior season. Legette is a fun player to watch with a ton of upside. If he goes to the right situation, he could provide " + 
+            "plenty of fantasy value. ", 
+        imgSite: `wistv.com`, imgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/AIHJH7RCRFCTXLC4RYFOKWK4HM.jpg",
+        img: xavierLegette},   
     {name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama", size: `6'0 1⁄4" | 196 lbs`, fortyYrd: "4.45", threeCone: "N/A", vert: `38.5"`, recTdRec: "39 (8 TDs)", recYrds: "798 yds",
         lastEditTime: "4/18/24", 
         analysis: "Jermaine Burton is a great route-runner with excellent acceleration and speed allowing him to consistently create separation at every level of the " +
@@ -273,6 +253,38 @@ const playerInfo = [
             "Talent wise, has the makings of a consistently producing WR in the NFL. If he can get his attitude under control, he could be a major steal in this draft.", 
         imgSite: `rolltide.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2022/10/12/100822_MFB_BurtonJe_TAMU_TN5320_mQx2V.jpg",
         img: jermaineBurton},  
+    {name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", size: `6'1 1⁄4" | 202 lbs`, fortyYrd: "4.54", threeCone: "N/A", vert: `37"`, recTdRec: "52 (7 TDs)", recYrds: "1,139 yds",
+        lastEditTime: "4/18/24", 
+        analysis: "Javon Baker was a very high recruit coming out of High School and committed to Alabama where he struggled to get on the field. After 2 years at the bottom " +
+            "of an elite WR depth chart, he transferred to UCF to be the guy. He thrived in that role, posting top-5 numbers in yards per route run versus man and zone " +
+            "in 2023. These metrics have extreme historical significance in predicting future success, boding well for Baker. He has great hands and elite body control " +
+            "giving him highlight reel potential. Baker is incredible at the catch point. He ran a mediocre 4.54 40-yard dash at the combine, but showed a little more speed " +
+            "in game. While his route-tree can use work, he has the talent to be a great player going later in drafts. With " +
+            "his elite underlying metrics, keep an eye out for Javon Baker in the later rounds of rookie drafts. ", 
+        imgSite: `collegefootballnetwork.com`, imgUrl: "https://collegefootballnetwork.com/wp-content/uploads/2023/08/USATSI_19326665-1024x683.jpg",
+        img: javonBaker}, 
+    {name: "Troy Franklin", pos: "WR", age: "21", uni: "Oregon", size: `6'1 7⁄8" | 176 lbs`, fortyYrd: "4.41", threeCone: "6.90", vert: `39"`, recTdRec: "81 (14 TDs)", recYrds: "1,383 yds",
+        lastEditTime: "4/18/24", 
+        analysis: "Franklin is a lanky, speedy receiver who thrived in Oregon's offense in 2023. He is a smooth route-runner, but isn't elite in that area. His great top " +
+            "end speed allows him to separate from defenders when he can get going. However, he needs time to reach that top speed. This poor acceleration was evident in " +
+            "his class-worse 10-yard split at the combine. While his 0 to 60 isn't impressive, he can stop at a dime at any point. This allows him to create separation " +
+            "on routes where he breaks back to the QB. As you'd expect with his skinny, lanky frame. He isn't great with contact in routes or at the catch point. " +
+            "The 10-yard split wasn't the only area where Franklin struggled at the combine. His mistrust in his hands (10% drop rate) were on full display in the gauntlet " +
+            "drill where he looked like a college kid after 14 shots of Patrón; weaving across the field and body catching every ball. His 4.41 40-yard dash time was " +
+            "good, but not ideal for a speedster. Still, Franklin looked pretty good on film and made some huge plays. " +
+            "Provided an above-average landing spot, he could see some value in fantasy, but our current expectations don't have him higher than a WR3. ", 
+        imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/133/999/11999133.jpg",
+        img: troyFranklin}, 
+    {name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", size: `5'8 3⁄4" | 220 lbs`, fortyYrd: "4.46", threeCone: "N/A", vert: `36"`, rushing: "820 yds (9 TDs)", ydsPerRush: "7.1 yds", recTdRec: "13 (0 TDs)", recYrds: "232 yds",
+        lastEditTime: "3/5/24", 
+        analysis: "Lloyd is an extremely explosive runner with elite speed and burst. He has the agility to make guys miss in the open field and enough size to break a " +
+            "few tackles along the way. He is a threat to take it to the house every time he touches the ball. He showed this explosiveness at the combine by posting " +
+            "a 4.46 40-yard dash which was the 6th best time among the RBs. This speed is even more impressive when taking his elite weight into account. While he saw " +
+            "very limited receiving work at USC, this may have been a product of the system and Caleb Williams preferring down field throws as Lloyd look pretty fluid on the " +
+            "targets he did get. Lloyd also wasn't very effective in pass-pro. Combine this with his advanced age for a rookie, he'll likely need a solid landing spot to " +
+            "pan out. He could use his elite explosiveness to excel in a complimentary roll.", 
+        imgSite: `latimes.com`, imgUrl: "https://ca-times.brightspotcdn.com/dims4/default/6f1bd99/2147483647/strip/true/crop/5262x2763+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F64%2F59%2F077e94f549809f6a1db77120ef89%2Fusc-nevada-football-04073.jpg",
+        img: marshawnLloyd},  
     {name: "Keon Coleman", pos: "WR", age: "20", uni: "Florida State", size: `6'3 1⁄4" | 213 lbs`, fortyYrd: "4.61", threeCone: "N/A", vert: `38"`, recTdRec: "50 (11 TDs)", recYrds: "658 yds",
         lastEditTime: "3/19/24", 
         analysis: "Keon Coleman looks like he was built in a lab in to be a WR. His elite combination of size, speed, strength, athleticism, and good hands make him " +
@@ -287,15 +299,6 @@ const playerInfo = [
             "upside, and that's something to take a shot on.", 
         imgSite: `espn.com`, imgUrl: "https://a.espncdn.com/media/motion/2023/1014/evc__20231014_syr__fsu_d3484956_252f_41fe_a3bd_20b806/evc__20231014_syr__fsu_d3484956_252f_41fe_a3bd_20b806.jpg",
         img: keonColeman},
-    {name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina", size: `6'1" | 221 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `40"`, recTdRec: "71 (7 TDs)", recYrds: "1,255 yds",
-        lastEditTime: "3/4/24",  
-        analysis: `Prior to being measured 2" shorter and nearly 10 lbs lighter at the Senior Bowl Legette was one of the most physically imposing WRs in this class. ` + 
-            "While smaller than originally thought, he still has the size and strength to bully many NFL DBs. Legette showed off his excellent speed at the combine " +
-            "by posting a 4.39. Combine this speed with his hulking strength and weight give him clear YAC upside. However, he doesn't have the burst or route-running " +
-            "to get open at a consistent level. Combine these flaws with the fact that it took till his 5th season in college to break out, it's unlikely he'll become " +
-            "a valuable fantasy asset. However, his physical attributes give him solid upside.", 
-        imgSite: `wistv.com`, imgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/AIHJH7RCRFCTXLC4RYFOKWK4HM.jpg",
-        img: xavierLegette},   
     {name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", size: `6'1" | 197 lbs`, fortyYrd: "4.47", threeCone: "6.94", vert: `37"`, recTdRec: "45 (5 TDs)", recYrds: "559 yds",
         lastEditTime: "4/2/24", 
         analysis: "Jalen McMillan is one of the more complete route-runners in this draft class. This, combined with his great top end speed and solid acceleration " +
@@ -594,18 +597,18 @@ const ppr1QB = [
     {id: "7", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
     {id: "8", name: "Caleb Williams", pos: "QB", uni: "USC"},
     {id: "9", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
-    {id: "10", name: "Troy Franklin", pos: "WR", uni: "Oregon"},
-    {id: "11", name: "Trey Benson", pos: "RB", uni: "Florida State"},
-    {id: "12", name: "Jayden Daniels", pos: "QB", uni: "LSU"},
+    {id: "10", name: "Trey Benson", pos: "RB", uni: "Florida State"},
+    {id: "11", name: "Jayden Daniels", pos: "QB", uni: "LSU"},
+    {id: "12", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
     {id: "13", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "14", name: "Jaylen Wright", pos: "RB", uni: "Tennessee"}, 
     {id: "15", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
-    {id: "16", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
-    {id: "17", name: "Javon Baker", pos: "WR", uni: "UCF"}, 
-    {id: "18", name: "Marshawn Lloyd", pos: "RB", uni: "USC"},
-    {id: "19", name: "Jermaine Burton", pos: "WR", uni: "Alabama"}, 
-    {id: "20", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
-    {id: "21", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "16", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "17", name: "Jermaine Burton", pos: "WR", uni: "Alabama"}, 
+    {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"}, 
+    {id: "19", name: "Troy Franklin", pos: "WR", uni: "Oregon"},
+    {id: "20", name: "Marshawn Lloyd", pos: "RB", uni: "USC"},
+    {id: "21", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
     {id: "22", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
     {id: "23", name: "Jalen McMillan", pos: "WR", uni: "Washington"}, 
     {id: "24", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
@@ -638,16 +641,16 @@ const ppr2QB = [
     {id: "10", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"}, 
     {id: "11", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
     {id: "12", name: "Jonathon Brooks", pos: "RB", uni: "Texas"}, 
-    {id: "13", name: "Troy Franklin", pos: "WR", uni: "Oregon"},
-    {id: "14", name: "Trey Benson", pos: "RB", uni: "Florida State"},
+    {id: "13", name: "Trey Benson", pos: "RB", uni: "Florida State"},
+    {id: "14", name: "Ricky Pearsall", pos: "WR",uni: "Florida"}, 
     {id: "15", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "16", name: "Jaylen Wright", pos: "RB", uni: "Tennessee"},
-    {id: "17", name: "Ricky Pearsall", pos: "WR",uni: "Florida"}, 
-    {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"},
-    {id: "19", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
-    {id: "20", name: "Jermaine Burton", pos: "WR", uni: "Alabama"}, 
-    {id: "21", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
-    {id: "22", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "17", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "18", name: "Jermaine Burton", pos: "WR", uni: "Alabama"}, 
+    {id: "19", name: "Javon Baker", pos: "WR", uni: "UCF"},
+    {id: "20", name: "Troy Franklin", pos: "WR", uni: "Oregon"},
+    {id: "21", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
+    {id: "22", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
     {id: "23", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
     {id: "24", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
     {id: "25", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
@@ -676,18 +679,18 @@ const nPpr1QB = [
     {id: "7", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
     {id: "8", name: "Caleb Williams", pos: "QB", uni: "USC"}, 
     {id: "9", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
-    {id: "10", name: "Troy Franklin", pos: "WR", uni: "Oregon"}, 
-    {id: "11", name: "Trey Benson", pos: "RB", uni: "Florida State"},
-    {id: "12", name: "Jayden Daniels", pos: "QB", uni: "LSU"}, 
+    {id: "10", name: "Trey Benson", pos: "RB", uni: "Florida State"},
+    {id: "11", name: "Jayden Daniels", pos: "QB", uni: "LSU"}, 
+    {id: "12", name: "Ricky Pearsall", pos: "WR", uni: "Florida"},
     {id: "13", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "14", name: "Jaylen Wright", pos: "RB", uni: "Tennessee"}, 
     {id: "15", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
-    {id: "16", name: "Ricky Pearsall", pos: "WR", uni: "Florida"},
-    {id: "17", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
-    {id: "18", name: "Javon Baker", pos: "WR", uni: "UCF"},
-    {id: "19", name: "Jermaine Burton", pos: "WR", uni: "Alabama"},
-    {id: "20", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
-    {id: "21", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "16", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "17", name: "Jermaine Burton", pos: "WR", uni: "Alabama"},
+    {id: "18", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
+    {id: "19", name: "Javon Baker", pos: "WR", uni: "UCF"},
+    {id: "20", name: "Troy Franklin", pos: "WR", uni: "Oregon"}, 
+    {id: "21", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
     {id: "22", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
     {id: "23", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
     {id: "24", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"}, 
@@ -721,16 +724,16 @@ const nPpr2QB = [
     {id: "10", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"}, 
     {id: "11", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
     {id: "12", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
-    {id: "13", name: "Troy Franklin", pos: "WR", uni: "Oregon"}, 
-    {id: "14", name: "Trey Benson", pos: "RB", uni: "Florida State"}, 
+    {id: "13", name: "Trey Benson", pos: "RB", uni: "Florida State"}, 
+    {id: "14", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
     {id: "15", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "16", name: "Jaylen Wright", pos: "RB", uni: "Tennessee"},
-    {id: "17", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
-    {id: "18", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
-    {id: "19", name: "Javon Baker", pos: "WR", uni: "UCF"},
-    {id: "20", name: "Jermaine Burton", pos: "WR", uni: "Alabama"},  
-    {id: "21", name: "Keon Coleman", pos: "WR", uni: "Florida State"}, 
-    {id: "22", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "17", name: "Xavier Legette", pos: "WR", uni: "South Carolina"}, 
+    {id: "18", name: "Jermaine Burton", pos: "WR", uni: "Alabama"},  
+    {id: "19", name: "Marshawn Lloyd", pos: "RB", uni: "USC"}, 
+    {id: "20", name: "Javon Baker", pos: "WR", uni: "UCF"},
+    {id: "21", name: "Troy Franklin", pos: "WR", uni: "Oregon"}, 
+    {id: "22", name: "Keon Coleman", pos: "WR", uni: "Florida State"}, 
     {id: "23", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
     {id: "24", name: "Jalen McMillan", pos: "WR", uni: "Washington"},
     {id: "25", name: "Braelon Allen", pos: "RB", uni: "Wisconsin"},
