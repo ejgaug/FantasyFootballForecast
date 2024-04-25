@@ -409,15 +409,15 @@ const playerInfo = [
             "side of his game and reclaim his stardom", 
         imgSite: 'youtube.com', imgUrl: "https://i.ytimg.com/vi/uzrqeOxa8BQ/maxresdefault.jpg",
         img: spencerRattler},    
-    {name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane", size: `6'2 1⁄2" | 217 lbs`, fortyYrd: "N/A", threeCone: "7.20", compPerc: "65.4%", td2Int: "22/5", passYrds: "2,406 yds", yrdsPerAtt: "8.5 yds", rush: "286 yds (5 TDs)", 
-        lastEditTime: "3/5/24", 
-        analysis: "Pratt has good size for the QB position, solid accuracy, and a great understanding for the game. He definitely projects to be more of a game " + 
-            "manager than a game breaker. This is because, other than his size, he simply doesn't have the physical attributes of some other prospects. His arm talent " + 
-            "isn't great and he doesn't have the rushing ability for it to be a focal point of his game. Luckily, he'll probably be drafted late enough to guarantee him " + 
-            "time to develop as the backup. His combine performance was neither positive or negative. If he lands in the right spot, maybe he'll develop well, but don't " +
-            "count on him being valuable in fantasy.", 
-        imgSite: `tulanegreenwave.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/tulanegreenwave.com/images/2023/10/28/Michael_Pratt_3757_c.jpg",
-        img: michaelPratt}, 
+    {name: "Will Shipley", pos: "RB", age: "21", uni: "Clemson", size: `5'11" | 206 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: `N/A`, rushing: "827 yds (5 TDs)", ydsPerRush: "5.0 yds", recTdRec: "31 (2 TDs)", recYrds: "244 yds",
+        lastEditTime: "3/2/24", 
+        analysis: "Will Shipley was an effective three year starter at Clemson. His best attributes include his burst, elusiveness, and passing " +
+            "game chops. Shipley is best out in space and loves getting there by bouncing outside (sometimes too often). He has great explosive " +
+            "characteristics with his speed and acceleration that help him get to the second level in a hurry. Once he's there, he makes guys miss " +
+            "regularly and has surprisingly decent contact balance to bounce off defenders. He shows very good hands and great route-running for a RB. " +
+            "Durability and workload will be a concern at the next level with his size, but he has plenty of upside in PPR leagues.", 
+        imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/948/66/12066948.jpg",
+        img: willShipley},
     {name: "Malik Washington", pos: "WR", age: "23", uni: "Virginia", size: `5'8 1⁄2" | 191 lbs`, fortyYrd: "4.47", threeCone: "N/A", vert: "42.5", recTdRec: "110 (9 TDs)", recYrds: "1,426 yds",
         lastEditTime: "3/6/24", 
         analysis: "After 4 years at Northwestern, Washington had an extremely productive 2023 season with the Cavaliers. He is an explosive athlete with great " +
@@ -457,15 +457,6 @@ const playerInfo = [
             "overlook him. ", 
         imgSite: `riceowls.com`, imgUrl: "https://riceowls.com/images/2022/12/22/McCaffrey_2022_LTB_1.jpg", 
         img: lukeMcCaffrey},
-    {name: "Will Shipley", pos: "RB", age: "21", uni: "Clemson", size: `5'11" | 206 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: `N/A`, rushing: "827 yds (5 TDs)", ydsPerRush: "5.0 yds", recTdRec: "31 (2 TDs)", recYrds: "244 yds",
-        lastEditTime: "3/2/24", 
-        analysis: "Will Shipley was an effective three year starter at Clemson. His best attributes include his burst, elusiveness, and passing " +
-            "game chops. Shipley is best out in space and loves getting there by bouncing outside (sometimes too often). He has great explosive " +
-            "characteristics with his speed and acceleration that help him get to the second level in a hurry. Once he's there, he makes guys miss " +
-            "regularly and has surprisingly decent contact balance to bounce off defenders. He shows very good hands and great route-running for a RB. " +
-            "Durability and workload will be a concern at the next level with his size, but he has plenty of upside in PPR leagues.", 
-        imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/948/66/12066948.jpg",
-        img: willShipley},
     {name: "Johnny Wilson", pos: "WR", age: "23", uni: "Florida State", size: `6'6 3⁄8" | 237 lbs`, fortyYrd: "4.52", threeCone: "N/A", vert: `37"`, recTdRec: "41 (2 TDs)", recYrds: "617 yds",
         lastEditTime: "3/5/24", 
         analysis: `Wilson has impressive speed, route-running, and change of direction given his 6'6" frame. This showed in his incredible impressive 4.52 40-yard " +
@@ -539,7 +530,16 @@ const playerInfo = [
             "almost effortless for him at times. However, at 165 lbs, it would be hard to imagine him becoming an elite WR in the NFL. Hopefully, he can land in the " +
             "right fit where he can thrive primarily out of the slot.", 
         imgSite: `arizonawildcats.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/arizona.sidearmsports.com/images/2022/10/3/221001_FB_vs._Colorado_Mike_Christy3449_I17Zy.jpg",
-        img: jacobCowing},   
+        img: jacobCowing}, 
+    {name: "Michael Pratt", pos: "QB", age: "22", uni: "Tulane", size: `6'2 1⁄2" | 217 lbs`, fortyYrd: "N/A", threeCone: "7.20", compPerc: "65.4%", td2Int: "22/5", passYrds: "2,406 yds", yrdsPerAtt: "8.5 yds", rush: "286 yds (5 TDs)", 
+        lastEditTime: "3/5/24", 
+        analysis: "Pratt has good size for the QB position, solid accuracy, and a great understanding for the game. He definitely projects to be more of a game " + 
+            "manager than a game breaker. This is because, other than his size, he simply doesn't have the physical attributes of some other prospects. His arm talent " + 
+            "isn't great and he doesn't have the rushing ability for it to be a focal point of his game. Luckily, he'll probably be drafted late enough to guarantee him " + 
+            "time to develop as the backup. His combine performance was neither positive or negative. If he lands in the right spot, maybe he'll develop well, but don't " +
+            "count on him being valuable in fantasy.", 
+        imgSite: `tulanegreenwave.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/tulanegreenwave.com/images/2023/10/28/Michael_Pratt_3757_c.jpg",
+        img: michaelPratt},   
     {name: "Ray Davis", pos: "RB", age: "24", uni: "Kentucky", size: `5'8 3⁄8" | 211 lbs`, fortyYrd: "4.52", threeCone: "N/A", vert: `35"`, rushing: "1,129 yds (14 TDs)", ydsPerRush: "5.7 yds", recTdRec: "33 (7 TDs)", recYrds: "323 yds",
         lastEditTime: "3/2/24", 
         analysis: "Ray Davis had a tragic childhood, growing up in homelessness and going hungry. Football was his saving grace. He worked his way to Temple, then " +
@@ -631,11 +631,11 @@ const ppr1QB = [
     {id: "29", name: "Blake Corum", pos: "RB", uni: "Michigan"},
     {id: "30", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"}, 
     {id: "31", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
-    {id: "32", name: "Malik Washington", pos: "WR", uni: "Virginia"}, 
-    {id: "33", name: "Ja'Tavion Sanders", pos: "TE", uni: "Texas"}, 
-    {id: "34", name: "Bo Nix", pos: "QB", uni: "Oregon"}, 
-    {id: "35", name: "Bucky Irving", pos: "RB", uni: "Oregon"}, 
-    {id: "36", name: "Luke McCaffrey", pos: "WR", uni: "Rice"},
+    {id: "32", name: "Will Shipley", pos: "RB", uni: "Clemson"},
+    {id: "33", name: "Malik Washington", pos: "WR", uni: "Virginia"}, 
+    {id: "34", name: "Ja'Tavion Sanders", pos: "TE", uni: "Texas"}, 
+    {id: "35", name: "Bo Nix", pos: "QB", uni: "Oregon"}, 
+    {id: "36", name: "Bucky Irving", pos: "RB", uni: "Oregon"}, 
     // {id: "36", name: "Devontez Walker", pos: "WR", uni: "North Carolina"}, 
 
 ];
@@ -647,8 +647,8 @@ const ppr2QB = [
     {id: "4", name: "Malik Nabers", pos: "WR", uni: "LSU"}, 
     {id: "5", name: "Rome Odunze", pos: "WR", uni: "Washington"}, 
     {id: "6", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
-    {id: "7", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"}, 
-    {id: "8", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "7", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "8", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"}, 
     {id: "9", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"}, 
     {id: "10", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
     {id: "11", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
@@ -674,7 +674,7 @@ const ppr2QB = [
     {id: "31", name: "Blake Corum", pos: "RB", uni: "Michigan"},
     {id: "32", name: "Spencer Rattler", pos: "QB", uni: "South Carolina"}, 
     {id: "33", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"}, 
-    {id: "34", name: "Michael Pratt", pos: "QB", uni: "Tulane"}, 
+    {id: "34", name: "Will Shipley", pos: "RB", uni: "Clemson"}, 
     {id: "35", name: "Malik Washington", pos: "WR", uni: "Virginia"}, 
     {id: "36", name: "Ja'Tavion Sanders", pos: "TE", uni: "Texas"},
     // {id: "36", name: "Luke McCaffrey", pos: "WR", uni: "Rice"},
@@ -711,13 +711,13 @@ const nPpr1QB = [
     {id: "27", name: "Blake Corum", pos: "RB", uni: "Michigan"},
     {id: "28", name: "Roman Wilson", pos: "WR", uni: "Michigan"},
     {id: "29", name: "Ben Sinnott", pos: "TE", uni: "Kansas State"}, 
-    {id: "30", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"}, 
-    {id: "31", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
-    {id: "32", name: "Malik Washington", pos: "WR", uni: "Virginia"}, 
-    {id: "33", name: "Ja'Tavion Sanders", pos: "TE", uni: "Texas"}, 
-    {id: "34", name: "Bo Nix", pos: "QB", uni: "Oregon"}, 
-    {id: "35", name: "Bucky Irving", pos: "RB", uni: "Oregon"}, 
-    {id: "36", name: "Will Shipley", pos: "RB", uni: "Clemson"}, 
+    {id: "30", name: "Will Shipley", pos: "RB", uni: "Clemson"}, 
+    {id: "31", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"}, 
+    {id: "32", name: "Michael Penix Jr.", pos: "QB", uni: "Washington"},
+    {id: "33", name: "Malik Washington", pos: "WR", uni: "Virginia"}, 
+    {id: "34", name: "Ja'Tavion Sanders", pos: "TE", uni: "Texas"}, 
+    {id: "35", name: "Bo Nix", pos: "QB", uni: "Oregon"}, 
+    {id: "36", name: "Bucky Irving", pos: "RB", uni: "Oregon"}, 
     // {id: "36", name: "Johnny Wilson", pos: "WR", uni: "Florida State"},
     // {id: "36", name: "Luke McCaffrey", pos: "WR", uni: "Rice"},
 
@@ -730,8 +730,8 @@ const nPpr2QB = [
     {id: "4", name: "Malik Nabers", pos: "WR", uni: "LSU"}, 
     {id: "5", name: "Rome Odunze", pos: "WR", uni: "Washington"}, 
     {id: "6", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
-    {id: "7", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"}, 
-    {id: "8", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "7", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "8", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"}, 
     {id: "9", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"}, 
     {id: "10", name: "Ladd McConkey", pos: "WR", uni: "Georgia"},
     {id: "11", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
@@ -756,8 +756,8 @@ const nPpr2QB = [
     {id: "30", name: "Roman Wilson", pos: "WR", uni: "Michigan"}, 
     {id: "31", name: "Ben Sinnott", pos: "TE", uni: "Kansas State"}, 
     {id: "32", name: "Spencer Rattler", pos: "QB", uni: "South Carolina"}, 
-    {id: "33", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"},
-    {id: "34", name: "Michael Pratt", pos: "QB", uni: "Tulane"},
+    {id: "33", name: "Will Shipley", pos: "RB", uni: "Clemson"}, 
+    {id: "34", name: "Malachi Corley", pos: "WR", uni: "Western Kentucky"},
     {id: "35", name: "Malik Washington", pos: "WR", uni: "Virginia"}, 
     {id: "36", name: "Ja'Tavion Sanders", pos: "TE", uni: "Texas"},
     // {id: "36", name: "Devontez Walker", pos: "WR", uni: "North Carolina"}, 
