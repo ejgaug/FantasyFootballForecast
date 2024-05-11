@@ -41,7 +41,7 @@ export default function RookiePreview(props) {
     };
     const modalBelowText = {
         margin: '5px',
-        fontSize: '14px'
+        fontSize: '14.2px'
     };
     const lastEdited = {
         textAlign: 'right',
@@ -52,7 +52,7 @@ export default function RookiePreview(props) {
     };
     const metricsStyle = {
         display: 'grid',
-        gridTemplateColumns: '50% 50%',
+        gridTemplateColumns: '48% 52%',
         gridGap: '5px',
         fontSize: '15.5px'
     };
@@ -80,60 +80,58 @@ export default function RookiePreview(props) {
 
     const screenCutOff = 767;
 
+    function getPreDraftRank(selectedPlayer) {
+        
+        return (parseInt(selectedPlayer.preDraftRank['ppr1QB']) + parseInt(selectedPlayer.preDraftRank['ppr2QB']) + parseInt(selectedPlayer.preDraftRank['nPpr1QB']) + parseInt(selectedPlayer.preDraftRank['nPpr2QB'])) / 4;
+    }
+
     function WhichMetrics(selectedPlayer) {
-        if (selectedPlayer.pos === "QB") {
-            return <>
-                <Row>
-                    <Col style={metricsStyle}>
-                        <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
-                        <p style={modalBelowText}>Passing Yards: {selectedPlayer.passYrds}</p>
-                        <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
-                        <p style={modalBelowText}>TD/INT: {selectedPlayer.td2Int}</p>
-                        <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
-                        <p style={modalBelowText}>Completion %: {selectedPlayer.compPerc}</p>
-                        <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
-                        <p style={modalBelowText}>Yards/Att: {selectedPlayer.yrdsPerAtt}</p>
-                        <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
-                        <p style={modalBelowText}>Rushing: {selectedPlayer.rush}</p>
-                    </Col>
-                </Row>
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
-            </>
-        } if (selectedPlayer.pos === "RB") {
-            return <>
-                <Row>
-                    <Col style={metricsStyle}>
-                        <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
-                        <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
-                        <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
-                        <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
-                        <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
-                        <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
-                        <p style={modalBelowText}>Rushing: {selectedPlayer.rushing}</p>
-                        <p style={modalBelowText}>Yards/Rush: {selectedPlayer.ydsPerRush}</p>
-                        <p style={modalBelowText}>Receptions: {selectedPlayer.recTdRec}</p>
-                        <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
-                    </Col>
-                </Row>
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
-            </>
-        } else {
-            return <>
-                <Row>
-                    <Col style={metricsStyle}>
-                        <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
-                        <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
-                        <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
-                        <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
-                        <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
-                        <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
-                        <p style={modalBelowText}>Receptions: {selectedPlayer.recTdRec}</p>
-                        <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
-                    </Col>
-                </Row>
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
-            </>
-        }
+        return <>
+            <Row>
+                <Col style={metricsStyle}>
+                    <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
+                    <p style={modalBelowText}>Team: {selectedPlayer.nflTeam}</p>
+                    <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
+                    <p style={modalBelowText}>Draft Capital: {selectedPlayer.draftCap}</p>
+                    <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
+                    <p style={modalBelowText}>Average Pre-Daft Rank: {getPreDraftRank(selectedPlayer)}</p>
+
+                    {selectedPlayer.pos === "QB" && (
+                        <>
+                            <p style={modalBelowText}>Passing Yards: {selectedPlayer.passYrds}</p>
+                            <p style={modalBelowText}>TD/INT: {selectedPlayer.td2Int}</p>
+                            <p style={modalBelowText}>Completion %: {selectedPlayer.compPerc}</p>
+                            <p style={modalBelowText}>Yards/Att: {selectedPlayer.yrdsPerAtt}</p>
+                            <p style={modalBelowText}>Rushing: {selectedPlayer.rush}</p>
+                            <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
+                        </>
+                    )}
+                    {selectedPlayer.pos === "RB" && (
+                        <>
+                            <p style={modalBelowText}>Rushing: {selectedPlayer.rushing}</p>
+                            <p style={modalBelowText}>Yards/Rush: {selectedPlayer.ydsPerRush}</p>
+                            <p style={modalBelowText}>Receptions: {selectedPlayer.recTdRec}</p>
+                            <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
+                            <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
+                            {/* <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p> */}
+                            <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
+                        </>
+                    )}
+                    {(selectedPlayer.pos === "WR" || selectedPlayer.pos === "TE") && (
+                        <>
+                            <p style={modalBelowText}>Receptions: {selectedPlayer.recTdRec}</p>
+                            <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
+                            <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
+                            <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
+                            <p style={modalBelowText}>Broad Jump: {selectedPlayer.broadJump}</p>
+                            <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
+                        </>
+                    )}
+                    
+                </Col>
+            </Row>
+            <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+        </>
     }
     
     
@@ -176,7 +174,9 @@ export default function RookiePreview(props) {
                         <div style={{margin: "0.35rem"}}> 
                             {playerStates[player.name] && (
                                     <>
-                                        <p style={analysisStyle}>{player.analysis}</p>
+                                        <p style={analysisStyle}>Post-Draft Analysis: <br/>{player.postDraftAnalysis}</p>
+                                        <p style={analysisStyle}>Pre-Draft Analysis: <br/>{player.analysis}</p>
+
                                         <p style={lastEdited}>Last Edited: {player.lastEditTime}</p>
                                     </>
                             )}

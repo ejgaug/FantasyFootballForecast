@@ -361,8 +361,8 @@ export default function DraftRanks(props) {
     }   
 
     function WhichMetrics(selectedPlayer) {
-        if (selectedPlayer.pos === "QB") {
-            return <>
+
+        return <>
                 <img 
                     src={selectedPlayer.img}
                     alt={selectedPlayer.name}
@@ -373,71 +373,51 @@ export default function DraftRanks(props) {
                 <Row>
                     <Col style={metricsStyle}>
                         <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
-                        <p style={modalBelowText}>Passing Yards: {selectedPlayer.passYrds}</p>
+                        <p style={modalBelowText}>NFL Team: {selectedPlayer.nflTeam}</p>
                         <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
-                        <p style={modalBelowText}>TD/INT: {selectedPlayer.td2Int}</p>
+                        <p style={modalBelowText}>Draft Capital: {selectedPlayer.draftCap}</p>
                         <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
-                        <p style={modalBelowText}>Completion Percentage: {selectedPlayer.compPerc}</p>
-                        <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
-                        <p style={modalBelowText}>Yards/Att: {selectedPlayer.yrdsPerAtt}</p>
-                        <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
-                        <p style={modalBelowText}>Rushing: {selectedPlayer.rush}</p>
-                    </Col>
-                </Row>
-                <p style={modalAnalysis}>{selectedPlayer.analysis}</p>
-                <p style={lastEdited}>Last Edited: {selectedPlayer.lastEditTime}</p>
-            </>
-        } if (selectedPlayer.pos === "RB") {
-            return <>
-                <img 
-                    src={selectedPlayer.img}
-                    alt={selectedPlayer.name}
-                    style={{ width: '100%', height: 'auto', borderRadius: '8px', marginBottom: '5px'}}
-                />
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+                        <p style={modalBelowText}>Pre-Daft Rank: {selectedPlayer.preDraftRank[buttonClick]}</p>
 
-                <Row>
-                    <Col style={metricsStyle}>
-                        <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
-                        <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
-                        <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
-                        <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
-                        <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
-                        <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
-                        <p style={modalBelowText}>Rushing: {selectedPlayer.rushing}</p>
-                        <p style={modalBelowText}>Yards/Rush: {selectedPlayer.ydsPerRush}</p>
-                        <p style={modalBelowText}>Receptions: {selectedPlayer.recTdRec}</p>
-                        <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
+                        {selectedPlayer.pos === "QB" && (
+                            <>
+                                <p style={modalBelowText}>Passing Yards: {selectedPlayer.passYrds}</p>
+                                <p style={modalBelowText}>TD/INT: {selectedPlayer.td2Int}</p>
+                                <p style={modalBelowText}>Completion %: {selectedPlayer.compPerc}</p>
+                                <p style={modalBelowText}>Yards/Att: {selectedPlayer.yrdsPerAtt}</p>
+                                <p style={modalBelowText}>Rushing: {selectedPlayer.rush}</p>
+                                <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
+                            </>
+                        )}
+                        {selectedPlayer.pos === "RB" && (
+                            <>
+                                <p style={modalBelowText}>Rushing: {selectedPlayer.rushing}</p>
+                                <p style={modalBelowText}>Yards/Rush: {selectedPlayer.ydsPerRush}</p>
+                                <p style={modalBelowText}>Receptions: {selectedPlayer.recTdRec}</p>
+                                <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
+                                <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
+                                {/* <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p> */}
+                                <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
+                            </>
+                        )}
+                        {(selectedPlayer.pos === "WR" || selectedPlayer.pos === "TE") && (
+                            <>
+                                <p style={modalBelowText}>Receptions: {selectedPlayer.recTdRec}</p>
+                                <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
+                                <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
+                                <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
+                                <p style={modalBelowText}>Broad Jump: {selectedPlayer.broadJump}</p>
+                                <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
+                            </>
+                        )}
+                        
                     </Col>
                 </Row>
-                <p style={modalAnalysis}>{selectedPlayer.analysis}</p>
-                <p style={lastEdited}>Last Edited: {selectedPlayer.lastEditTime}</p>
-            </>
-        } else {
-            return <>
-                <img 
-                    src={selectedPlayer.img}
-                    alt={selectedPlayer.name}
-                    style={{ width: '100%', height: 'auto', borderRadius: '8px', marginBottom: '5px'}}
-                />
-                <p style={imgCreditsStyle}>Photo: [<a href={selectedPlayer.imgUrl} target="_blank">Source</a>] - {selectedPlayer.imgSite}</p>
+                <p style={modalAnalysis}>Post-Draft Analysis: <br/>{selectedPlayer.postDraftAnalysis}</p>
+                <p style={modalAnalysis}>Pre-Draft Analysis: <br/>{selectedPlayer.analysis}</p>
 
-                <Row>
-                    <Col style={metricsStyle}>
-                        <p style={modalBelowText}>Position: {selectedPlayer.pos}</p>
-                        <p style={modalBelowText}>40-Yard Dash: {selectedPlayer.fortyYrd}</p>
-                        <p style={modalBelowText}>Draft Age: {selectedPlayer.age}</p>
-                        <p style={modalBelowText}>3-Cone Drill: {selectedPlayer.threeCone}</p>
-                        <p style={modalBelowText}>Size: {selectedPlayer.size}</p>
-                        <p style={modalBelowText}>Vertical: {selectedPlayer.vert}</p>
-                        <p style={modalBelowText}>Receptions: {selectedPlayer.recTdRec}</p>
-                        <p style={modalBelowText}>Receiving Yards: {selectedPlayer.recYrds}</p>
-                    </Col>
-                </Row>
-                <p style={modalAnalysis}>{selectedPlayer.analysis}</p>
                 <p style={lastEdited}>Last Edited: {selectedPlayer.lastEditTime}</p>
             </>
-        }
     }
     
     return <div  style={{ flex: '1', flexDirection: 'row', textAlign: 'center'}}>
