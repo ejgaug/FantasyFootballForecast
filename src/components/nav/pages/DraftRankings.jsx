@@ -103,22 +103,30 @@ export default function DraftRanks(props) {
         cursor: 'pointer',
     };
     const modalBelowText = {
-        marginBottom: '3px',
+        marginBottom: '1px',
         fontSize: '14px',
-        color: '#DEAB2A'
+        color: '#bFbFbF' //'#DEAB2A'
     };
     const modalAnalysis = {
-        marginTop: '3px',
-        borderTop: '0.01rem solid lightgray',
+        paddingTop: '5px',
+        borderTop: '0.01rem solid #bFbFbF',
         fontSize: '14px',
-        color: '#DEAB2A'
+        color: '#bFbFbF' //'#DEAB2A'
+    };
+    const modalPostDraftAnalysis = {
+        paddingTop: '5px',
+        marginBottom: '5px',
+        marginTop: '5px',
+        borderTop: '0.01rem solid #bFbFbF',
+        fontSize: '14px',
+        color: '#bFbFbF' //'#DEAB2A'
     };
     const lastEdited = {
         textAlign: 'right',
         marginBottom: '1px',
         marginTop: '3px',
         fontSize: '12px',
-        color: '#DEAB2A'
+        color: '#bFbFbF' //'#DEAB2A'
     };
     const metricsStyle = {
         display: 'grid',
@@ -131,7 +139,7 @@ export default function DraftRanks(props) {
         paddingRight: '8px',
         marginTop: '0px',
         marginBottom: '4px',
-        color: '#DEAB2A'
+        color: '#bFbFbF' //'#DEAB2A'
     };
     const buttonStyles = specifier => ({
         borderRadius: '3px', 
@@ -413,7 +421,7 @@ export default function DraftRanks(props) {
                         
                     </Col>
                 </Row>
-                <p style={modalAnalysis}>Post-Draft Analysis: <br/>{selectedPlayer.postDraftAnalysis}</p>
+                <p style={modalPostDraftAnalysis}>Post-Draft Analysis: <br/>{selectedPlayer.postDraftAnalysis}</p>
                 <p style={modalAnalysis}>Pre-Draft Analysis: <br/>{selectedPlayer.analysis}</p>
 
                 <p style={lastEdited}>Last Edited: {selectedPlayer.lastEditTime}</p>
@@ -570,7 +578,7 @@ export default function DraftRanks(props) {
         </Row>
 
         <Modal show={showPlayerModal} onHide={handleCloseModal}>
-            <Modal.Header style={{backgroundColor: '#1F1F1F', color: '#DDAA2f'}}>
+            <Modal.Header style={{backgroundColor: '#1F1F1F', color: '#bFbFbF'}}>
                 <Modal.Title style={{backgroundColor: '#1F1F1F'}}>{selectedPlayer && selectedPlayer.name + " (" + selectedPlayer.uni + ")"}</Modal.Title>
                 <CloseButton  variant="white" onClick={handleCloseModal}/>
             </Modal.Header>

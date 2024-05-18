@@ -59,8 +59,8 @@ export default function FantasyLanding(props) {
                 <Col style={{ ...welcomeText, width: width > screenCutOff ? '85%' : '100%'}}> 
                     <h1 className="headerFont" style={headerStyle}>Welcome to The Fantasy Football Forecast 2024!</h1>
                     <p style={{fontSize: '15px'}}> 
-                        Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. The site is now updated with our 
-                        post-combine player analysis and rankings. As the NFL and prospect landscape changes, so will The Forecast.
+                        Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. The site is currently being updated 
+                        with our post-draft analysis and player rankings. As the NFL and prospect landscape changes, so will The Forecast.
                     </p>
                     <p style={{fontSize: '15px'}}> 
                         Check out the Draft Rankings page to see how we'd draft a 3-round rookie draft for dynasty leagues today. This includes rankings 

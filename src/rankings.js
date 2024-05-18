@@ -142,7 +142,7 @@ const playerInfo = [
         img: romeOdunze}, 
     {name: "Drake Maye", pos: "QB", age: "21", uni: "North Carolina", size: `6'4 3⁄8" | 223 lbs`, fortyYrd: "N/A", threeCone: "N/A", compPerc: "63.3%", td2Int: "24/9", passYrds: "3,608 yds", yrdsPerAtt: "8.5 yds", rush: "449 yds (9 TDs)", 
     broadJump: `N/A`, nflTeam: "New England Patriots", draftCap: "1.03", preDraftRank: {ppr1QB: '16', ppr2QB: '6', nPpr1QB: '16', nPpr2QB: '6'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/17/24", 
         analysis: "Drake Maye is an excellent QB prospect with the prototypical size and excellent arm talent. He is a very good athlete with surprising quickness and " +
         "speed for a guy of his size. This gives him a solid rushing upside for fantasy and allows him to escape the pocket to extend plays. Given his large frame " +
         "and rushing ability, he should provide solid rushing TD numbers in the NFL. Maye's arm talent allows him to make any throw on the field, but his consistency " +
@@ -150,24 +150,32 @@ const playerInfo = [
         "With an OC change and many drops from his receivers (some resulting in INTs), don't worry too much about Maye's regression from 2022 to 2023. He is an incredible, " +
         "young QB prospect with every tool imaginable. If he can polish his game early in his NFL career, he could become one of the best in the game. Provided he " +
         "receives the great draft capital and landing spot that he is currently projected, expect big things from Drake Maye in fantasy football.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Maye was the first pick made by the new regime in New England. Later in the draft, the Pats made efforts to solidify their WR room with " +
+        "Ja'Lynn Polk (2.05) and Javon Baker (4.10). While the Polk pick was a reach by our evaluation, they got Baker at a screaming value. This tandem of gritty, " +
+        "young receivers seem motivated to prove people wrong. We are expecting them to workout, and if they do, Maye will have some good targets to grow with early " +
+        "in his career. It is still up in the air if Maye will be the immediate starter. The optimal path for his career would be to sit behind Jacoby Brissett for " +
+        "at least half the season. Don't be too scared off of Maye from this landing spot. He is still a greater prospect than McCarthy.",
         imgSite: `spectrumlocalnews.com`, imgUrl: "https://s7d2.scene7.com/is/image/TWCNews/drake_maye_nc_ap-1",
         img: drakeMaye}, 
     {name: "Brock Bowers", pos: "TE", age: "21", uni: "Georgia", size: `6'3 1⁄8" | 243 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: "N/A", recTdRec: "56 (6 TDs)", recYrds: "714 yds",
     broadJump: `N/A`, nflTeam: "Las Vegas Raiders", draftCap: "1.13", preDraftRank: {ppr1QB: '4', ppr2QB: '7', nPpr1QB: '4', nPpr2QB: '7'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/17/24", 
         analysis: "The 2022 and 2023 John Mackey Award winner is one of the best TE prospects we've ever seen. He's dominated the offense of one of the nations best teams, " + 
         "Georgia, since his first game. He won two National Championships in that time. His rare mix of size, speed, explosiveness, balance, and vision make him an " +
         "elite YAC threat, a rare attribute at the TE position. His YAC ability is what truly separates him from other TEs and is what has led some to call him " +
         "the next Travis Kelce. He also has great hands and an impressive ability to get open which open up for YAC situations. The only negatives in his game are " +
         "that he plays too much like a WR at times, which isn't much of a negative in fantasy circles. For example, he runs routes a less physically than " +
         "some may like and his average size for a TE lead to concerns about his consistency as a blocker at the next level. ", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Brock Bowers definitely lost the landing spot lottery in terms of what his 1st year will look like. The Raiders selected him as the 13th " +
+        "overall pick just one year after drafting a highly touted TE in Michael Mayer. Bowers will also be working in an offense led by Gardner Minshew or Aiden " +
+        "O'Connell, and running routes alongside, target hog, Davante Adams and Jakobi Meyers. With all that taken into account, it would be hard to project an elite " +
+        "year 1 for Brock Bowers. However, as soon as a year from now, we can expect Adams to be gone and a new QB to be on the team. So, don't be so quick to cast off " +
+        "Bowers because of his 2024 outlook. He could be a rare team target leader at the TE position very soon. ",
         imgSite: `thedraftnetwork.com`, imgUrl: "https://www.thedraftnetwork.com/img/random/USATSI_22177129-1600x900.jpg",
         img: brockBowers}, 
     {name: "Brian Thomas Jr.", pos: "WR", age: "21", uni: "LSU", size: `6'2 7⁄8" | 209 lbs`, fortyYrd: "4.33", threeCone: "N/A", vert: `38.5"`, recTdRec: "68 (17 TDs)", recYrds: "1,177 yds",
     broadJump: `10'6"`, nflTeam: "Jacksonville Jaguars", draftCap: "1.23", preDraftRank: {ppr1QB: '5', ppr2QB: '9', nPpr1QB: '5', nPpr2QB: '9'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/17/24", 
         analysis: `Thomas Jr. was one of the biggest winners from the combine, posting an unreal 4.33 40-yard dash at a hair under 6'3" and 209 lbs. These numbers were ` +
         "a big part of his incredible 9.97/10 relative athletic score (RAS). His elite combination of size, speed, and acceleration make him a major down-field " +
         "threat. His ball tracking and aggressive play leaves him in a good situation to bring in any contested catch. Unlike most players of his size, he is very " +
@@ -176,12 +184,15 @@ const playerInfo = [
         "What keeps him outside of the top tier of WRs is that he is still a raw talent. Football only became his sole focus after he got his scholarship to LSU in " +
         "high school, and this is evident in his route running and football IQ. If he improves in these areas, he'd become a true WR1 for an NFL roster and your " +
         "fantasy team. For now, he'd be best as his team's second receiving option.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "On paper, Christian Kirk, Gabe Davis, and Evan Engram make up a fairly crowded group of pass catchers ahead of BTJ. However, it wouldn't " +
+        "take much for Thomas Jr. to pass Davis in the pecking order. If he can accomplish this, he would fill the X-receiver roll that garnered 136 targets for Calvin " +
+        "Ridley in 2023. Also, take into account the 143 targets Evan Engram received. If Brian Thomas can even scratch the surface of his potential, he could be " +
+        "looking at a massive target share in 2024 and beyond. ",
         imgSite: `thedraftnetwork.com`, imgUrl: "https://www.thedraftnetwork.com/img/random/USATSI_21706171-1600x900.jpg",
         img: brianThomasJr},
     {name: "Ladd McConkey", pos: "WR", age: "22", uni: "Georgia", size: `5'11 5⁄8" | 186 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `36"`, recTdRec: "30 (2 TDs)", recYrds: "478 yds",
     broadJump: `10'4"`, nflTeam: "Las Angeles Charger", draftCap: "2.02", preDraftRank: {ppr1QB: '6', ppr2QB: '10', nPpr1QB: '6', nPpr2QB: '10'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/17/24", 
         analysis: "Ladd doesn't have anywhere near the numbers of most of the receivers in this class, but that can be partially explained away by a lower volume passing " +
         "attack, elite target competition (Brock Bowers), and injuries. Despite never having eye-popping production, he continues to climb in NFL mocks. This is because " + 
         "McConkey is one of the best route-runners in this class. Combining this with his great burst and top end speed allows him to create separation at every level of the " +
@@ -189,12 +200,15 @@ const playerInfo = [
         "size, he makes up with grit and IQ. He should easily ba a WR2 on his NFL team, but in the right situation he could be a teams leading receiver. If you want " +
         "a ceiling player, look towards BTJ and AD Mitchell, but for this early of a pick, we value floor over ceiling. Ladd should provide very consistent production " +
         "as soon as he enters the league.",
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "The Chargers was one of the perfect landing spots for McConkey. It is so easy to see Ladd picking up the Keenan Allen role in this Justin " +
+        "Herbert led offense. His elite route running and ability to separate at all levels of the field should quickly make him Herbert's favorite target. After the " +
+        "exits of Mike Williams and Keenan Allen, this offense has by far the most vacated targets in the league. Ladd could easily garner 120+ targets in year one " +
+        "even in an offense that projects to have a heavy reliance on the ground game. ",
         imgSite: `larrybrownsports.com`, imgUrl: "https://larrybrownsports.com/wp-content/uploads/2023/01/ladd-mcconkey.jpg",
         img: laddMcconkey}, 
     {name: "J.J. McCarthy", pos: "QB", age: "21", uni: "Michigan", size: `6'2 1⁄2" | 219 lbs`, fortyYrd: "N/A", threeCone: "6.82", compPerc: "72.3%", td2Int: "22/4", passYrds: "2,991 yds", yrdsPerAtt: "9.0 yds", rush: "202 yds (3 TDs)", 
     broadJump: `N/A`, nflTeam: "Minnesota Vikings", draftCap: "1.10", preDraftRank: {ppr1QB: '22', ppr2QB: '8', nPpr1QB: '22', nPpr2QB: '8'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/17/24", 
         analysis: "2023's National Championship winning QB profited greatly from an incredible defense, elite O-line, and great RB play at Michigan. However, there's " +
         "a chance that this only hurt the narrative around a very talented QB. McCarthy is a near-elite athlete at the QB position with great agility, quickness, " +
         "and top-end speed for the position. He has a great arm, showing impressive velocity and very good accuracy at all levels of the field when called upon. " +
@@ -204,12 +218,15 @@ const playerInfo = [
         "McCarthy put this to bed by weighing in at 219 lbs at the combine. There's growing belief that McCarthy is a far better talent than the numbers showed " +
         "in Michigan's run-heavy offense. Still, it seems his best case scenario for fantasy would be to sit behind an experienced veteran for a year " +
         "or two while he develops his game. He's definitely worth a high pick in 2-QB leagues.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "There was no better draft pairing than a QB to the Vikings. Kevin O'Connell has proven that he can get the best out of his QBs and " +
+        "the Vikings have truly elite offensive weapons. The hope is that Sam Darnold gets at least a few starts, so that McCarthy can have some developmental weeks. " +
+        "Without this, McCarthy may not be ready for NFL play. Still, with this offense, he should at the very least volume his way to fantasy relevancy early in " +
+        "career, and his athleticism gives him additional upside.",
         imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0627%2Fr1191339_1296x729_16%2D9.jpg",
         img: jjMccarthy}, 
     {name: "Adonai Mitchell", pos: "WR", age: "21", uni: "Texas", size: `6'2 1⁄4" | 205 lbs`, fortyYrd: "4.34", threeCone: "N/A", vert: `39.5"`, recTdRec: "55 (11 TDs)", recYrds: "845 yds",
     broadJump: `11'4"`, nflTeam: "Indianapolis Colts", draftCap: "2.20", preDraftRank: {ppr1QB: '7', ppr2QB: '11', nPpr1QB: '7', nPpr2QB: '11'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/17/24", 
         analysis: "From a broad view: AD Mitchell is an ultra-talented receiver with as high of a ceiling as any other WR in this class, but he lacks the consistency. " +
         "First, let's look at the positives... In Indy, his freakish athletic traits were on full display, posting a 9.98/10 relative athletic score (RAS). " +
         `This was the best among this WR class. Beyond this, he has a great release package and change of speed allowing him to find separation from defenders. ` +
@@ -221,12 +238,15 @@ const playerInfo = [
         "It is clear that AD has all the tools, but there seems to be something lacking with his drive. He seemed to take plays off at Texas. If he can " +
         "become more consistent and learn to play stronger through contact, he could prove to be an outlier amongst poor Y/RR producers. " +
         "His elite traits and upside make him worth a high-end pick in rookie drafts. ", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "It is clear that AD's character concerns are real based on his fall to the Colts at the 20th pick in the 2nd round. Still, he is an " +
+        "extremely talented player with unique upside. He should get plenty of snaps as an outside receiver across the field from Michael Pittman Jr. With MPJ " +
+        "primarily working the intermediate areas, AD should be able to thrive down field with Anthony Richardson's rocket of an arm. There is still plenty of bust " +
+        "potential with AD, but if he works on his consistency, he could be a massive steal. ",
         imgSite: `vox.com`, imgUrl: "https://cdn.vox-cdn.com/thumbor/7QhrC5d0quCKGf-CxLHS-sA9Vdg=/0x0:2000x1473/1200x800/filters:focal(1021x379:1341x699)/cdn.vox-cdn.com/uploads/chorus_image/image/72835296/usa_today_21819373.0.jpg",
         img: adonaiMitchell}, 
     {name: "Jonathon Brooks", pos: "RB", age: "20", uni: "Texas", size: `6'0 3⁄8" | 216 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: "N/A", rushing: "1,139 yds (10 TDs)", ydsPerRush: "6.1 yds", recTdRec: "25 (1 TDs)", recYrds: "286 yds",
     broadJump: `N/A`, nflTeam: "Carolina Panthers", draftCap: "2.14", preDraftRank: {ppr1QB: '9', ppr2QB: '12', nPpr1QB: '9', nPpr2QB: '12'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/17/24", 
         analysis: "Brooks is at the top of this week RB class. Playing behind top-10 pick, Bijan Robinson, his snaps were limited prior to 2023. " +
         "After Robinson's departure, Brooks was impressive up until tearing his ACL late in the season. He has great patience and vision " +
         "in waiting for blocks to develop and finding the hole, and the size, shiftiness, and speed to pick up extra yards once he finds " +
@@ -234,18 +254,25 @@ const playerInfo = [
         "the explosiveness as some of the uber-productive fantasy RBs in recent years. He'll have a harder time breaking off some of " +
         "the home-run plays that Jahmyr Gibbs and Devon Achane made a habit of last year because of this. Still, once he fully recovers " +
         "from the ACL, he has the talent to dominate his future backfield.",
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Despite the Panthers extremely poor offense in 2023, there is reason to have some optimism this year. The bolstered O-line and weapons " +
+        "along with bringing in Dave Canales at HC should lead to a much more efficient offense. Canales has already expressed that he plans to rely heavily on the " +
+        "run game. Once Brooks is fully healthy, we could see similar usage to Canales' last RB, Rashaad White. In 2023, White had 272 carries and 70 targets. " +
+        "If Books gets anywhere near this workload, he could be a true league winner in 2024 and an extremely valuable asset beyond. ",
         imgSite: `texasfootball.com`, imgUrl: "https://txfbstatic.blob.core.windows.net/txfb-static/img/articles/banner/editFG8A5014-copy-93022625.jpg",
         img: jonothanBrooks}, 
     {name: "Trey Benson", pos: "RB", age: "21", uni: "Florida State", size: `6'0 1⁄4" | 216 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `33.5"`, rushing: "905 yds (14 TDs)", ydsPerRush: "5.8 yds", recTdRec: "20 (1 TDs)", recYrds: "227 yds",
     broadJump: `N/A`, nflTeam: "Arizona Cardinals", draftCap: "2.14", preDraftRank: {ppr1QB: '10', ppr2QB: '13', nPpr1QB: '10', nPpr2QB: '13'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/17/24", 
         analysis: "Benson is one of the more complete backs in this class. He has the elite acceleration and top end speed to take any touch to the house. He showed " +
         "this at the combine by posting a ridiculous 4.39 40-yard dash at 216 lbs. For context, Breece Hall and Jonathan Taylor ran the same time at 217 lbs and " +
         "226 lbs respectively. Combine this explosiveness with his ability in the passing game, he could be a great fantasy contributor. He doesn't make many guys " +
         "miss mostly due to a preference for running people over. Despite his tough play-style and bigger body, he isn't very good in pass-pro which could lead to " +
         "losing 3rd down snaps. However, he still has time to clean this up. If he lands somewhere with good opportunity, he could be a solid NFL and fantasy RB.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Arizona was a great landing spot for the big-bodied speedster out of FSU. Benson has the talent to force himself onto the field and be " +
+        "the lightning to James Conner's thunder. Also, unless Conner has his own Raheem Mostert season (he won't), we can count on him missing at least a few " +
+        "games. This will be the perfect time for Benson to solidify his takeover. Even regardless of Conner, we expect Benson to have a hold of this backfield by " +
+        "the end of the season. Combine this with the rushing success and volume that this team has seen in recent years, and the expected bump in overall efficiency " +
+        "with MHJ in town, Benson should be a true league winner in 2024. Expect great things from him in future years, as well. ",
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/729/337/11337729.jpg",
         img: treyBenson}, 
     {name: "Ricky Pearsall", pos: "WR", age: "23", uni: "Florida", size: `6'1" | 189 lbs`, fortyYrd: "4.41", threeCone: "6.64", vert: `42"`, recTdRec: "65 (4 TDs)", recYrds: "965 yds",
@@ -737,9 +764,9 @@ const ppr1QB = [
     {id: "2", name: "Malik Nabers", pos: "WR", uni: "LSU"},
     {id: "3", name: "Rome Odunze", pos: "WR", uni: "Washington"},
     {id: "4", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
-    {id: "5", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
-    {id: "6", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
-    {id: "7", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
+    {id: "5", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
+    {id: "6", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
+    {id: "7", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
     {id: "8", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
     {id: "9", name: "Trey Benson", pos: "RB", uni: "Florida State"},
     {id: "10", name: "Caleb Williams", pos: "QB", uni: "USC"},
@@ -784,10 +811,10 @@ const ppr2QB = [
     {id: "5", name: "Rome Odunze", pos: "WR", uni: "Washington"},
     {id: "6", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
     {id: "7", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
-    {id: "8", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
-    {id: "9", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
-    {id: "10", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
-    {id: "11", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
+    {id: "8", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
+    {id: "9", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
+    {id: "10", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
+    {id: "11", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
     {id: "12", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
     {id: "13", name: "Trey Benson", pos: "RB", uni: "Florida State"},
     {id: "14", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
@@ -824,9 +851,9 @@ const nPpr1QB = [
     {id: "2", name: "Malik Nabers", pos: "WR", uni: "LSU"},
     {id: "3", name: "Rome Odunze", pos: "WR", uni: "Washington"},
     {id: "4", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
-    {id: "5", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
-    {id: "6", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
-    {id: "7", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
+    {id: "5", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
+    {id: "6", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
+    {id: "7", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
     {id: "8", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
     {id: "9", name: "Trey Benson", pos: "RB", uni: "Florida State"},
     {id: "10", name: "Caleb Williams", pos: "QB", uni: "USC"},
@@ -867,10 +894,10 @@ const nPpr2QB = [
     {id: "5", name: "Rome Odunze", pos: "WR", uni: "Washington"},
     {id: "6", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
     {id: "7", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
-    {id: "8", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
-    {id: "9", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
-    {id: "10", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
-    {id: "11", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
+    {id: "8", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
+    {id: "9", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
+    {id: "10", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
+    {id: "11", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
     {id: "12", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
     {id: "13", name: "Trey Benson", pos: "RB", uni: "Florida State"},
     {id: "14", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
