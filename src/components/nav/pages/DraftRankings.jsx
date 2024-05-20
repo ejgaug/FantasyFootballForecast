@@ -421,8 +421,8 @@ export default function DraftRanks(props) {
                         
                     </Col>
                 </Row>
-                <p style={modalPostDraftAnalysis}>Post-Draft Analysis: <br/>{selectedPlayer.postDraftAnalysis}</p>
-                <p style={modalAnalysis}>Pre-Draft Analysis: <br/>{selectedPlayer.analysis}</p>
+                <p style={modalPostDraftAnalysis}> <b> Post-Draft Analysis: </b> <br/>{selectedPlayer.postDraftAnalysis}</p>
+                <p style={modalAnalysis}> <b> Pre-Draft Analysis: </b> <br/>{selectedPlayer.analysis}</p>
 
                 <p style={lastEdited}>Last Edited: {selectedPlayer.lastEditTime}</p>
             </>

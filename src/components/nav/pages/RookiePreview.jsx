@@ -174,8 +174,8 @@ export default function RookiePreview(props) {
                         <div style={{margin: "0.35rem"}}> 
                             {playerStates[player.name] && (
                                     <>
-                                        <p style={analysisStyle}>Post-Draft Analysis: <br/>{player.postDraftAnalysis}</p>
-                                        <p style={analysisStyle}>Pre-Draft Analysis: <br/>{player.analysis}</p>
+                                        <p style={analysisStyle}> <b> Post-Draft Analysis: </b> <br/>{player.postDraftAnalysis}</p>
+                                        <p style={analysisStyle}> <b> Pre-Draft Analysis: </b> <br/>{player.analysis}</p>
 
                                         <p style={lastEdited}>Last Edited: {player.lastEditTime}</p>
                                     </>

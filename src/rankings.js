@@ -277,18 +277,23 @@ const playerInfo = [
         img: treyBenson}, 
     {name: "Ricky Pearsall", pos: "WR", age: "23", uni: "Florida", size: `6'1" | 189 lbs`, fortyYrd: "4.41", threeCone: "6.64", vert: `42"`, recTdRec: "65 (4 TDs)", recYrds: "965 yds",
     broadJump: `10'9"`, nflTeam: "San Francisco 49ers", draftCap: "1.31", preDraftRank: {ppr1QB: '12', ppr2QB: '14', nPpr1QB: '12', nPpr2QB: '14'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/19/24", 
         analysis: "Ricky Pearsall is an incredible route-runner with a great ability to create separation and find space in the defense. He " +
         "has a league-ready release package and enough explosiveness to consistently get open and make plays. Ricky has great hands and ball " +
         "tracking skills down field. Pearsall showed his sneaky athleticism at the combine by posting a top-10 40 time and a top-3 vertical amongst " +
         "WRs. He also had the quickest 3-cone drill of the entire event. Combine this incredible athletic ability with his pristine route-running and a high IQ, " +
         "he may end up as one of the bigger steals in this years draft regardless of how high his combine performance pushes him up boards.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Despite the buzz going into the draft, the 49ers have yet to trade either Deebo Samuel or Brandon Aiyuk. Yet, they used their first round " +
+        "pick on our favorite sleeper WR since the beginning of the off-season, Ricky Pearsall. It seems the team is prepared for this to be the last season with " +
+        "Aiyuk and Samuel on the field together. This bodes extremely well for Ricky Pearsall's future outlook in a well-run offense that is due for change. " +
+        "Pearsall should also have a decent bit of short term fantasy relevance considering one of the main downfalls in last year's Super Bowl blunder was that " +
+        "Aiyuk was the only receiver that consistently beat man coverage. Pearsall's route-running superiority could land him in the coaches favor early and lead " +
+        "to fantasy success. ",
         imgSite: `espn.com`, imgUrl: "https://a4.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2023%2F0923%2Fss_20230923_193431430_23466101197%2Fss_20230923_193431430_23466101197.jpg",
         img: rickyPearsall}, 
     {name: "Javon Baker", pos: "WR", age: "22", uni: "UCF", size: `6'1 1⁄4" | 202 lbs`, fortyYrd: "4.54", threeCone: "N/A", vert: `37"`, recTdRec: "52 (7 TDs)", recYrds: "1,139 yds",
     broadJump: `10'1"`, nflTeam: "New England Patriots", draftCap: "4.10", preDraftRank: {ppr1QB: '13', ppr2QB: '15', nPpr1QB: '13', nPpr2QB: '15'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/20/24", 
         analysis: "Javon Baker was a very high recruit coming out of High School and committed to Alabama where he struggled to get on the field. After 2 years at the bottom " +
         "of an elite WR depth chart, he transferred to UCF to be the guy. He thrived in that role, posting top-5 numbers in yards per route run versus man and zone " +
         "in 2023. These metrics have extreme historical significance in predicting future success, boding well for Baker. He has great hands and elite body control " +
@@ -296,7 +301,12 @@ const playerInfo = [
         "in game, regularly separating from defenders down field. He ran a limited route-tree at UCF (mostly nine and curl routes), but was extremely successful doing so. " +
         "He has the talent to be an absolute steal in drafts. With his elite underlying metrics, keep an eye out for Javon Baker in the later rounds of rookie " +
         "drafts. With the right draft fit, he could be the top X receiver after MHJ and Rome.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Simply put, the Patriots got an absolute steal with Javon Baker at the 10th pick in the 4th round. Given how the NFL viewed him, he " +
+        "will likely begin the season as the Pats' 4th receiver. However, given the ineptitude of this receiving core last year, and the talent and drive " +
+        "we see with Baker, he should work his way into starting. Once on the field, Javon will be the teams X-receiver and a favorite target of fellow rookie " +
+        "Drake Maye. The team did draft Ja'Lynn Polk two rounds earlier than Baker, so there is already a hierarchy within their rookie receiver class. While we " +
+        "believe in our initial evaluation in which Baker was ranked ahead of Polk, we would be stupid to totally disregard draft capital. For that reason, we'll " +
+        "have Baker ranked just behind Polk, but Baker has more upside. ",
         imgSite: `collegefootballnetwork.com`, imgUrl: "https://collegefootballnetwork.com/wp-content/uploads/2023/08/USATSI_19326665-1024x683.jpg",
         img: javonBaker}, 
     {name: "Xavier Worthy", pos: "WR", age: "21", uni: "Texas", size: `5'11 1⁄4" | 165 lbs`, fortyYrd: "4.21", threeCone: "N/A", vert: `41"`, recTdRec: "75 (5 TDs)", recYrds: "1,014 yds",
