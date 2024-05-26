@@ -304,14 +304,14 @@ const playerInfo = [
         postDraftAnalysis: "Simply put, the Patriots got an absolute steal with Javon Baker at the 10th pick in the 4th round. Given how the NFL viewed him, he " +
         "will likely begin the season as the Pats' 4th receiver. However, given the ineptitude of this receiving core last year, and the talent and drive " +
         "we see with Baker, he should work his way into starting. Once on the field, Javon will be the teams X-receiver and a favorite target of fellow rookie " +
-        "Drake Maye. The team did draft Ja'Lynn Polk two rounds earlier than Baker, so there is already a hierarchy within their rookie receiver class. While we " +
-        "believe in our initial evaluation in which Baker was ranked ahead of Polk, we would be stupid to totally disregard draft capital. For that reason, we'll " +
-        "have Baker ranked just behind Polk, but Baker has more upside. ",
+        "Drake Maye. It is important to note that the team did draft Ja'Lynn Polk two rounds earlier than Baker, so Polk will get more chances. While we " +
+        "believe in our initial evaluation in which Baker was ranked ahead of Polk, it would be stupid to totally disregard draft capital. For that reason, we'll " +
+        "have Baker ranked just behind Polk, despite the upside with Baker. ",
         imgSite: `collegefootballnetwork.com`, imgUrl: "https://collegefootballnetwork.com/wp-content/uploads/2023/08/USATSI_19326665-1024x683.jpg",
         img: javonBaker}, 
     {name: "Xavier Worthy", pos: "WR", age: "21", uni: "Texas", size: `5'11 1⁄4" | 165 lbs`, fortyYrd: "4.21", threeCone: "N/A", vert: `41"`, recTdRec: "75 (5 TDs)", recYrds: "1,014 yds",
     broadJump: `10'11"`, nflTeam: "Kansas City Chiefs", draftCap: "1.28", preDraftRank: {ppr1QB: '14', ppr2QB: '16', nPpr1QB: '14', nPpr2QB: '16'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/25/24", 
         analysis: "Worthy is a very young player with good route-running prowess. This, combined with his record breaking 4.21 40-yard dash and great quickness " +
         "allow him to create separation, at all levels of the field. That being said, he does profile to be more of a field-stretcher. His rail-thin frame limits " +
         "him when dealing with press coverage, jump balls, and in YAC situations. Despite his strength issues, he was extremely productive at Texas as a true freshman " + 
@@ -319,19 +319,27 @@ const playerInfo = [
         "poor QB play as seen by having the most uncatchable targets in this class. It would be hard to repeat this dominance in the NFL at his weight, but maybe he'll " +
         "be an outlier as a 165 pound WR like Tank Dell last year. His frame likely limits him from ever being a WR1 in fantasy or on his team, but he could still " +
         "produce great numbers. His landing spot will likely determine if we're gambling on him.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Xavier Worthy seemed to be a major target for the Chiefs who have still been trying to fill the hole Tyreek Hill left in their offense. " +
+        "It is still hard to see Worthy being a WR1 in fantasy, but if there was any situation in which he could, it would be with Patrick Mahomes and Andy Reid. " +
+        "With the legal problems and likely suspension of Rashee Rice looming, and Hollywood Brown being a 1-year rental, this Chiefs WR room has plenty of available " +
+        "targets. In order to take advantage, Worthy will have to surpass fellow undersized speedster, Hollywood Brown. Worthy still feels like a bust, but the " +
+        "outrageous upside in KC makes him worth a mid to late first rounder. ", 
         imgSite: `texassports.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/texassports_com/images/2023/9/18/X_TD_Filtered_2023_09_16_DK-2.jpg",  
         img: xavierWorthy},
     {name: "Jaylen Wright", pos: "RB", age: "21", uni: "Tennessee", size: `5'10 1⁄2" | 210 lbs`, fortyYrd: "4.38", threeCone: "N/A", vert: `38"`, rushing: "1,010 yds (4 TDs)", ydsPerRush: "7.4 yds", recTdRec: "22 (0 TDs)", recYrds: "141 yds",
     broadJump: `N/A`, nflTeam: "Miami Dolphins", draftCap: "4.20", preDraftRank: {ppr1QB: '15', ppr2QB: '17', nPpr1QB: '15', nPpr2QB: '17'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "5/25/24", 
         analysis: "Seen by his 7.4 yards per carry in 2023, Wright is a highly efficient RB with great speed and explosiveness. He only solidified this with an extremely " +
         "impressive combine where he ran a 4.38 40 and received a 9.81 relative athletic score (RAS). Wright has shown good vision in between the tackles and " +
         "is great at sneaking through the first level, but he prefers to bounce it outside. Regardless of how he gets there, Wright excels in space with his " +
         "elite speed and agility. He runs extremely hard and has a shake in the open field that consistently loses defenders. Wright has also shown " +
         "an ability to bounce off of solo tackles. He is very good in the passing game with a more complete route-tree than most of the RBs in this class. " +
         "He did have a note-worthy fumbling issue in 2023. Wright could prove to be very valuable in the NFL and in fantasy football if he lands in a good spot.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Jaylen Wright became an even more polarizing player when he was selected by Miami in the 4th round. He was clearly someone that the " +
+        "Dolphins liked quite a bit, evident by them trading a 2025 3rd round pick to get back into the 4th. The scheme fit in McDaniel's offense could not be better " +
+        "for the speedy Wright. However, there is plenty of competition for touches in Raheem Mostert and Devon Achane. Expect 2024 to highlight those two RBs with " +
+        "Wright as injury insurance for the Dolphins. By 2025, it should be Wright and Achane as an electrifying tandem. The talent of Wright and his " +
+        "eventual role in this offense makes him a good pick later in rookie drafts. ",
         imgSite: `utdailybeacon.com`, imgUrl: "https://bloximages.chicago2.vip.townnews.com/utdailybeacon.com/content/tncms/assets/v3/editorial/7/26/72697912-6c4b-11ee-a812-e3f8f5adc2c6/652d762347ef1.image.jpg?resize=1200%2C800",
         img: jaylenWright}, 
     {name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", size: `6'2 1⁄4" | 216 lbs`, fortyYrd: "4.46u", threeCone: "N/A", compPerc: "65.4%", td2Int: "36/11", passYrds: "4,903 yds", yrdsPerAtt: "8.8 yds", rush: "8 yds (3 TDs)", 
