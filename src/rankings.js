@@ -344,7 +344,7 @@ const playerInfo = [
         img: jaylenWright}, 
     {name: "Michael Penix Jr.", pos: "QB", age: "23", uni: "Washington", size: `6'2 1⁄4" | 216 lbs`, fortyYrd: "4.46u", threeCone: "N/A", compPerc: "65.4%", td2Int: "36/11", passYrds: "4,903 yds", yrdsPerAtt: "8.8 yds", rush: "8 yds (3 TDs)", 
     broadJump: `N/A`, nflTeam: "Atlanta Falcons", draftCap: "1.08", preDraftRank: {ppr1QB: '31', ppr2QB: '18', nPpr1QB: '32', nPpr2QB: '18'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "6/2/24", 
         analysis: "Penix is an incredible deep ball thrower with a rocket of an arm. He is able to put it exactly where his receiver wants it down the field. He is " +
         "solid in intermediate areas of the field, but struggles at times with finesse throws. He showed his prowess at the combine where he shredded the passing " +
         "drills. Penix has shown the IQ to process defensive schemes and make the right play. While it isn't a strength, he has enough athleticism to create at " +
@@ -352,12 +352,16 @@ const playerInfo = [
         " and often favored the big play over the easy gain. There are also injury concerns as he has suffered multiple ACL tears and has a history of shoulder " +
         "joint issues. However, he passed all his medical tests at the combine, so maybe this is a thing of the past. Overall, there " +
         "isn't a ton to be excited about from a fantasy perspective, other than the added value he could provide to field stretching WRs.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Given the large contract the Atlanta Falcons just gave to Kirk Cousins, it was a massive shock when they selected Michael Penix Jr. as " +
+        "the 8th player off the board. There current QB situation should lock Penix in a backup role for some time. However, this shouldn't be a death sentence for " +
+        "Penix's dynasty value. Having a rookie QB develop behind an established vet is the best way to prepare them to start, and looking closely at Cousins' " +
+        "contract, Kirk could be a cut candidate prior to the 2026 season if he loses a step. If you have the roster space, draft Penix late in super-flex rookie " +
+        "drafts as your QB of the future. ",
         imgSite: `gohuskies.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/washington.sidearmsports.com/images/2023/8/22/Michael_Penix_Jr_.png",
         img: michaelPenixJr}, 
     {name: "Xavier Legette", pos: "WR", age: "23", uni: "South Carolina", size: `6'1" | 221 lbs`, fortyYrd: "4.39", threeCone: "N/A", vert: `40"`, recTdRec: "71 (7 TDs)", recYrds: "1,255 yds",
     broadJump: `10'6"`, nflTeam: "Carolina Panthers", draftCap: "1.32", preDraftRank: {ppr1QB: '17', ppr2QB: '19', nPpr1QB: '17', nPpr2QB: '19'}, 
-    lastEditTime: "5/9/24",  
+    lastEditTime: "6/2/24",  
         analysis: "Legette is one of the most physically imposing WRs in this class. While smaller than originally thought, he still has the size and strength to " +
         `bully many NFL DBs. Legette showed off his ridiculous athletic ability at the combine by posting a 4.39 40-yard dash and a 40" vertical at 221 lbs. ` +
         "This testing was good for a 9.88/10 relative athletic score (RAS). This athleticism and his hulking strength make him clear YAC threat. While, he " +
@@ -366,7 +370,10 @@ const playerInfo = [
         "his 5th season in college (2023). However, there are many events that contributed to this including him playing QB until college, coaching changes at SC, and  " +
         "a motorcycle accident during his junior season. Legette is a fun player to watch with a ton of upside. If he goes to the right situation, he could provide " + 
         "plenty of fantasy value. ", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "The Panthers traded into the back of the first round to get their guy in Xavier Legette. They clearly hope that he will be able to step " +
+        "into their X-receiver role very quickly. Legette should be given every chance to succeed with a pretty large target share in year one. With the off-season " +
+        "additions that were made, this offense should be much improved, but it would be hard to project Legette being a regular starter in fantasy leagues in " +
+        "year one. He looks like more of a splash play guy. Also, don't forget the historically horrendous hit rate of 5th year breakout players like Xavier Legette. ",
         imgSite: `wistv.com`, imgUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/gray/AIHJH7RCRFCTXLC4RYFOKWK4HM.jpg",
         img: xavierLegette},   
     {name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama", size: `6'0 1⁄4" | 196 lbs`, fortyYrd: "4.45", threeCone: "N/A", vert: `38.5"`, recTdRec: "39 (8 TDs)", recYrds: "798 yds",
