@@ -34,6 +34,8 @@ export default function DraftRanks(props) {
     });
     const [lockPersonal, setLockPersonal] = useState(false);
     const [personalRanks, setPersonalRanks] = useState([]);
+    const [postDraftButton, setPostDraftButton] = useState(false);
+    const [preDraftButton, setPreDraftButton] = useState(false);
 
     useEffect(() => {
     }, [selectedPositions, selectedUni]);
@@ -62,6 +64,7 @@ export default function DraftRanks(props) {
         ReactGA.set({ page: window.location.pathname });
         ReactGA.pageview(window.location.pathname);
     }, []);
+
 
     const rankedItems = {
         justifyContent: 'center',  // Center horizontally
@@ -115,7 +118,7 @@ export default function DraftRanks(props) {
     };
     const modalPostDraftAnalysis = {
         paddingTop: '5px',
-        marginBottom: '5px',
+        marginBottom: '0px',
         marginTop: '5px',
         borderTop: '0.01rem solid #bFbFbF',
         fontSize: '14px',
@@ -141,6 +144,18 @@ export default function DraftRanks(props) {
         marginBottom: '4px',
         color: '#bFbFbF' //'#DEAB2A'
     };
+    const analysisButtonStyles = {
+        borderRadius: '2px', 
+        backgroundColor: '#393939', 
+        borderColor: '#bFbFbF', 
+        marginLeft: '6px', 
+        fontSize: '12px', 
+        paddingLeft: '5px',
+        paddingRight: '5px',
+        paddingTop: '1px',
+        paddingBottom: '1px',
+        
+    }
     const buttonStyles = specifier => ({
         borderRadius: '3px', 
         cursor: 'pointer'
@@ -174,6 +189,8 @@ export default function DraftRanks(props) {
         setShowPlayerModal(false);
         setSelectedUni("");
         setShowUniModal(false);
+        setPostDraftButton(false);
+        setPreDraftButton(false);
     };
 
     function positionalRanks(specifier, pos) {
@@ -421,8 +438,27 @@ export default function DraftRanks(props) {
                         
                     </Col>
                 </Row>
-                <p style={modalPostDraftAnalysis}> <b> Post-Draft Analysis: </b> <br/>{selectedPlayer.postDraftAnalysis}</p>
-                <p style={modalAnalysis}> <b> Pre-Draft Analysis: </b> <br/>{selectedPlayer.analysis}</p>
+                <p style={modalPostDraftAnalysis}> <b> Post-Draft Analysis:
+                    <Button 
+                        style={analysisButtonStyles} 
+                        onClick={() => {
+                           setPostDraftButton(!postDraftButton); 
+                        }}>
+                            {postDraftButton ? "Hide Analysis" : "Show Analysis"}
+                    </Button> 
+                    </b> <br/> {postDraftButton ? selectedPlayer.postDraftAnalysis : ""}
+                </p>  // "▼" : "▲"
+
+                <p style={modalAnalysis}> <b> Pre-Draft Analysis: 
+                    <Button 
+                        style={analysisButtonStyles}
+                        onClick={() => {
+                            setPreDraftButton(!preDraftButton);  
+                        }}>
+                            {preDraftButton ? "Hide Analysis" : "Show Analysis"}
+                    </Button> 
+                    </b> <br/> {preDraftButton ? selectedPlayer.analysis : ""}
+                </p>
 
                 <p style={lastEdited}>Last Edited: {selectedPlayer.lastEditTime}</p>
             </>

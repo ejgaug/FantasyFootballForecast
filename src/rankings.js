@@ -378,19 +378,23 @@ const playerInfo = [
         img: xavierLegette},   
     {name: "Jermaine Burton", pos: "WR", age: "22", uni: "Alabama", size: `6'0 1⁄4" | 196 lbs`, fortyYrd: "4.45", threeCone: "N/A", vert: `38.5"`, recTdRec: "39 (8 TDs)", recYrds: "798 yds",
     broadJump: `11'1"`, nflTeam: "Cincinnati Bengals", draftCap: "3.16", preDraftRank: {ppr1QB: '18', ppr2QB: '20', nPpr1QB: '18', nPpr2QB: '20'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "6/2/24", 
         analysis: "Jermaine Burton is a great route-runner with excellent acceleration and speed allowing him to consistently create separation at every level of the " +
         "field. Don't let this incredibly athletic WR class discount the 4.45 that Burton ran. This is still well above-average for the 40, don't be concerned " +
         "about Burton's speed. He has plenty ability to beat defenders down the field. With 0 drops in 2023, Burton is sure to reel in everything that comes his " +
         "way with his excellent hands. Burton sometimes struggles in play strength. At times, he can get bullied and doesn't project to do much after the catch " +
         "when contact is involved. However, he routinely won against press coverage. Burton has been pushed down boards by his attitude problems and off-field drama. " +
         "Talent wise, has the makings of a consistently producing WR in the NFL. If he can get his attitude under control, he could be a major steal in this draft.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Many experts believed that Burton's character concerns would cause him to fall to the 4th or even 5th round in this years draft. It was " +
+        "a major testament to his great talent when the Bengals selected him midway through the 3rd round. It seems likely that Tee Higgins remains in Cincy for the " +
+        "2024 season, and is then gone in 2025. This would leave major opportunity for Burton to work across from Ja'Marr Chase in the Tee Higgins role. We've also " +
+        "seen this WR core suffer injuries in the past. This could leave room for multiple startable weeks for the Alabama product this season. Burton should have " +
+        "some streaming weeks in 2024, and could be a very valuable fantasy piece in 2025.",
         imgSite: `rolltide.com`, imgUrl: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/rolltide.com/images/2022/10/12/100822_MFB_BurtonJe_TAMU_TN5320_mQx2V.jpg",
         img: jermaineBurton},  
     {name: "Troy Franklin", pos: "WR", age: "21", uni: "Oregon", size: `6'1 7⁄8" | 176 lbs`, fortyYrd: "4.41", threeCone: "6.90", vert: `39"`, recTdRec: "81 (14 TDs)", recYrds: "1,383 yds",
     broadJump: `10'4"`, nflTeam: "Denver Broncos", draftCap: "4.02", preDraftRank: {ppr1QB: '19', ppr2QB: '21', nPpr1QB: '20', nPpr2QB: '22'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "6/2/24", 
         analysis: "Franklin is a lanky, speedy receiver who thrived in Oregon's offense in 2023. He is a smooth, refined route-runner that excels in space. His great top " +
         "end speed allows him to separate from defenders when he can get going. However, he needs time to reach that top speed. This poor acceleration was evident in " +
         "his class-worse 10-yard split at the combine. While his 0 to 60 isn't impressive, he can stop at a dime at any point. This allows him to create separation " +
@@ -399,7 +403,10 @@ const playerInfo = [
         "drill where he looked like a a stumbling drunk; weaving across the field and body catching every ball. His 4.41 40-yard dash time was " +
         "good, but not ideal for a projected speedster. Still, Franklin looked good on film and made some huge plays. " +
         "Provided an above-average landing spot, he could have some value in fantasy, but he doesn't project to have much of a ceiling hence his ranking. ", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Franklin's extremely poor draft process caused him to slip all the way to the 4th round of the draft. This was extremely shocking for the " +
+        "a player with his profile, and does not bode well for his fantasy outlook. However, landing with the WR-needy Denver Broncos who drafted his college QB, Bo " +
+        "Nix, at the 12th pick rights the Troy Franklin fantasy ship. It it clear how the NFL felt about him, and as a result he should be drafted much later in " +
+        "rookie drafts, but don't be surprised if he shines early in 2024. ",
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/133/999/11999133.jpg",
         img: troyFranklin}, 
     {name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", size: `5'8 3⁄4" | 220 lbs`, fortyYrd: "4.46", threeCone: "N/A", vert: `36"`, rushing: "820 yds (9 TDs)", ydsPerRush: "7.1 yds", recTdRec: "13 (0 TDs)", recYrds: "232 yds",
@@ -785,6 +792,7 @@ const playerInfo = [
 ]
 
 const ppr1QB = [ 
+    // {id: "1", name: "Sorry, in home league draft. Please, check back soon.", pos: "FU", uni: "ESFU"},
     {id: "1", name: "Marvin Harrison Jr.", pos: "WR",uni: "Ohio State"},
     {id: "2", name: "Malik Nabers", pos: "WR", uni: "LSU"},
     {id: "3", name: "Rome Odunze", pos: "WR", uni: "Washington"},
