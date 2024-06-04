@@ -78,8 +78,8 @@ export default function DraftRanks(props) {
         marginBottom: '0px',
         padding: '2px',
         display: 'grid',
-        gridTemplateColumns: width > screenCutOff ? '2.5% 2.5% 5% 40% 10% 40%' : '3.5% 3.5% 5% 40% 10% 38%',
-        fontSize: width > screenCutOff ? '13.5px' : '11px',
+        gridTemplateColumns: width > screenCutOff ? '2.5% 2.5% 5% 40% 10% 40%' : '4.5% 4.5% 7% 39% 10% 35%',
+        fontSize: width > screenCutOff ? '13.5px' : '12px',
     };
     const description = {
         textAlign: 'center',
