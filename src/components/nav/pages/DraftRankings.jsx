@@ -1,6 +1,7 @@
-import { Button, Card, Col, Row, Modal, CloseButton } from "react-bootstrap";
+import { Button, Card, Col, Row, Modal, CloseButton, Popover, OverlayTrigger, Tooltip } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 
+import CheckBox from "../../CheckBox";
 import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB, personal } from "../../../rankings";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
@@ -36,6 +37,8 @@ export default function DraftRanks(props) {
     const [personalRanks, setPersonalRanks] = useState([]);
     const [postDraftButton, setPostDraftButton] = useState(false);
     const [preDraftButton, setPreDraftButton] = useState(false);
+    const [myPickedPlayers, setMyPickedPlayers] = useState({});
+    const [otherPickedPlayers, setOtherPickedPlayers] = useState({});
 
     useEffect(() => {
     }, [selectedPositions, selectedUni]);
@@ -73,7 +76,7 @@ export default function DraftRanks(props) {
         marginBottom: '0px',
         padding: '2px',
         display: 'grid',
-        gridTemplateColumns: '8% 42% 10% 40%',
+        gridTemplateColumns: '2.5% 2.5% 5% 40% 10% 40%',
         fontSize: '13.5px'
     };
     const description = {
@@ -293,6 +296,18 @@ export default function DraftRanks(props) {
 
         let rank = 1;
 
+        const myPickBox = (player) => (
+            <Tooltip id="button-tooltip" {...props}>
+              Welcome to the team, {player.name}!
+            </Tooltip>
+        );
+
+        const notMyPickBox = (player) => (
+            <Tooltip id="button-tooltip" {...props}>
+              {player.name} was selected by another team.
+            </Tooltip>
+        );
+
         return (
             <Col
                 xs={12}
@@ -307,6 +322,42 @@ export default function DraftRanks(props) {
                     {filteredRankings.map(player => (
                         <Col key={title + player.id}>
                             <p style={rankedItems}>
+                                <OverlayTrigger
+                                    placement="top"
+                                    delay={{ show: 100, hide: 100 }}
+                                    overlay={myPickBox(player)}
+                                >
+                                    <label className="custom-checkbox">
+                                        <input
+                                            type="checkbox"
+                                            className="hidden-checkbox"
+                                            checked={myPickedPlayers[player.name] || false}
+                                            onChange={(e) => setMyPickedPlayers(prevState => ({
+                                                ...prevState,
+                                                [player.name]: e.target.checked
+                                            }))}
+                                        />
+                                        <span className="custom-checkbox-mark check-mark" />
+                                    </label>
+                                </OverlayTrigger>
+                                <OverlayTrigger
+                                    placement="top"
+                                    delay={{ show: 100, hide: 100 }}
+                                    overlay={notMyPickBox(player)}
+                                >
+                                    <label className="custom-checkbox">
+                                        <input
+                                            type="checkbox"
+                                            className="hidden-checkbox"
+                                            checked={otherPickedPlayers[player.name] || false}
+                                            onChange={(e) => setOtherPickedPlayers(prevState => ({
+                                                ...prevState,
+                                                [player.name]: e.target.checked
+                                            }))}
+                                        />
+                                        <span className="custom-checkbox-mark x-mark" />
+                                    </label>
+                                </OverlayTrigger>
                                 <span style={rankNum}>
                                     {rank++}
                                 </span>

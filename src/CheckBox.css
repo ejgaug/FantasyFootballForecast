@@ -1,0 +1,38 @@
+/* Hide the default checkbox */
+.hidden-checkbox {
+    display: none;
+  }
+  
+  /* Style the custom checkbox container */
+  .custom-checkbox {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /* Create the custom checkbox mark */
+  .custom-checkbox-mark {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  
+  /* Style for the checked state */
+  .hidden-checkbox:checked + .check-mark::before {
+    content: "✓"; /* Unicode for a green check mark */
+    color: green;
+  }
+  
+  /* Style for the unchecked state */
+  .hidden-checkbox:checked + .x-mark::before {
+    content: "✗"; /* Unicode for a red "X" */
+    color: red;
+  }
+  

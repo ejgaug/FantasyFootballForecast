@@ -137,7 +137,7 @@ const playerInfo = [
         "Rome's fantasy relevance in 2024 will be heavily dependent on the longevity of Keenan Allen. If Allen falls off at all, Rome should be the Bears " +
         "starting X-receiver and be running 90% of routes by the end of the season. This would lead perfectly into a WR1 2025 season with Keenan Allen gone. However, " +
         "there is a chance we see a similar season to what JSN had last year in an equally crowded receiver room and with the same OC. Do not let Rome go later than " +
-        "WR3 in rookie draft, but don't be surprised if he has a slow start in 2024.",
+        "WR3 in rookie drafts, but don't be surprised if he has a slow start in 2024.",
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/148/350/11350148.jpg",
         img: romeOdunze}, 
     {name: "Drake Maye", pos: "QB", age: "21", uni: "North Carolina", size: `6'4 3⁄8" | 223 lbs`, fortyYrd: "N/A", threeCone: "N/A", compPerc: "63.3%", td2Int: "24/9", passYrds: "3,608 yds", yrdsPerAtt: "8.5 yds", rush: "449 yds (9 TDs)", 
