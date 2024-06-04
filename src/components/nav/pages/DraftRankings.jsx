@@ -10,6 +10,8 @@ ReactGA.initialize('G-CE4KYHDZN3');
 
 export default function DraftRanks(props) {
 
+    const screenCutOff = 767;
+
     const [isHovering, setIsHovering] = useState(null);
     const [selectedPlayer, setSelectedPlayer] = useState(null);
     const [showPlayerModal, setShowPlayerModal] = useState(false);
@@ -76,8 +78,8 @@ export default function DraftRanks(props) {
         marginBottom: '0px',
         padding: '2px',
         display: 'grid',
-        gridTemplateColumns: '2.5% 2.5% 5% 40% 10% 40%',
-        fontSize: '13.5px'
+        gridTemplateColumns: width > screenCutOff ? '2.5% 2.5% 5% 40% 10% 40%' : '3.5% 3.5% 5% 40% 10% 38%',
+        fontSize: width > screenCutOff ? '13.5px' : '11px',
     };
     const description = {
         textAlign: 'center',
@@ -222,8 +224,6 @@ export default function DraftRanks(props) {
             window.removeEventListener("resize", handleResizeWindow);
         };
     }, []);
-
-    const screenCutOff = 767;
     
     // Add a useEffect hook to log the updated playerRanks state
     // useEffect(() => {
