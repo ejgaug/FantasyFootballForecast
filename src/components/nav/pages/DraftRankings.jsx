@@ -85,6 +85,7 @@ export default function DraftRanks(props) {
         color: '#eFeFeF',
     };
     const rankNum = {
+        borderLeft: '1.5px solid #000',
         paddingRight: '2px',
         fontWeight: 'bold',
         textAlign: 'center'
