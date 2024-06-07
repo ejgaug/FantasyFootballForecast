@@ -353,7 +353,7 @@ const playerInfo = [
         "joint issues. However, he passed all his medical tests at the combine, so maybe this is a thing of the past. Overall, there " +
         "isn't a ton to be excited about from a fantasy perspective, other than the added value he could provide to field stretching WRs.", 
         postDraftAnalysis: "Given the large contract the Atlanta Falcons just gave to Kirk Cousins, it was a massive shock when they selected Michael Penix Jr. as " +
-        "the 8th player off the board. There current QB situation should lock Penix in a backup role for some time. However, this shouldn't be a death sentence for " +
+        "the 8th player off the board. Their current QB situation should lock Penix in a backup role for some time. However, this shouldn't be a death sentence for " +
         "Penix's dynasty value. Having a rookie QB develop behind an established vet is the best way to prepare them to start, and looking closely at Cousins' " +
         "contract, Kirk could be a cut candidate prior to the 2026 season if he loses a step. If you have the roster space, draft Penix late in super-flex rookie " +
         "drafts as your QB of the future. ",
@@ -411,14 +411,17 @@ const playerInfo = [
         img: troyFranklin}, 
     {name: "Marshawn Lloyd", pos: "RB", age: "23", uni: "USC", size: `5'8 3⁄4" | 220 lbs`, fortyYrd: "4.46", threeCone: "N/A", vert: `36"`, rushing: "820 yds (9 TDs)", ydsPerRush: "7.1 yds", recTdRec: "13 (0 TDs)", recYrds: "232 yds",
     broadJump: `N/A`, nflTeam: "Green Bay Packers", draftCap: "3.24", preDraftRank: {ppr1QB: '20', ppr2QB: '22', nPpr1QB: '19', nPpr2QB: '21'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "6/5/24", 
         analysis: "Lloyd is an extremely explosive runner with elite speed and burst. He has the agility to make guys miss in the open field and enough size to break a " +
         "few tackles along the way. He is a threat to take it to the house every time he touches the ball. He showed this explosiveness at the combine by posting " +
         "a 4.46 40-yard dash which was the 6th best time among the RBs. This speed is even more impressive when taking his elite weight into account. While he saw " +
         "very limited receiving work at USC, this may have been a product of the system and Caleb Williams preferring down field throws as Lloyd look pretty fluid on the " +
         "targets he did get. Lloyd also wasn't very effective in pass-pro. Combine this with his advanced age for a rookie, he'll likely need a solid landing spot to " +
         "pan out. He could use his elite explosiveness to excel in a complimentary roll.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "After going to the Packers late in the 3rd round, Marshawn Lloyd's dynasty relevancy hinges on Josh Jacobs' output in 2024. HC, Matt LaFleur, " +
+        "has repeatedly told us that will utilize multiple backs. So, Lloyd should get some work regardless. But if Jacobs' poor 2023 season continues this year, there " +
+        "could be much more work going towards the 23 year-old USC product this season and beyond. Lloyd is a talented, explosive back, worthy of a mid-to-late pick in " +
+        "rookie drafts. ",
         imgSite: `latimes.com`, imgUrl: "https://ca-times.brightspotcdn.com/dims4/default/6f1bd99/2147483647/strip/true/crop/5262x2763+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F64%2F59%2F077e94f549809f6a1db77120ef89%2Fusc-nevada-football-04073.jpg",
         img: marshawnLloyd},  
     {name: "Keon Coleman", pos: "WR", age: "20", uni: "Florida State", size: `6'3 1⁄4" | 213 lbs`, fortyYrd: "4.61", threeCone: "N/A", vert: `38"`, recTdRec: "50 (11 TDs)", recYrds: "658 yds",
@@ -443,7 +446,7 @@ const playerInfo = [
         img: keonColeman},
     {name: "Braelon Allen", pos: "RB", age: "20", uni: "Wisconsin", size: `6'1 1⁄4" | 235 lbs`, fortyYrd: "N/A", threeCone: "N/A", vert: `32"`, rushing: "984 yds (12 TDs)", ydsPerRush: "5.4 yds", recTdRec: "28 (0 TDs)", recYrds: "131 yds",
     broadJump: `N/A`, nflTeam: "New York Jets", draftCap: "4.31", preDraftRank: {ppr1QB: '23', ppr2QB: '25', nPpr1QB: '23', nPpr2QB: '25'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "6/5/24", 
         analysis: "Braelon Allen has been dominating Big 10 football since he was 17 as a freshman. Now, newly 20, he enters the draft as by far the biggest RB in the " +
         "class. As one would assume, Braelon excels at shedding arm tackles and is a load to bring down. He has also shown good vision and has a decent jump-cut " +
         "for a man of his size. While it wasn't shown off until 2023, Allen has capable hands. He showed very little route variation, but can be a dependable " +
@@ -451,19 +454,24 @@ const playerInfo = [
         "have to wait to see what kind of speed he has as he didn't run the 40 at the combine. Hopefully he runs at his pro day. Similar to one of the few NFL " +
         "backs with his size, Derrick Henry, if the O-line lets Braelon get hit in the backfield, the play is likely done. Again, just like Henry, once he gets a " +
         "little head of steam, good luck bringing him down alone. ", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Allen really lost out on the landing spot lottery when he went to the Jets late in the 4th round. There is a chance that he could get " +
+        "goal-line work and some touches between the 20s, but with Breece Hall there, Braelon would need an injury to really pay off in fantasy. Still, as the " +
+        "youngest RB ever drafted, he's worth a late round flyer. ",
         imgSite: `uwbadgers.com`, imgUrl: "https://d1qwqe1acr1rnz.cloudfront.net/images/2021/11/15/211113FB_1624_0.jpg",
         img: braelonAllen},  
     {name: "Bo Nix", pos: "QB", age: "24", uni: "Oregon", size: `6'2 1⁄8" | 214 lbs`, fortyYrd: "N/A", threeCone: "N/A", compPerc: "77.4%", td2Int: "45/3", passYrds: "4,508 yds", yrdsPerAtt: "9.6 yds", rush: "234 yds (6 TDs)", 
     broadJump: `N/A`, nflTeam: "Denver Broncos", draftCap: "1.12", preDraftRank: {ppr1QB: '35', ppr2QB: '24', nPpr1QB: '35', nPpr2QB: '24'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "6/6/24", 
         analysis: "Bo Nix was one of the most efficient QBs in all of college football in 2023. He showed an ability to hit his guys consistently at every level of the " +
         "field. However, Oregon did have a very schemed up offense with great weapons which gave a crutch for Nix to lean on. While he didn't show it very " +
         "often, Nix does have the ability to create with his legs as a good athlete with solid explosiveness and speed at the QB position. The combine was pretty " +
         "neutral for Nix's stock. He did pretty much exactly what everyone expected, showing a good arm and solid accuracy, but nothing crazy. It'll be interesting " +
         "to see how Bo Nix does if he doesn't have a great O-line, schemed offense, and good weapons in the NFL. He could provide value to a receiving corps, but " +
         "don't expect him to have his own fantasy value.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Bo Nix was clearly Sean Payton's guy as the Broncos took the QB with the 12th pick in the draft. Despite our disdain for Nix's fantasy " +
+        "outlook, it's hard not to make the late career Drew Brees comparisons - a short, cerebral QB, with elite accuracy 0-20 yards down field, and playing in " +
+        "a Sean Payton led offense. Still, we don't believe in his overall talent producing for dynasty. For that reason we will have him behind Michael Penix " +
+        "Jr. in super-flex, but ahead of Penix in 1QB because Nix will make his first start in 2024. ",
         imgSite: `sportingnews.com`, imgUrl: "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-10/Bo%20Nix%20102522.jpg?itok=zznwLgh6",
         img: boNix},
     {name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", size: `6'1" | 197 lbs`, fortyYrd: "4.47", threeCone: "6.94", vert: `37"`, recTdRec: "45 (5 TDs)", recYrds: "559 yds",
