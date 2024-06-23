@@ -476,19 +476,22 @@ const playerInfo = [
         img: boNix},
     {name: "Jalen McMillan", pos: "WR", age: "22", uni: "Washington", size: `6'1" | 197 lbs`, fortyYrd: "4.47", threeCone: "6.94", vert: `37"`, recTdRec: "45 (5 TDs)", recYrds: "559 yds",
     broadJump: `10'7"`, nflTeam: "Tampa Bay Buccaneers", draftCap: "3.24", preDraftRank: {ppr1QB: '24', ppr2QB: '26', nPpr1QB: '26', nPpr2QB: '28'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "6/9/24", 
         analysis: "Jalen McMillan is one of the better route-runners in this draft class. This, combined with his good top end speed and solid acceleration " +
         "allow him to create separation at every level of the field. While these traits didn't show up as being elite during the combine, there is still well within " + 
         "production cutoff marks. Where he did show out at the combine was in the route drills. He has good hands and has shown flashes of an ability to rack up " +
         "yards after the catch. He has a slighter frame that leads to less effectiveness in high contact scenarios, he struggles a lot in contested catch situations. " +
         "What many don't know is that in a healthy 2022, he had almost identical numbers to his running mate, Rome Odunze. If he wasn't dealing with " +
         "injuries for much of the 2023 season, people would likely be talking about McMillan a lot more.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "We liked what we saw from McMillan on tape, especially in his 2022 campaign at Washington where he nearly outpaced Rome Odunze. Tampa Bay "+
+        "in the 3rd round is an interesting spot for this slot receiver. If Evans and Godwin stay healthy for the 2024 season, it is unlikely that McMillan has much " +
+        "production during his rookie season. Unless McMillan shows that last years struggles were solely an injury problem, if he ever breaks out, it would likely " +
+        "be after the departure of Chris Godwin. Don't glance his way until late in rookie drafts. ",
         imgSite: `247sports.com`, imgUrl: "https://s3media.247sports.com/Uploads/Assets/404/613/10613404.jpg",
         img: jalenMcmillan},
     {name: "Audric Estimé", pos: "RB", age: "20", uni: "Notre Dame", size: `5' 11 3⁄8" | 221 lbs`, fortyYrd: "4.71", threeCone: "N/A", vert: `38"`, rushing: "1,341 yds (18 TDs)", ydsPerRush: "6.4 yds", recTdRec: "17 (0 TDs)", recYrds: "142 yds",
     broadJump: `N/A`, nflTeam: "Denver Broncos", draftCap: "5.12", preDraftRank: {ppr1QB: '25', ppr2QB: '27', nPpr1QB: '24', nPpr2QB: '26'}, 
-    lastEditTime: "5/9/24", 
+    lastEditTime: "6/9/24", 
         analysis: "Audric is a big, strong, vicious runner with a lot of value in the blocking game. He has great patience waiting for a hole to open up, and then " +
         "attacks it like its 4th and short every time. Estimé bounces off bodies and breaks tackles as well as anyone in this class. He has very good burst for a " +
         "guy of his size and good enough top speed to separate from some defenders. His elite pass-pro game will make him a favorite of coaching staffs and his QB. " +
@@ -497,7 +500,9 @@ const playerInfo = [
         "speed to have many home-run plays at the next level. Estimé's stock plummeted after posting a RB-worst 4.71 40-yard " +
         "dash at the combine. Despite this, we aren't completely out on Audric as there were multiple times that he clocked in game speeds of 20 mph or higher in the 2023 " +
         "season. With his power and projected game speed, he should provide enough NFL value to make him a decent fantasy option with a lot of TD upside.", 
-        postDraftAnalysis: "Coming Soon...",
+        postDraftAnalysis: "Estimé fell to the middle of the 5th round where he landed in the Denver Broncos extremely crowded backfield. We liked what we saw from " +
+        "this big bodied back from Notre Dame, but in order to have any fantasy relevancy he would need to surpass Javonte Williams, Samaje Perine (if we isn't cut), " +
+        "Jaleel McLaughlin, and fellow rookie, Blake Watson. It's hard to imagine Audric can earn himself a big enough role in that room.",
         imgSite: `espn.com`, imgUrl: "https://a.espncdn.com/media/motion/2022/1112/ss_20221112_133448878_2101148852/ss_20221112_133448878_2101148852.jpg",
         img: audricEstime}, 
     {name: "Ja'Lynn Polk", pos: "WR", age: "22", uni: "Washington", size: `6'1 3⁄8" | 203 lbs`, fortyYrd: "4.52", threeCone: "N/A", vert: `37.5"`, recTdRec: "69 (9 TDs)", recYrds: "1,159 yds",
@@ -806,9 +811,9 @@ const ppr1QB = [
     {id: "3", name: "Rome Odunze", pos: "WR", uni: "Washington"},
     {id: "4", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
     {id: "5", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
-    {id: "6", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
-    {id: "7", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
-    {id: "8", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "6", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
+    {id: "7", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "8", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "9", name: "Trey Benson", pos: "RB", uni: "Florida State"},
     {id: "10", name: "Caleb Williams", pos: "QB", uni: "USC"},
     {id: "11", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
@@ -854,9 +859,9 @@ const ppr2QB = [
     {id: "7", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
     {id: "8", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
     {id: "9", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
-    {id: "10", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
-    {id: "11", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
-    {id: "12", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "10", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
+    {id: "11", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "12", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "13", name: "Trey Benson", pos: "RB", uni: "Florida State"},
     {id: "14", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
     {id: "15", name: "Ricky Pearsall", pos: "WR", uni: "Florida"}, 
@@ -893,9 +898,9 @@ const nPpr1QB = [
     {id: "3", name: "Rome Odunze", pos: "WR", uni: "Washington"},
     {id: "4", name: "Jonathon Brooks", pos: "RB", uni: "Texas"},
     {id: "5", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
-    {id: "6", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
-    {id: "7", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
-    {id: "8", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "6", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
+    {id: "7", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "8", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "9", name: "Trey Benson", pos: "RB", uni: "Florida State"},
     {id: "10", name: "Caleb Williams", pos: "QB", uni: "USC"},
     {id: "11", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
@@ -937,9 +942,9 @@ const nPpr2QB = [
     {id: "7", name: "Drake Maye", pos: "QB", uni: "North Carolina"},
     {id: "8", name: "Brian Thomas Jr.", pos: "WR", uni: "LSU"},
     {id: "9", name: "J.J. McCarthy", pos: "QB", uni: "Michigan"},
-    {id: "10", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
-    {id: "11", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
-    {id: "12", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "10", name: "Ladd McConkey", pos: "WR", uni: "Georgia"}, 
+    {id: "11", name: "Brock Bowers", pos: "TE", uni: "Georgia"},
+    {id: "12", name: "Xavier Worthy", pos: "WR", uni: "Texas"},
     {id: "13", name: "Trey Benson", pos: "RB", uni: "Florida State"},
     {id: "14", name: "Keon Coleman", pos: "WR", uni: "Florida State"},
     {id: "15", name: "Adonai Mitchell", pos: "WR", uni: "Texas"}, 
@@ -1210,7 +1215,6 @@ const nflTeams = [
         WR: `Davante Adams will be playing the second half of the 2024 season at 32 years old. Provided he stays, he will still demand plenty of targets. With the QB questions, the targets going around likely won't be the most valuable. Still, a new WR coming in could see substantial work by the 2025 season.`, 
         TE: `The Raiders spent significant draft capital on Michael Mayer in 2023. It is highly unlikely they do it again in 2024. Even if they do, Mayer would likely be able to beat them out.`}}, 
 ];
-
 
 export {playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB, nflTeams, personal};
 

@@ -551,7 +551,9 @@ export default function DraftRanks(props) {
                     onClick={() => {
                         setButtonClick('ppr1QB');
                         setLockPersonal(true);
-                    }}>
+                    }}
+                    // disabled={true} ///////////////////////////////// DURING DRAFT
+                >
                     PPR 1-QB Rankings
                 </Button>
                 <Button  
@@ -564,7 +566,9 @@ export default function DraftRanks(props) {
                         setButtonClick('ppr2QB');
                         setLockPersonal(true);
 
-                    }}>
+                    }}
+                    // disabled={true} ///////////////////////////////// DURING DRAFT
+                >
                     PPR 2-QB Rankings
                 </Button>
                 <Button  
@@ -577,7 +581,9 @@ export default function DraftRanks(props) {
                         setButtonClick('nPpr1QB');
                         setLockPersonal(true);
 
-                    }}>
+                    }}
+                    // disabled={true} ///////////////////////////////// DURING DRAFT
+                >
                     Non-PPR 1-QB Rankings
                 </Button>
                 <Button  
@@ -590,7 +596,9 @@ export default function DraftRanks(props) {
                         setButtonClick('nPpr2QB');
                         setLockPersonal(true);
 
-                    }}>
+                    }}
+                    // disabled={true} ///////////////////////////////// DURING DRAFT
+                >
                     Non-PPR 2-QB Rankings
                 </Button>
                 <Button  
