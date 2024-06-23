@@ -642,7 +642,7 @@ const playerInfo = [
         imgSite: `profootballnetwork.com`, imgUrl: "https://static.profootballnetwork.com/wp-content/uploads/2023/09/21181132/how-tall-is-johnny-wilson-florida-state-wr-draft.jpg",
         img: johnnyWilson},   
     {name: "Kimani Vidal", pos: "RB", age: "22", uni: "Troy", size: `5'7 7⁄8" | 213 lbs`, fortyYrd: "4.46", threeCone: "7.01", vert: `37.5"`, rushing: "1,661 yds (14 TDs)", ydsPerRush: "5.6 yds", recTdRec: "18 (1 TDs)", recYrds: "201 yds",
-    broadJump: `N/A`, nflTeam: "Pittsburgh Steelers", draftCap: "6.05", preDraftRank: {ppr1QB: '39', ppr2QB: '40', nPpr1QB: '37', nPpr2QB: '38'}, 
+    broadJump: `N/A`, nflTeam: "Los Angeles Chargers", draftCap: "6.05", preDraftRank: {ppr1QB: '39', ppr2QB: '40', nPpr1QB: '37', nPpr2QB: '38'}, 
     lastEditTime: "5/9/24", 
         analysis: "Kimani Vidal is a compact, no-nonsense runner who was very productive against lesser opponents at Troy. He excels in pass-pro and rarely looses yardage. " +
         "This should earn him a role on an NFL roster. However, he isn't very good in the receiving game which will limit his floor. Vidal also doesn't consistently " +
