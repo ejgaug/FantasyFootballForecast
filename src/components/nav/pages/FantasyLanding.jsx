@@ -59,7 +59,7 @@ export default function FantasyLanding(props) {
     };
 
     const screenCutOff = 767;
-
+ 
     return <div>
         <br/>
         <Container fluid={true}>
