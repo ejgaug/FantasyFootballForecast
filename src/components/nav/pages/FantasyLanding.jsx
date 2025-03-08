@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Modal, Row, Button, CloseButton } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-CE4KYHDZN3');
@@ -7,6 +7,7 @@ import fff3 from '../../../assets/Fantasy Football Forecaster 3.svg'
 export default function FantasyLanding(props) {
 
     const [width, setWidth] = useState(window.innerWidth);
+    const [modalVisible, setModalVisible] = useState(true);
 
     const columnFormat = {
         display: 'grid',
@@ -34,7 +35,10 @@ export default function FantasyLanding(props) {
         height: 'auto', 
         marginBottom: '5px',
         
-    }
+    };
+    const modalStyle = {
+        borderRadius: '20px',
+    };
 
     useEffect(() => {
         // Set custom page title for Google Analytics tracking
@@ -49,6 +53,10 @@ export default function FantasyLanding(props) {
             window.removeEventListener("resize", handleResizeWindow);
         };
     }, []);
+
+    const closeModal = () => {
+        setModalVisible(false);
+    };
 
     const screenCutOff = 767;
 
@@ -96,9 +104,45 @@ export default function FantasyLanding(props) {
                 </Col>
             </Row> 
         </Container>
+
+        <Modal 
+            show={modalVisible} 
+            onHide={closeModal} 
+            centered
+            contentClassName="rounded-4"
+        >
+            <Modal.Header closeButton={false} style={{ border: 'none', backgroundColor: '#1F1F1F', color: '#bFbFbF'}}>
+                <Modal.Title>2025 Update Notice</Modal.Title>
+                <CloseButton  variant="white" onClick={closeModal}/>
+            </Modal.Header>
+            <Modal.Body className="text-center py-4" style={{backgroundColor: '#1F1F1F', color: '#bFbFbF'}}>
+                <h4>We're sorry!</h4>
+                <p>
+                    The Fantasy Football Forecast has not yet been updated for the 2025 class.
+                    We're currently working on analyzing the new prospects and updating our rankings.
+                </p>
+                <p>
+                    Please check back soon for our 2025 rookie rankings and analysis.
+                </p>
+            </Modal.Body>
+            <Modal.Footer style={{ border: 'none', backgroundColor: '#1F1F1F', color: '#bFbFbF' }}>
+                <Button 
+                    variant="outline-light" 
+                    onClick={closeModal}
+                    className="px-4 mx-auto"
+                    style={{ 
+                        backgroundColor: '#bFbFbF', 
+                        color: '#1F1F1F',
+                        borderColor: '#bFbFbF'
+                    }}
+                >
+                    Got it
+                </Button>
+            </Modal.Footer>
+        </Modal>
     </div>
 }
 // 1) edit logo -- same font as headers? 
-// 2) maybe an image gallery like flexslider of multiple pics of success stories? would provide more interactivity and shtuff. see me for more ideas on this
+// 2) maybe an image gallery like flexslider of multiple pics of my guys stories? would provide more interactivity and shtuff. see me for more ideas on this
 // 3) reposition main logo so it's not stuck in the middle like dat 
 // 4) maybe remove football piles IF you don't want them to look like poop piles
