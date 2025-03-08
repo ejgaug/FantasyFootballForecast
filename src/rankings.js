@@ -20,7 +20,7 @@ import braelonAllen from './assets/braelon-allen.jpg'; import brendenRice from '
 import brianThomasJr from './assets/brian-thomas-jr.jpg'; import brockBowers from './assets/brock-bowers.jpg';
 import cadeStover from './assets/cade-stover.jpg'; import buckyIrving from './assets/bucky-irving.jpg';
 import calebWilliams from './assets/caleb-williams.jpg'; import drakeMaye from './assets/drake-maye.jpg';
-import haydenHatten from './assets/hayden-hatten.jpg'; import jatavionSanders from './assets/jatavion-Sanders.jpg';
+import haydenHatten from './assets/hayden-hatten.jpg'; import jatavionSanders from './assets/jatavion-sanders.jpg';
 import jacobCowing from './assets/jacob-cowing.jpg'; import jalenMcmillan from './assets/jalen-mcmillan.jpg';
 import jalynnPolk from './assets/jalynn-polk.jpg'; import jamariThrash from './assets/jamari-thrash.jpg';
 import javonBaker from './assets/javon-baker.jpg'; import jaydenDaniels from './assets/jayden-daniels.jpg';
