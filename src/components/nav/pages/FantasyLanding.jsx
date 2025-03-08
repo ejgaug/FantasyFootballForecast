@@ -65,7 +65,7 @@ export default function FantasyLanding(props) {
         <Container fluid={true}>
             <Row style={{ ...columnFormat, gridTemplateColumns: width > screenCutOff ? '60% 40%' : '1fr'}}>
                 <Col style={{ ...welcomeText, width: width > screenCutOff ? '85%' : '100%'}}> 
-                    <h1 className="headerFont" style={headerStyle}>elcome  to The Fantasy Football Forecast 2024!</h1>
+                    <h1 className="headerFont" style={headerStyle}>Welcome  to The Fantasy Football Forecast 2024!</h1>
                     <p style={{fontSize: '15px'}}> 
                         Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. The site is currently being updated 
                         with our post-draft analysis and player rankings. As the NFL and prospect landscape changes, so will The Forecast.
