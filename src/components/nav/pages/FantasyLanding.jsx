@@ -7,7 +7,7 @@ import fff3 from '../../../assets/Fantasy Football Forecaster 3.svg'
 export default function FantasyLanding(props) {
 
     const [width, setWidth] = useState(window.innerWidth);
-    const [modalVisible, setModalVisible] = useState(true);
+    const [modalVisible, setModalVisible] = useState(false);
 
     const columnFormat = {
         display: 'grid',
@@ -65,7 +65,7 @@ export default function FantasyLanding(props) {
         <Container fluid={true}>
             <Row style={{ ...columnFormat, gridTemplateColumns: width > screenCutOff ? '60% 40%' : '1fr'}}>
                 <Col style={{ ...welcomeText, width: width > screenCutOff ? '85%' : '100%'}}> 
-                    <h1 className="headerFont" style={headerStyle}>Welcome  to The Fantasy Football Forecast 2024!</h1>
+                    <h1 className="headerFont" style={headerStyle}>Welcome  to The Fantasy Football Forecast 2025!</h1>
                     <p style={{fontSize: '15px'}}> 
                         Here you can get free access to rookie analysis to prepare you for your fantasy football drafts. The site is currently being updated 
                         with our post-draft analysis and player rankings. As the NFL and prospect landscape changes, so will The Forecast.
@@ -77,14 +77,14 @@ export default function FantasyLanding(props) {
                     </p>
                     <p style={{fontSize: '15px'}}>
                         For more in-depth analysis on each of these players, take a look at the Rookie Preview tab. Here you'll find a player analysis 
-                        as well relevant statistics from the 2023 season and the most predictive combine measurements of NFL success for that position.
+                        as well relevant statistics from the 2024 season and the most predictive combine measurements for  NFL success at that position.
                         If there is a "N/A" on a player's profile, this means that there wasn't a measurement for that statistic at the time of 
                         the last update. 
                     </p>
-                    <p style={{fontSize: '15px'}}> 
+                    {/* <p style={{fontSize: '15px'}}> 
                         The Landing Spots page gives a rankings format to how we'd feel if a player of a given position landed on a specific
                         NFL roster. This is based on team need for that position and the overall production that could be seen in that offense.
-                    </p>
+                    </p> */}
                     {/* <img 
                         src={fff3}
                         alt="Fantasy Forecast Football Snow Mounds"
@@ -97,10 +97,10 @@ export default function FantasyLanding(props) {
                         alt="Picture of Kyren Williams and Puka Nacua"
                         style={{ ...playerImage, paddingTop: width > screenCutOff ? '69px' : '40px', borderTop: width > screenCutOff ? '' : '0.01rem solid lightgray'}}
                     />
-                    <p style={pukaText}>
+                    {/* <p style={pukaText}>
                         Our two greatest successes this past year were using our last two roster spots on Puka Nacua and Kyren Williams in 
                         an eight-team dynasty league. They helped make our extremely young team into a contender.
-                    </p>
+                    </p> */}
                 </Col>
             </Row> 
         </Container>

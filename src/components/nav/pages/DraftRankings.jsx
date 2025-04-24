@@ -2,7 +2,7 @@ import { Button, Card, Col, Row, Modal, CloseButton, Popover, OverlayTrigger, To
 import React, { useEffect, useState } from "react";
 
 import CheckBox from "../../CheckBox";
-import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB, personal } from "../../../rankings";
+import { playerInfo, ppr1QB, ppr2QB, nPpr1QB, nPpr2QB, personal } from "../../../rankings_2025";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
 import ReactGA from 'react-ga';
@@ -490,7 +490,7 @@ export default function DraftRanks(props) {
                         
                     </Col>
                 </Row>
-                <p style={modalPostDraftAnalysis}> <b> Post-Draft Analysis:
+                {/* <p style={modalPostDraftAnalysis}> <b> Post-Draft Analysis:
                     <Button 
                         style={analysisButtonStyles} 
                         onClick={() => {
@@ -499,9 +499,9 @@ export default function DraftRanks(props) {
                             {postDraftButton ? "Hide Analysis" : "Show Analysis"}
                     </Button> 
                     </b> <br/> {postDraftButton ? selectedPlayer.postDraftAnalysis : ""}
-                </p>  // "▼" : "▲"
+                </p>  // "▼" : "▲" */}
 
-                <p style={modalAnalysis}> <b> Pre-Draft Analysis: 
+                <p style={modalAnalysis}> <b> Analysis: 
                     <Button 
                         style={analysisButtonStyles}
                         onClick={() => {

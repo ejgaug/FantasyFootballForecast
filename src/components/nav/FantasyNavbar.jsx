@@ -60,9 +60,9 @@ export default function FantasyNavbar(props) {
                                 <Nav.Link className="headerFont" style={{ fontSize: '25px', marginRight: '16px' }} as={NavLink} to="/rookie-preview" activeclassname="activeLink" onClick={handleMenuItemClick}>
                                     Rookie Preview
                                 </Nav.Link>
-                                <Nav.Link className="headerFont" style={{ fontSize: '25px', marginRight: '16px' }} as={NavLink} to="/landing-spots" activeclassname="activeLink" onClick={handleMenuItemClick}>
+                                {/* <Nav.Link className="headerFont" style={{ fontSize: '25px', marginRight: '16px' }} as={NavLink} to="/landing-spots" activeclassname="activeLink" onClick={handleMenuItemClick}>
                                     Landing Spots
-                                </Nav.Link>
+                                </Nav.Link> */}
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

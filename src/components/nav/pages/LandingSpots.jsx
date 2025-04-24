@@ -1,7 +1,7 @@
 import { Button, Card, CardFooter, Col, Row, Modal } from "react-bootstrap";
 import React, { useState, useEffect } from "react";
 
-import { playerInfo, nflTeams } from "../../../rankings";
+import { playerInfo, nflTeams } from "../../../rankings_2025";
 import footballL from '../../../assets/Fantasy Football Forecaster Football Left.svg';
 import footballR from '../../../assets/Fantasy Football Forecaster Football Right.svg';
 import ReactGA from 'react-ga';
